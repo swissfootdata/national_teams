@@ -1,0 +1,552 @@
+library(mgcv)
+library(randomForest)
+library(dplyr)
+
+source("get_data_wc2022.R")
+source("create_prediction_model.R")
+
+#Data Frame Group Stage Simulation
+group_stage_simulation <- data.frame("Group","Team",0,0)
+colnames(group_stage_simulation) <- c("Group","Team","Score","Rank")
+
+# Train the model 
+regr <- randomForest(x = X, y = y, maxnodes = 250, ntree = 1100, type="prob")
+
+n <- 1
+while (n < 1001) {
+new_games_home <- data_wc2022[,c(16:19,22:23)]
+new_games_away <- data_wc2022[,c(16:19,22:23)]
+colnames(new_games_away) <- colnames(new_games_away)[c(2,1,4,3,6,5)]
+
+data_wc2022$winning_prob_home <- 0
+data_wc2022$losing_prob_home <- 0
+data_wc2022$draw_prob <- 0
+data_wc2022$prediction_home <- 0
+data_wc2022$prediction_away <- 0
+
+#Predict all Group matches
+prediction_group_home <- predict(regr, new_games_home, type="prob")
+prediction_group_away <- predict(regr, new_games_away, type="prob")
+
+for (m in 1:nrow(data_wc2022)) {
+
+if (data_wc2022$team_home[m] == "Qatar") { 
+  data_wc2022$winning_prob_home[m] <- prediction_group_home[m,3]
+  data_wc2022$losing_prob_home[m] <- prediction_group_home[m,1]
+  data_wc2022$draw_prob[m] <- prediction_group_home[m,2]  
+} else if (data_wc2022$team_away[m] == "Qatar"){
+  data_wc2022$winning_prob_home[m] <- prediction_group_away[m,1]
+  data_wc2022$losing_prob_home[m] <- prediction_group_away[m,3]
+  data_wc2022$draw_prob[m] <- prediction_group_away[m,2] 
+}  else {
+data_wc2022$winning_prob_home[m] <- (prediction_group_home[m,3]+prediction_group_away[m,1])/2
+data_wc2022$losing_prob_home[m] <- (prediction_group_home[m,1]+prediction_group_away[m,3])/2
+data_wc2022$draw_prob[m] <- (prediction_group_home[m,2]+prediction_group_away[m,2])/2
+}
+
+data_wc2022$prediction_home[m] <- sample(c(3,1,0),prob=c(as.numeric(data_wc2022$winning_prob_home[m]),as.numeric(data_wc2022$draw_prob[m]),as.numeric(data_wc2022$losing_prob_home[m])), size=1)
+
+if (data_wc2022$prediction_home[m] == 3) {
+  data_wc2022$prediction_away[m] <- 0
+} else if (data_wc2022$prediction_home[m] == 1) {
+  data_wc2022$prediction_away[m] <- 1
+} else {
+  data_wc2022$prediction_away[m] <- 3
+}  
+
+}
+
+groups <- unique(data_wc2022$stage)
+
+for (group in groups) {
+
+#Simulate Group outcome
+group_outcome_home <- data_wc2022 %>%
+  filter(stage == group) %>%
+  group_by(team_home) %>%
+  summarise(overall_score_home=sum(prediction_home))
+
+group_outcome_away <- data_wc2022 %>%
+  filter(stage == group) %>%
+  group_by(team_away) %>%
+  summarise(overall_score_away=sum(prediction_away))
+
+group_outcome <- merge(group_outcome_home,group_outcome_away,by.x ="team_home",by.y="team_away")
+group_outcome$score_overall <- group_outcome$overall_score_home + group_outcome$overall_score_away
+group_outcome$rank <- 5-rank(group_outcome$score_overall,ties.method = "random")
+
+print(group_outcome)
+
+for (g in 1:nrow(group_outcome)) {
+new_entry <- data.frame(group,group_outcome$team_home[g],group_outcome$score_overall[g],group_outcome$rank[g])
+colnames(new_entry) <- c("Group","Team","Score","Rank")
+group_stage_simulation <- rbind(group_stage_simulation,new_entry) 
+}
+}
+
+n <- n+1
+}
+
+group_stage_simulation <- group_stage_simulation[-1,]
+
+group_stage_summary <- group_stage_simulation %>%
+  group_by(Team) %>%
+  summarise(average_score = mean(Score)) %>%
+  arrange(Team)
+
+
+group_stage_probabilities <- group_stage_simulation %>%
+  group_by(Team, Rank) %>%
+  summarise(prob_rank = length(Rank)/n) %>%
+  arrange(Team)
+
+group_stage_summary$prob_rank1 <- 0
+group_stage_summary$prob_rank2 <- 0
+group_stage_summary$prob_rank3 <- 0
+group_stage_summary$prob_rank4 <- 0
+ 
+for (g in 1:nrow(group_stage_summary)) {
+
+  team_selection <- group_stage_probabilities %>%
+    filter(Team == group_stage_summary$Team[g])
+  
+  group_stage_summary$prob_rank1[g] <- team_selection$prob_rank[1]
+  group_stage_summary$prob_rank2[g] <- team_selection$prob_rank[2]
+  group_stage_summary$prob_rank3[g] <- team_selection$prob_rank[3]
+  group_stage_summary$prob_rank4[g] <- team_selection$prob_rank[4]
+}  
+
+team_groups <- data_wc2022 %>%
+  distinct(team_home,.keep_all=TRUE) %>%
+  arrange(team_home)
+
+
+group_stage_summary$Group <- team_groups$stage
+
+group_stage_summary <- group_stage_summary %>%
+  arrange(Group,desc(prob_rank1))
+
+print(group_stage_summary)
+saveRDS(group_stage_summary,file="./Data/group_stage_prediction.rds")
+write.csv(group_stage_summary,file="./Data/group_stage_prediction.csv",row.names = FALSE)
+
+###Data Frame Round of 16
+winner_a <- group_stage_simulation %>%
+  filter(Group == "Group A",
+         Rank == 1) %>%
+  select(Team)
+winner_b <- group_stage_simulation %>%
+  filter(Group == "Group B",
+         Rank == 1) %>%
+  select(Team)
+winner_c <- group_stage_simulation %>%
+  filter(Group == "Group C",
+         Rank == 1) %>%
+  select(Team)
+winner_d <- group_stage_simulation %>%
+  filter(Group == "Group D",
+         Rank == 1) %>%
+  select(Team)
+winner_e <- group_stage_simulation %>%
+  filter(Group == "Group E",
+         Rank == 1) %>%
+  select(Team)
+winner_f <- group_stage_simulation %>%
+  filter(Group == "Group F",
+         Rank == 1) %>%
+  select(Team)
+winner_g <- group_stage_simulation %>%
+  filter(Group == "Group G",
+         Rank == 1) %>%
+  select(Team)
+winner_h <- group_stage_simulation %>%
+  filter(Group == "Group H",
+         Rank == 1) %>%
+  select(Team)
+
+runner_up_a <- group_stage_simulation %>%
+  filter(Group == "Group A",
+         Rank == 2) %>%
+  select(Team)
+runner_up_b <- group_stage_simulation %>%
+  filter(Group == "Group B",
+         Rank == 2) %>%
+  select(Team)
+runner_up_c <- group_stage_simulation %>%
+  filter(Group == "Group C",
+         Rank == 2) %>%
+  select(Team)
+runner_up_d <- group_stage_simulation %>%
+  filter(Group == "Group D",
+         Rank == 2) %>%
+  select(Team)
+runner_up_e <- group_stage_simulation %>%
+  filter(Group == "Group E",
+         Rank == 2) %>%
+  select(Team)
+runner_up_f <- group_stage_simulation %>%
+  filter(Group == "Group F",
+         Rank == 2) %>%
+  select(Team)
+runner_up_g <- group_stage_simulation %>%
+  filter(Group == "Group G",
+         Rank == 2) %>%
+  select(Team)
+runner_up_h <- group_stage_simulation %>%
+  filter(Group == "Group H",
+         Rank == 2) %>%
+  select(Team)
+
+R16_matches <- data.frame(c(winner_a$Team,winner_c$Team,winner_e$Team,winner_g$Team,winner_b$Team,winner_d$Team,winner_f$Team,winner_h$Team),
+                          c(runner_up_b$Team,runner_up_d$Team,runner_up_f$Team,runner_up_h$Team,runner_up_a$Team,runner_up_c$Team,runner_up_e$Team,runner_up_g$Team))
+colnames(R16_matches) <- c("team_home","team_away")
+R16_matches$match <- c(rep("Match 49",nrow(winner_a)),
+                       rep("Match 50",nrow(winner_a)),
+                       rep("Match 51",nrow(winner_a)),
+                       rep("Match 52",nrow(winner_a)),
+                       rep("Match 53",nrow(winner_a)),
+                       rep("Match 54",nrow(winner_a)),
+                       rep("Match 55",nrow(winner_a)),
+                       rep("Match 56",nrow(winner_a)))
+
+data_team_home <- data_wc2022 %>%
+  distinct(team_home,.keep_all=TRUE) %>%
+  select(team_home,fifa_ranking_rank_home,elo_ranking_score_home,performance_home_last_five_matches)
+data_team_away <- data_wc2022 %>%
+  distinct(team_away,.keep_all=TRUE) %>%
+  select(team_away,fifa_ranking_rank_away,elo_ranking_score_away,performance_away_last_five_matches)
+  
+R16_matches <- merge(R16_matches,data_team_home)
+R16_matches <- merge(R16_matches,data_team_away)
+
+###Predict Round of 16
+
+# Train the model 
+regr <- randomForest(x = X, y = y, maxnodes = 250, ntree = 1100, type="prob")
+
+new_games_home <- R16_matches[,c(4,7,5,8,6,9)]
+new_games_away <- R16_matches[,c(4,7,5,8,6,9)]
+colnames(new_games_away) <- colnames(new_games_away)[c(2,1,4,3,6,5)]
+
+R16_matches$winning_prob_home <- 0
+R16_matches$losing_prob_home <- 0
+R16_matches$draw_prob <- 0
+R16_matches$prediction <- ""
+R16_matches$winner <- ""
+R16_matches$loser <- ""
+
+#Predict all Group matches
+prediction_group_home <- predict(regr, new_games_home, type="prob")
+prediction_group_away <- predict(regr, new_games_away, type="prob")
+
+for (m in 1:nrow(R16_matches)) {
+  
+  if (R16_matches$team_home[m] == "Qatar") { 
+    R16_matches$winning_prob_home[m] <- prediction_group_home[m,3]
+    R16_matches$losing_prob_home[m] <- prediction_group_home[m,1]
+    R16_matches$draw_prob[m] <- prediction_group_home[m,2]  
+  } else if (R16_matches$team_away[m] == "Qatar"){
+    R16_matches$winning_prob_home[m] <- prediction_group_away[m,1]
+    R16_matches$losing_prob_home[m] <- prediction_group_away[m,3]
+    R16_matches$draw_prob[m] <- prediction_group_away[m,2] 
+  }  else {
+    R16_matches$winning_prob_home[m] <- (prediction_group_home[m,3]+prediction_group_away[m,1])/2
+    R16_matches$losing_prob_home[m] <- (prediction_group_home[m,1]+prediction_group_away[m,3])/2
+    R16_matches$draw_prob[m] <- (prediction_group_home[m,2]+prediction_group_away[m,2])/2
+  }
+  
+  R16_matches$prediction[m] <- sample(c("win home","draw","win away"),prob=c(as.numeric(R16_matches$winning_prob_home[m]),as.numeric(R16_matches$draw_prob[m]),as.numeric(R16_matches$losing_prob_home[m])), size=1)
+  
+  if (R16_matches$prediction[m] == "draw") {
+  R16_matches$prediction[m] <- sample(c("win home","win away"),prob=c(0.5,0.5), size=1)
+  }  
+  
+  if (R16_matches$prediction[m] == "win home") {
+    R16_matches$winner[m] <- R16_matches$team_home[m]
+    R16_matches$loser[m] <- R16_matches$team_away[m]
+  } else {
+    R16_matches$winner[m] <- R16_matches$team_away[m]
+    R16_matches$loser[m] <- R16_matches$team_home[m]
+  }  
+  
+}
+
+print(table(R16_matches$winner))
+###Data Quarter Finals
+winner_M49 <- R16_matches %>%
+  filter(match == "Match 49") %>%
+  select(winner)
+winner_M50 <- R16_matches %>%
+  filter(match == "Match 50") %>%
+  select(winner)
+winner_M51 <- R16_matches %>%
+  filter(match == "Match 51") %>%
+  select(winner)
+winner_M52 <- R16_matches %>%
+  filter(match == "Match 52") %>%
+  select(winner)
+winner_M53 <- R16_matches %>%
+  filter(match == "Match 53") %>%
+  select(winner)
+winner_M54 <- R16_matches %>%
+  filter(match == "Match 54") %>%
+  select(winner)
+winner_M55 <- R16_matches %>%
+  filter(match == "Match 55") %>%
+  select(winner)
+winner_M56 <- R16_matches %>%
+  filter(match == "Match 56") %>%
+  select(winner)
+
+QF_matches <- data.frame(c(winner_M49$winner,winner_M53$winner,winner_M51$winner,winner_M55$winner),
+                          c(winner_M50$winner,winner_M54$winner,winner_M52$winner,winner_M56$winner))
+colnames(QF_matches) <- c("team_home","team_away")
+QF_matches$match <- c(rep("Match 57",nrow(winner_M49)),
+                       rep("Match 58",nrow(winner_M49)),
+                       rep("Match 59",nrow(winner_M49)),
+                       rep("Match 60",nrow(winner_M49)))
+
+QF_matches <- merge(QF_matches,data_team_home)
+QF_matches <- merge(QF_matches,data_team_away)
+
+
+###Predict Quarter Finals
+
+# Train the model 
+regr <- randomForest(x = X, y = y, maxnodes = 250, ntree = 1100, type="prob")
+
+new_games_home <- QF_matches[,c(4,7,5,8,6,9)]
+new_games_away <- QF_matches[,c(4,7,5,8,6,9)]
+colnames(new_games_away) <- colnames(new_games_away)[c(2,1,4,3,6,5)]
+
+QF_matches$winning_prob_home <- 0
+QF_matches$losing_prob_home <- 0
+QF_matches$draw_prob <- 0
+QF_matches$prediction <- ""
+QF_matches$winner <- ""
+QF_matches$loser <- ""
+
+#Predict all Group matches
+prediction_group_home <- predict(regr, new_games_home, type="prob")
+prediction_group_away <- predict(regr, new_games_away, type="prob")
+
+for (m in 1:nrow(QF_matches)) {
+  
+  if (QF_matches$team_home[m] == "Qatar") { 
+    QF_matches$winning_prob_home[m] <- prediction_group_home[m,3]
+    QF_matches$losing_prob_home[m] <- prediction_group_home[m,1]
+    QF_matches$draw_prob[m] <- prediction_group_home[m,2]  
+  } else if (QF_matches$team_away[m] == "Qatar"){
+    QF_matches$winning_prob_home[m] <- prediction_group_away[m,1]
+    QF_matches$losing_prob_home[m] <- prediction_group_away[m,3]
+    QF_matches$draw_prob[m] <- prediction_group_away[m,2] 
+  }  else {
+    QF_matches$winning_prob_home[m] <- (prediction_group_home[m,3]+prediction_group_away[m,1])/2
+    QF_matches$losing_prob_home[m] <- (prediction_group_home[m,1]+prediction_group_away[m,3])/2
+    QF_matches$draw_prob[m] <- (prediction_group_home[m,2]+prediction_group_away[m,2])/2
+  }
+  
+  QF_matches$prediction[m] <- sample(c("win home","draw","win away"),prob=c(as.numeric(QF_matches$winning_prob_home[m]),as.numeric(QF_matches$draw_prob[m]),as.numeric(QF_matches$losing_prob_home[m])), size=1)
+  
+  if (QF_matches$prediction[m] == "draw") {
+    QF_matches$prediction[m] <- sample(c("win home","win away"),prob=c(0.5,0.5), size=1)
+  }  
+  
+  if (QF_matches$prediction[m] == "win home") {
+    QF_matches$winner[m] <- QF_matches$team_home[m]
+    QF_matches$loser[m] <- QF_matches$team_away[m]
+  } else {
+    QF_matches$winner[m] <- QF_matches$team_away[m]
+    QF_matches$loser[m] <- QF_matches$team_home[m]
+  }  
+  
+}
+
+print(table(QF_matches$winner))
+###Data Semi Final
+winner_M57 <- QF_matches %>%
+  filter(match == "Match 57") %>%
+  select(winner)
+winner_M58 <- QF_matches %>%
+  filter(match == "Match 58") %>%
+  select(winner)
+winner_M59 <- QF_matches %>%
+  filter(match == "Match 59") %>%
+  select(winner)
+winner_M60 <- QF_matches %>%
+  filter(match == "Match 60") %>%
+  select(winner)
+
+SF_Matches <- data.frame(c(winner_M57$winner,winner_M59$winner),
+                         c(winner_M58$winner,winner_M60$winner))
+colnames(SF_Matches) <- c("team_home","team_away")
+SF_Matches$match <- c(rep("Match 61",nrow(winner_M57)),
+                      rep("Match 62",nrow(winner_M57)))
+
+SF_Matches <- merge(SF_Matches,data_team_home)
+SF_Matches <- merge(SF_Matches,data_team_away)
+
+
+###Predict Semi Finals
+
+# Train the model 
+regr <- randomForest(x = X, y = y, maxnodes = 250, ntree = 1100, type="prob")
+
+new_games_home <- SF_Matches[,c(4,7,5,8,6,9)]
+new_games_away <- SF_Matches[,c(4,7,5,8,6,9)]
+colnames(new_games_away) <- colnames(new_games_away)[c(2,1,4,3,6,5)]
+
+SF_Matches$winning_prob_home <- 0
+SF_Matches$losing_prob_home <- 0
+SF_Matches$draw_prob <- 0
+SF_Matches$prediction <- ""
+SF_Matches$winner <- ""
+SF_Matches$loser <- ""
+
+#Predict all Group matches
+prediction_group_home <- predict(regr, new_games_home, type="prob")
+prediction_group_away <- predict(regr, new_games_away, type="prob")
+
+for (m in 1:nrow(SF_Matches)) {
+  
+  if (SF_Matches$team_home[m] == "Qatar") { 
+    SF_Matches$winning_prob_home[m] <- prediction_group_home[m,3]
+    SF_Matches$losing_prob_home[m] <- prediction_group_home[m,1]
+    SF_Matches$draw_prob[m] <- prediction_group_home[m,2]  
+  } else if (SF_Matches$team_away[m] == "Qatar"){
+    SF_Matches$winning_prob_home[m] <- prediction_group_away[m,1]
+    SF_Matches$losing_prob_home[m] <- prediction_group_away[m,3]
+    SF_Matches$draw_prob[m] <- prediction_group_away[m,2] 
+  }  else {
+    SF_Matches$winning_prob_home[m] <- (prediction_group_home[m,3]+prediction_group_away[m,1])/2
+    SF_Matches$losing_prob_home[m] <- (prediction_group_home[m,1]+prediction_group_away[m,3])/2
+    SF_Matches$draw_prob[m] <- (prediction_group_home[m,2]+prediction_group_away[m,2])/2
+  }
+  
+  SF_Matches$prediction[m] <- sample(c("win home","draw","win away"),prob=c(as.numeric(SF_Matches$winning_prob_home[m]),as.numeric(SF_Matches$draw_prob[m]),as.numeric(SF_Matches$losing_prob_home[m])), size=1)
+  
+  if (SF_Matches$prediction[m] == "draw") {
+    SF_Matches$prediction[m] <- sample(c("win home","win away"),prob=c(0.5,0.5), size=1)
+  }  
+  
+  if (SF_Matches$prediction[m] == "win home") {
+    SF_Matches$winner[m] <- SF_Matches$team_home[m]
+    SF_Matches$loser[m] <- SF_Matches$team_away[m]
+  } else {
+    SF_Matches$winner[m] <- SF_Matches$team_away[m]
+    SF_Matches$loser[m] <- SF_Matches$team_home[m]
+  }  
+  
+}
+
+
+print(table(SF_Matches$winner))
+
+###Data Big and Small Final
+winner_M61 <- SF_Matches %>%
+  filter(match == "Match 61") %>%
+  select(winner)
+winner_M62 <- SF_Matches %>%
+  filter(match == "Match 62") %>%
+  select(winner)
+
+loser_M61 <- SF_Matches %>%
+  filter(match == "Match 61") %>%
+  select(loser)
+loser_M62 <- SF_Matches %>%
+  filter(match == "Match 62") %>%
+  select(loser)
+
+
+Final_Matches <- data.frame(c(winner_M61$winner,loser_M61$loser),
+                         c(winner_M62$winner,loser_M62$loser))
+colnames(Final_Matches) <- c("team_home","team_away")
+Final_Matches$match <- c(rep("Match 64",nrow(winner_M61)),
+                      rep("Match 63",nrow(winner_M61)))
+
+Final_Matches <- merge(Final_Matches,data_team_home)
+Final_Matches <- merge(Final_Matches,data_team_away)
+
+
+###Predict Semi Finals
+
+# Train the model 
+regr <- randomForest(x = X, y = y, maxnodes = 250, ntree = 1100, type="prob")
+
+new_games_home <- Final_Matches[,c(4,7,5,8,6,9)]
+new_games_away <- Final_Matches[,c(4,7,5,8,6,9)]
+colnames(new_games_away) <- colnames(new_games_away)[c(2,1,4,3,6,5)]
+
+Final_Matches$winning_prob_home <- 0
+Final_Matches$losing_prob_home <- 0
+Final_Matches$draw_prob <- 0
+Final_Matches$prediction <- ""
+Final_Matches$winner <- ""
+Final_Matches$loser <- ""
+
+#Predict all Group matches
+prediction_group_home <- predict(regr, new_games_home, type="prob")
+prediction_group_away <- predict(regr, new_games_away, type="prob")
+
+for (m in 1:nrow(Final_Matches)) {
+  
+  if (Final_Matches$team_home[m] == "Qatar") { 
+    Final_Matches$winning_prob_home[m] <- prediction_group_home[m,3]
+    Final_Matches$losing_prob_home[m] <- prediction_group_home[m,1]
+    Final_Matches$draw_prob[m] <- prediction_group_home[m,2]  
+  } else if (Final_Matches$team_away[m] == "Qatar"){
+    Final_Matches$winning_prob_home[m] <- prediction_group_away[m,1]
+    Final_Matches$losing_prob_home[m] <- prediction_group_away[m,3]
+    Final_Matches$draw_prob[m] <- prediction_group_away[m,2] 
+  }  else {
+    Final_Matches$winning_prob_home[m] <- (prediction_group_home[m,3]+prediction_group_away[m,1])/2
+    Final_Matches$losing_prob_home[m] <- (prediction_group_home[m,1]+prediction_group_away[m,3])/2
+    Final_Matches$draw_prob[m] <- (prediction_group_home[m,2]+prediction_group_away[m,2])/2
+  }
+  
+  Final_Matches$prediction[m] <- sample(c("win home","draw","win away"),prob=c(as.numeric(Final_Matches$winning_prob_home[m]),as.numeric(Final_Matches$draw_prob[m]),as.numeric(Final_Matches$losing_prob_home[m])), size=1)
+  
+  if (Final_Matches$prediction[m] == "draw") {
+    Final_Matches$prediction[m] <- sample(c("win home","win away"),prob=c(0.5,0.5), size=1)
+  }  
+  
+  if (Final_Matches$prediction[m] == "win home") {
+    Final_Matches$winner[m] <- Final_Matches$team_home[m]
+    Final_Matches$loser[m] <- Final_Matches$team_away[m]
+  } else {
+    Final_Matches$winner[m] <- Final_Matches$team_away[m]
+    Final_Matches$loser[m] <- Final_Matches$team_home[m]
+  }  
+  
+}
+
+
+BigFinal <- Final_Matches %>%
+  filter(match=="Match 64")
+SmallFinal <- Final_Matches %>%
+  filter(match=="Match 63")
+
+print(table(SmallFinal$winner))
+print(table(BigFinal$winner))
+
+View(table(SF_Matches$loser)/1000)
+
+#Datawrapper Output
+teams_flags <- data_wc2022 %>%
+  distinct(team_home,.keep_all=TRUE) %>%
+  select(team_home,two_letter_code_home) %>%
+  rename(team = team_home)
+
+teams_flags$two_letter_code_home <- paste0(":",tolower(teams_flags$two_letter_code_home),":")
+
+prediction_winner <- data.frame(table(BigFinal$winner)/1000)
+colnames(prediction_winner) <- c("team","probability")
+prediction_winner <- merge(teams_flags,prediction_winner,all.x = TRUE)
+prediction_winner[is.na(prediction_winner)] <- 0
+
+prediction_winner$two_letter_code_home <- gsub("en","gb-eng",prediction_winner$two_letter_code_home)
+prediction_winner$two_letter_code_home <- gsub("wa","gb-wls",prediction_winner$two_letter_code_home)
+
+prediction_winner$team <- paste0(prediction_winner$two_letter_code_home,prediction_winner$team)
+
+write.csv(prediction_winner,"Output/prediction_winner.csv",row.names = FALSE)
