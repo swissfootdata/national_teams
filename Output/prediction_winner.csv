@@ -1,33 +1,33 @@
 "team","two_letter_code_home","probability_winner"
-":ar:Argentina",":ar:",0.143
-":au:Australia",":au:",0.001
+":ar:Argentina",":ar:",0.103
+":au:Australia",":au:",0
 ":be:Belgium",":be:",0.08
-":br:Brazil",":br:",0.094
+":br:Brazil",":br:",0.097
 ":cm:Cameroon",":cm:",0.001
-":ca:Canada",":ca:",0
+":ca:Canada",":ca:",0.001
 ":cr:Costa Rica",":cr:",0.002
-":hr:Croatia",":hr:",0.029
-":dk:Denmark",":dk:",0.045
-":ec:Ecuador",":ec:",0.007
-":gb-eng:England",":gb-eng:",0.045
-":fr:France",":fr:",0.083
-":de:Germany",":de:",0.04
-":gh:Ghana",":gh:",0.002
+":hr:Croatia",":hr:",0.028
+":dk:Denmark",":dk:",0.041
+":ec:Ecuador",":ec:",0.01
+":gb-eng:England",":gb-eng:",0.059
+":fr:France",":fr:",0.103
+":de:Germany",":de:",0.037
+":gh:Ghana",":gh:",0.001
 ":ir:Iran",":ir:",0.007
-":jp:Japan",":jp:",0.005
-":mx:Mexico",":mx:",0.012
-":ma:Morocco",":ma:",0.005
-":nl:Netherlands",":nl:",0.099
-":pl:Poland",":pl:",0.007
-":pt:Portugal",":pt:",0.065
-":qa:Qatar",":qa:",0.015
-":sa:Saudi Arabia",":sa:",0.003
-":sn:Senegal",":sn:",0.005
-":rs:Serbia",":rs:",0.027
+":jp:Japan",":jp:",0.004
+":mx:Mexico",":mx:",0.013
+":ma:Morocco",":ma:",0.003
+":nl:Netherlands",":nl:",0.097
+":pl:Poland",":pl:",0.009
+":pt:Portugal",":pt:",0.062
+":qa:Qatar",":qa:",0.011
+":sa:Saudi Arabia",":sa:",0.002
+":sn:Senegal",":sn:",0.003
+":rs:Serbia",":rs:",0.028
 ":kr:South Korea",":kr:",0.001
-":es:Spain",":es:",0.089
-":ch:Switzerland",":ch:",0.035
-":tn:Tunisia",":tn:",0.001
-":us:United States",":us:",0.005
-":uy:Uruguay",":uy:",0.041
-":gb-wls:Wales",":gb-wls:",0.006
+":es:Spain",":es:",0.117
+":ch:Switzerland",":ch:",0.024
+":tn:Tunisia",":tn:",0.002
+":us:United States",":us:",0.007
+":uy:Uruguay",":uy:",0.042
+":gb-wls:Wales",":gb-wls:",0.005

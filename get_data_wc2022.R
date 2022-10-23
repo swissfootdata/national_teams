@@ -98,6 +98,30 @@ data_wc2022$two_letter_code_away <- countrycode(data_wc2022$team_away,origin='co
 #Load Ranking Data
 fifa_ranking <- read_csv("data/fifa_ranking-2022-08-25_new.csv")
 
+#selection <- fifa_ranking %>%
+#  arrange(desc(rank_date)) %>%
+#  distinct(country_full,.keep_all=TRUE)
+
+#team_name <- data_wc2022 %>%
+#  distinct(team_home)
+
+#test <- merge(team_name,selection,by.x = "team_home",by.y="country_full",x.all = TRUE)
+
+#test <- test %>%
+#  distinct(team_home,.keep_all=TRUE) %>%
+#  arrange(rank)
+
+#test$rank_date <- "2022-10-06"
+#test$previous_points <- test$total_points
+#test$total_points <- NA
+
+
+#write.csv(test2,"new_data_fifa_ranking_2.csv",row.names = FALSE)
+#test2 <- read.csv("new_data_fifa_ranking.csv")
+
+#test2$rank_date <- test$team_home
+#test2 <- test2[,c(1,8,2:7)]
+
 #Get ELO Data
 url <- "https://www.eloratings.net/2022.tsv"
 

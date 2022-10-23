@@ -529,24 +529,7 @@ SmallFinal <- Final_Matches %>%
 print(table(SmallFinal$winner))
 print(table(BigFinal$winner))
 
-View(table(SF_Matches$loser)/1000)
-
 #Datawrapper Output
-teams_flags <- data_wc2022 %>%
-  distinct(team_home,.keep_all=TRUE) %>%
-  select(team_home,two_letter_code_home) %>%
-  rename(team = team_home)
+source("datawrapper_output.R")
 
-teams_flags$two_letter_code_home <- paste0(":",tolower(teams_flags$two_letter_code_home),":")
 
-prediction_winner <- data.frame(table(BigFinal$winner)/1000)
-colnames(prediction_winner) <- c("team","probability")
-prediction_winner <- merge(teams_flags,prediction_winner,all.x = TRUE)
-prediction_winner[is.na(prediction_winner)] <- 0
-
-prediction_winner$two_letter_code_home <- gsub("en","gb-eng",prediction_winner$two_letter_code_home)
-prediction_winner$two_letter_code_home <- gsub("wa","gb-wls",prediction_winner$two_letter_code_home)
-
-prediction_winner$team <- paste0(prediction_winner$two_letter_code_home,prediction_winner$team)
-
-write.csv(prediction_winner,"Output/prediction_winner.csv",row.names = FALSE)

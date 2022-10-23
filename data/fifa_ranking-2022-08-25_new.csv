@@ -40,7 +40,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 15,Spain,ESP,49,0,0,UEFA,1992-12-31
 14,Norway,NOR,49,0,0,UEFA,1992-12-31
 13,Nigeria,NGA,50,0,0,CAF,1992-12-31
-12,Switzerland,SUI,51,0,0,UEFA,1992-12-31
+12,Switzerland,CHE,51,0,0,UEFA,1992-12-31
 11,Romania,ROU,51,0,0,UEFA,1992-12-31
 10,Argentina,ARG,51,0,0,CONMEBOL,1992-12-31
 9,Denmark,DEN,52,0,0,UEFA,1992-12-31
@@ -202,7 +202,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 6,Republic of Ireland,IRL,55,54,0,UEFA,1993-08-08
 5,Argentina,ARG,56,51,-5,CONMEBOL,1993-08-08
 4,Sweden,SWE,56,56,0,UEFA,1993-08-08
-3,Switzerland,SUI,57,51,-9,UEFA,1993-08-08
+3,Switzerland,CHE,57,51,-9,UEFA,1993-08-08
 2,Italy,ITA,57,57,0,UEFA,1993-08-08
 17,Nigeria,NGA,50,50,4,CAF,1993-08-08
 37,Bulgaria,BUL,39,41,11,UEFA,1993-08-08
@@ -404,7 +404,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 7,France,FRA,56,52,-5,UEFA,1993-09-23
 8,Russia,RUS,55,55,1,UEFA,1993-09-23
 9,Republic of Ireland,IRL,55,55,3,UEFA,1993-09-23
-10,Switzerland,SUI,55,57,7,UEFA,1993-09-23
+10,Switzerland,CHE,55,57,7,UEFA,1993-09-23
 11,Sweden,SWE,55,56,7,UEFA,1993-09-23
 12,Argentina,ARG,55,56,7,CONMEBOL,1993-09-23
 13,Netherlands,NED,53,50,-3,UEFA,1993-09-23
@@ -548,7 +548,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 10,England,ENG,55,56,5,UEFA,1993-10-22
 11,Republic of Ireland,IRL,55,55,2,UEFA,1993-10-22
 11,Russia,RUS,55,55,3,UEFA,1993-10-22
-13,Switzerland,SUI,53,55,3,UEFA,1993-10-22
+13,Switzerland,CHE,53,55,3,UEFA,1993-10-22
 14,France,FRA,53,56,7,UEFA,1993-10-22
 15,Romania,ROU,52,48,-5,UEFA,1993-10-22
 16,Nigeria,NGA,52,50,-2,CAF,1993-10-22
@@ -705,7 +705,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 7,Spain,ESP,57,56,0,UEFA,1993-11-19
 8,England,ENG,56,55,-2,UEFA,1993-11-19
 9,Argentina,ARG,55,55,0,CONMEBOL,1993-11-19
-9,Switzerland,SUI,55,53,-4,UEFA,1993-11-19
+9,Switzerland,CHE,55,53,-4,UEFA,1993-11-19
 11,Sweden,SWE,55,55,3,UEFA,1993-11-19
 12,Romania,ROU,55,52,-3,UEFA,1993-11-19
 13,Republic of Ireland,IRL,54,55,2,UEFA,1993-11-19
@@ -794,7 +794,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 15,France,FRA,52,52,0,UEFA,1993-12-23
 14,Russia,RUS,52,52,0,UEFA,1993-12-23
 13,Romania,ROU,52,55,1,UEFA,1993-12-23
-12,Switzerland,SUI,54,55,3,UEFA,1993-12-23
+12,Switzerland,CHE,54,55,3,UEFA,1993-12-23
 11,England,ENG,54,56,3,UEFA,1993-12-23
 10,Republic of Ireland,IRL,54,54,-3,UEFA,1993-12-23
 9,Sweden,SWE,55,55,-2,UEFA,1993-12-23
@@ -952,7 +952,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 11,Republic of Ireland,IRL,54,54,1,UEFA,1994-02-15
 10,Sweden,SWE,54,55,1,UEFA,1994-02-15
 9,Argentina,ARG,55,55,1,CONMEBOL,1994-02-15
-8,Switzerland,SUI,56,54,-4,UEFA,1994-02-15
+8,Switzerland,CHE,56,54,-4,UEFA,1994-02-15
 7,Italy,ITA,57,59,5,UEFA,1994-02-15
 6,Spain,ESP,57,57,1,UEFA,1994-02-15
 5,Norway,NOR,57,58,1,UEFA,1994-02-15
@@ -1159,7 +1159,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 2,Brazil,BRA,58,58,0,CONMEBOL,1994-03-15
 3,Norway,NOR,58,57,-2,UEFA,1994-03-15
 4,Denmark,DEN,57,57,0,UEFA,1994-03-15
-5,Switzerland,SUI,56,56,-3,UEFA,1994-03-15
+5,Switzerland,CHE,56,56,-3,UEFA,1994-03-15
 6,Spain,ESP,56,57,0,UEFA,1994-03-15
 7,Sweden,SWE,55,54,-3,UEFA,1994-03-15
 36,Saudi Arabia,KSA,39,39,0,AFC,1994-03-15
@@ -1312,7 +1312,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 1,Brazil,BRA,59,58,-1,CONMEBOL,1994-04-19
 2,Germany,GER,59,59,1,UEFA,1994-04-19
 3,Norway,NOR,57,58,0,UEFA,1994-04-19
-4,Switzerland,SUI,56,56,-1,UEFA,1994-04-19
+4,Switzerland,CHE,56,56,-1,UEFA,1994-04-19
 5,Nigeria,NGA,56,50,-13,CAF,1994-04-19
 6,Denmark,DEN,56,57,2,UEFA,1994-04-19
 35,Northern Ireland,NIR,39,36,-7,UEFA,1994-04-19
@@ -1469,7 +1469,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 5,Denmark,DEN,55,56,-1,UEFA,1994-05-17
 6,Argentina,ARG,55,54,-4,CONMEBOL,1994-05-17
 7,Nigeria,NGA,55,56,2,CAF,1994-05-17
-8,Switzerland,SUI,54,56,4,UEFA,1994-05-17
+8,Switzerland,CHE,54,56,4,UEFA,1994-05-17
 9,Spain,ESP,54,55,2,UEFA,1994-05-17
 38,Finland,FIN,37,37,-1,UEFA,1994-05-17
 10,Romania,ROU,54,53,-1,UEFA,1994-05-17
@@ -1639,7 +1639,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 17,Colombia,COL,51,50,-1,CONMEBOL,1994-06-14
 18,Uruguay,URU,50,50,4,CONMEBOL,1994-06-14
 19,Russia,RUS,50,49,-1,UEFA,1994-06-14
-12,Switzerland,SUI,54,54,4,UEFA,1994-06-14
+12,Switzerland,CHE,54,54,4,UEFA,1994-06-14
 2,Netherlands,NED,59,53,-9,UEFA,1994-06-14
 41,Northern Ireland,NIR,37,41,8,UEFA,1994-06-14
 43,Bolivia,BOL,35,35,0,CONMEBOL,1994-06-14
@@ -1792,7 +1792,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 8,Norway,NOR,58,56,2,UEFA,1994-07-21
 19,Russia,RUS,52,50,0,UEFA,1994-07-21
 9,Argentina,ARG,57,55,1,CONMEBOL,1994-07-21
-11,Switzerland,SUI,56,54,-1,UEFA,1994-07-21
+11,Switzerland,CHE,56,54,-1,UEFA,1994-07-21
 12,Denmark,DEN,55,55,3,UEFA,1994-07-21
 13,Republic of Ireland,IRL,54,53,-1,UEFA,1994-07-21
 14,Bulgaria,BUL,53,44,-15,UEFA,1994-07-21
@@ -2001,7 +2001,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 10,Nigeria,NGA,56,56,0,CAF,1994-09-13
 12,Republic of Ireland,IRL,54,54,-1,UEFA,1994-09-13
 13,Denmark,DEN,53,55,1,UEFA,1994-09-13
-11,Switzerland,SUI,56,56,0,UEFA,1994-09-13
+11,Switzerland,CHE,56,56,0,UEFA,1994-09-13
 1,Brazil,BRA,66,65,0,CONMEBOL,1994-09-13
 1,Brazil,BRA,66,66,0,CONMEBOL,1994-10-25
 2,Italy,ITA,62,62,0,UEFA,1994-10-25
@@ -2028,7 +2028,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 80,North Korea,PRK,22,23,3,AFC,1994-10-25
 81,Ukraine,UKR,21,21,2,UEFA,1994-10-25
 74,El Salvador,SLV,23,23,6,CONCACAF,1994-10-25
-7,Switzerland,SUI,57,56,-4,UEFA,1994-10-25
+7,Switzerland,CHE,57,56,-4,UEFA,1994-10-25
 14,Russia,RUS,54,52,-3,UEFA,1994-10-25
 9,Argentina,ARG,57,57,0,CONMEBOL,1994-10-25
 41,Austria,AUT,38,38,1,UEFA,1994-10-25
@@ -2209,7 +2209,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 9,Argentina,ARG,58,57,0,CONMEBOL,1994-11-22
 8,Republic of Ireland,IRL,58,56,-3,UEFA,1994-11-22
 14,Denmark,DEN,54,54,1,UEFA,1994-11-22
-7,Switzerland,SUI,58,57,0,UEFA,1994-11-22
+7,Switzerland,CHE,58,57,0,UEFA,1994-11-22
 5,Spain,ESP,61,59,-1,UEFA,1994-11-22
 4,Germany,GER,61,61,0,UEFA,1994-11-22
 3,Italy,ITA,61,62,1,UEFA,1994-11-22
@@ -2361,7 +2361,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 4,Italy,ITA,61,61,1,UEFA,1994-12-20
 5,Germany,GER,61,61,1,UEFA,1994-12-20
 6,Netherlands,NED,60,60,0,UEFA,1994-12-20
-7,Switzerland,SUI,58,58,0,UEFA,1994-12-20
+7,Switzerland,CHE,58,58,0,UEFA,1994-12-20
 8,Norway,NOR,58,57,-2,UEFA,1994-12-20
 9,Republic of Ireland,IRL,58,58,1,UEFA,1994-12-20
 10,Argentina,ARG,57,58,1,CONMEBOL,1994-12-20
@@ -2645,7 +2645,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 8,Netherlands,NED,59,60,2,UEFA,1995-02-20
 9,Mexico,MEX,59,54,-6,CONCACAF,1995-02-20
 10,Republic of Ireland,IRL,57,58,1,UEFA,1995-02-20
-11,Switzerland,SUI,57,58,4,UEFA,1995-02-20
+11,Switzerland,CHE,57,58,4,UEFA,1995-02-20
 12,Romania,ROU,56,57,1,UEFA,1995-02-20
 13,Nigeria,NGA,55,54,1,CAF,1995-02-20
 14,Bulgaria,BUL,54,54,-2,UEFA,1995-02-20
@@ -2719,7 +2719,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 15,Denmark,DEN,54,53,0,UEFA,1995-04-19
 14,Portugal,POR,55,52,-5,UEFA,1995-04-19
 13,Bulgaria,BUL,55,54,-1,UEFA,1995-04-19
-12,Switzerland,SUI,56,57,1,UEFA,1995-04-19
+12,Switzerland,CHE,56,57,1,UEFA,1995-04-19
 11,Republic of Ireland,IRL,57,57,1,UEFA,1995-04-19
 10,Romania,ROU,57,56,-2,UEFA,1995-04-19
 9,Mexico,MEX,58,59,0,CONCACAF,1995-04-19
@@ -2966,7 +2966,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 76,Latvia,LVA,25,26,3,UEFA,1995-05-16
 15,Russia,RUS,54,52,-2,UEFA,1995-05-16
 94,Sudan,SDN,20,15,-13,CAF,1995-05-16
-13,Switzerland,SUI,55,56,1,UEFA,1995-05-16
+13,Switzerland,CHE,55,56,1,UEFA,1995-05-16
 123,Venezuela,VEN,11,11,0,CONMEBOL,1995-05-16
 122,Jordan,JOR,11,11,0,AFC,1995-05-16
 121,Fiji,FIJ,12,12,0,OFC,1995-05-16
@@ -3162,7 +3162,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 11,Romania,ROU,57,57,0,UEFA,1995-06-13
 12,Denmark,DEN,57,55,-2,UEFA,1995-06-13
 13,Russia,RUS,56,54,-2,UEFA,1995-06-13
-14,Switzerland,SUI,55,55,1,UEFA,1995-06-13
+14,Switzerland,CHE,55,55,1,UEFA,1995-06-13
 7,Mexico,MEX,58,58,-2,CONCACAF,1995-06-13
 16,Portugal,POR,54,53,0,UEFA,1995-06-13
 29,Poland,POL,45,42,-7,UEFA,1995-06-13
@@ -3227,7 +3227,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 17,Netherlands,NED,51,57,8,UEFA,1995-07-25
 16,Republic of Ireland,IRL,52,55,1,UEFA,1995-07-25
 15,Sweden,SWE,52,58,9,UEFA,1995-07-25
-14,Switzerland,SUI,52,55,0,UEFA,1995-07-25
+14,Switzerland,CHE,52,55,0,UEFA,1995-07-25
 13,Romania,ROU,53,57,2,UEFA,1995-07-25
 21,Tunisia,TUN,49,47,-3,CAF,1995-07-25
 12,Colombia,COL,54,47,-11,CONMEBOL,1995-07-25
@@ -3369,7 +3369,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 8,Russia,RUS,55,55,-1,UEFA,1995-08-22
 9,Portugal,POR,55,54,-1,UEFA,1995-08-22
 10,Mexico,MEX,55,55,2,CONCACAF,1995-08-22
-11,Switzerland,SUI,54,52,-3,UEFA,1995-08-22
+11,Switzerland,CHE,54,52,-3,UEFA,1995-08-22
 12,Bulgaria,BUL,54,54,1,UEFA,1995-08-22
 68,Kuwait,KUW,32,32,1,AFC,1995-08-22
 69,Qatar,QAT,32,32,3,AFC,1995-08-22
@@ -3641,7 +3641,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 29,Saudi Arabia,KSA,43,43,-7,AFC,1995-09-19
 30,Morocco,MAR,42,43,-5,CAF,1995-09-19
 55,Senegal,SEN,31,39,11,CAF,1995-09-19
-11,Switzerland,SUI,56,54,0,UEFA,1995-09-19
+11,Switzerland,CHE,56,54,0,UEFA,1995-09-19
 8,Norway,NOR,57,59,6,UEFA,1995-09-19
 6,Spain,ESP,60,58,3,UEFA,1995-09-19
 62,China,CHN,24,37,10,AFC,1995-09-19
@@ -3726,7 +3726,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 155,Benin,BEN,5,6,17,CAF,1995-10-17
 149,Botswana,BOT,7,3,-1,CAF,1995-10-17
 12,France,FRA,55,50,-8,UEFA,1995-10-17
-9,Switzerland,SUI,56,56,-2,UEFA,1995-10-17
+9,Switzerland,CHE,56,56,-2,UEFA,1995-10-17
 14,Netherlands,NED,54,61,9,UEFA,1995-10-17
 70,China,CHN,31,24,8,AFC,1995-10-17
 71,Honduras,HON,31,32,20,CONCACAF,1995-10-17
@@ -3860,7 +3860,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 16,Portugal,POR,54,53,-1,UEFA,1995-11-21
 26,Belgium,BEL,47,46,-3,UEFA,1995-11-21
 19,United States,USA,51,51,0,CONCACAF,1995-11-21
-15,Switzerland,SUI,54,56,6,UEFA,1995-11-21
+15,Switzerland,CHE,54,56,6,UEFA,1995-11-21
 25,Scotland,SCO,47,47,-1,UEFA,1995-11-21
 24,Nigeria,NGA,47,43,-11,CAF,1995-11-21
 23,Egypt,EGY,47,49,2,CAF,1995-11-21
@@ -4153,7 +4153,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 21,England,ENG,49,50,1,UEFA,1995-12-19
 20,Ivory Coast,CIV,49,46,-8,CAF,1995-12-19
 19,United States,USA,51,51,0,CONCACAF,1995-12-19
-18,Switzerland,SUI,52,54,3,UEFA,1995-12-19
+18,Switzerland,CHE,52,54,3,UEFA,1995-12-19
 17,Bulgaria,BUL,53,54,3,UEFA,1995-12-19
 16,Portugal,POR,53,54,0,UEFA,1995-12-19
 15,Colombia,COL,53,53,-2,CONMEBOL,1995-12-19
@@ -4300,7 +4300,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 17,Colombia,COL,53,53,2,CONMEBOL,1996-01-24
 18,Bulgaria,BUL,53,53,1,UEFA,1996-01-24
 19,Ghana,GHA,52,47,-10,CAF,1996-01-24
-20,Switzerland,SUI,52,52,2,UEFA,1996-01-24
+20,Switzerland,CHE,52,52,2,UEFA,1996-01-24
 21,Ivory Coast,CIV,51,49,1,CAF,1996-01-24
 22,Egypt,EGY,50,48,-1,CAF,1996-01-24
 23,Zambia,ZAM,49,48,-2,CAF,1996-01-24
@@ -4448,7 +4448,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 35,Saudi Arabia,KSA,45,40,-8,AFC,1996-02-21
 34,Cameroon,CMR,45,45,2,CAF,1996-02-21
 33,Chile,CHI,45,42,-6,CONMEBOL,1996-02-21
-21,Switzerland,SUI,51,52,1,UEFA,1996-02-21
+21,Switzerland,CHE,51,52,1,UEFA,1996-02-21
 32,Republic of Ireland,IRL,46,47,5,UEFA,1996-02-21
 30,Japan,JPN,47,46,0,AFC,1996-02-21
 29,Scotland,SCO,47,47,3,UEFA,1996-02-21
@@ -4628,7 +4628,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 29,Japan,JPN,48,47,-1,AFC,1996-04-24
 28,Croatia,CRO,48,40,-15,UEFA,1996-04-24
 27,Scotland,SCO,48,47,-2,UEFA,1996-04-24
-26,Switzerland,SUI,48,51,5,UEFA,1996-04-24
+26,Switzerland,CHE,48,51,5,UEFA,1996-04-24
 25,Egypt,EGY,49,51,3,CAF,1996-04-24
 33,Chile,CHI,45,45,0,CONMEBOL,1996-04-24
 87,Belarus,BLR,24,24,3,UEFA,1996-04-24
@@ -4796,7 +4796,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 35,Greece,GRE,45,40,-10,UEFA,1996-05-22
 34,Cameroon,CMR,45,46,2,CAF,1996-05-22
 33,Morocco,MAR,46,46,2,CAF,1996-05-22
-21,Switzerland,SUI,50,48,-5,UEFA,1996-05-22
+21,Switzerland,CHE,50,48,-5,UEFA,1996-05-22
 32,Uruguay,URU,46,44,-3,CONMEBOL,1996-05-22
 30,Türkiye,TUR,46,46,0,UEFA,1996-05-22
 29,Chile,CHI,46,45,-4,CONMEBOL,1996-05-22
@@ -4968,7 +4968,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 23,Romania,ROU,51,52,7,UEFA,1996-07-03
 24,Norway,NOR,50,51,5,UEFA,1996-07-03
 25,Japan,JPN,50,48,-1,AFC,1996-07-03
-26,Switzerland,SUI,50,50,5,UEFA,1996-07-03
+26,Switzerland,CHE,50,50,5,UEFA,1996-07-03
 27,Egypt,EGY,49,48,2,CAF,1996-07-03
 28,Ivory Coast,CIV,48,49,5,CAF,1996-07-03
 29,Chile,CHI,47,46,0,CONMEBOL,1996-07-03
@@ -5183,7 +5183,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 48,Honduras,HON,40,39,-1,CONCACAF,1996-08-28
 49,Nigeria,NGA,39,40,2,CAF,1996-08-28
 50,Thailand,THA,38,35,-11,AFC,1996-08-28
-31,Switzerland,SUI,46,50,5,UEFA,1996-08-28
+31,Switzerland,CHE,46,50,5,UEFA,1996-08-28
 51,Cuba,CUB,38,34,-13,CONCACAF,1996-08-28
 30,Greece,GRE,46,45,-5,UEFA,1996-08-28
 28,Ivory Coast,CIV,47,48,0,CAF,1996-08-28
@@ -5323,7 +5323,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 38,Jamaica,JAM,44,42,-1,CONCACAF,1996-09-25
 37,Belgium,BEL,45,41,-6,UEFA,1996-09-25
 36,Bolivia,BOL,45,45,1,CONMEBOL,1996-09-25
-35,Switzerland,SUI,45,46,4,UEFA,1996-09-25
+35,Switzerland,CHE,45,46,4,UEFA,1996-09-25
 34,Trinidad and Tobago,TRI,46,46,1,CONCACAF,1996-09-25
 33,Türkiye,TUR,46,47,4,UEFA,1996-09-25
 32,Republic of Ireland,IRL,46,44,-5,UEFA,1996-09-25
@@ -5531,7 +5531,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 36,Belgium,BEL,45,45,-1,UEFA,1996-10-23
 37,Slovakia,SVK,45,44,-3,UEFA,1996-10-23
 38,Jamaica,JAM,45,44,0,CONCACAF,1996-10-23
-39,Switzerland,SUI,45,45,4,UEFA,1996-10-23
+39,Switzerland,CHE,45,45,4,UEFA,1996-10-23
 40,Saudi Arabia,KSA,45,42,-2,AFC,1996-10-23
 41,Bolivia,BOL,44,45,5,CONMEBOL,1996-10-23
 42,Honduras,HON,44,41,-1,CONCACAF,1996-10-23
@@ -5716,7 +5716,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 40,Saudi Arabia,KSA,45,45,0,AFC,1996-11-20
 41,Bolivia,BOL,45,44,0,CONMEBOL,1996-11-20
 42,Belgium,BEL,44,45,6,UEFA,1996-11-20
-43,Switzerland,SUI,44,45,4,UEFA,1996-11-20
+43,Switzerland,CHE,44,45,4,UEFA,1996-11-20
 23,Tunisia,TUN,52,51,-1,CAF,1996-11-20
 44,Honduras,HON,43,44,2,CONCACAF,1996-11-20
 22,Japan,JPN,52,52,2,AFC,1996-11-20
@@ -5924,7 +5924,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 43,Uruguay,URU,44,40,-11,CONMEBOL,1996-12-18
 44,South Korea,KOR,44,43,-2,AFC,1996-12-18
 45,Honduras,HON,44,43,1,CONCACAF,1996-12-18
-47,Switzerland,SUI,44,44,4,UEFA,1996-12-18
+47,Switzerland,CHE,44,44,4,UEFA,1996-12-18
 71,Zimbabwe,ZIM,35,37,9,CAF,1996-12-18
 72,Costa Rica,CRC,35,32,-11,CONCACAF,1996-12-18
 73,Guinea,GUI,35,34,0,CAF,1996-12-18
@@ -6130,7 +6130,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 172,Pakistan,PAK,4,4,-1,AFC,1997-02-27
 43,Uruguay,URU,45,44,0,CONMEBOL,1997-02-27
 54,Yugoslavia,YUG,42,40,-1,UEFA,1997-02-27
-51,Switzerland,SUI,43,44,4,UEFA,1997-02-27
+51,Switzerland,CHE,43,44,4,UEFA,1997-02-27
 56,Poland,POL,41,41,3,UEFA,1997-02-27
 75,Sudan,SDN,34,34,1,CAF,1997-02-27
 74,El Salvador,SLV,35,36,9,CONCACAF,1997-02-27
@@ -6265,7 +6265,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 40,Ghana,GHA,46,46,2,CAF,1997-04-09
 48,Ukraine,UKR,44,37,-19,UEFA,1997-04-09
 50,Honduras,HON,44,44,4,CONCACAF,1997-04-09
-51,Switzerland,SUI,43,43,0,UEFA,1997-04-09
+51,Switzerland,CHE,43,43,0,UEFA,1997-04-09
 52,Poland,POL,43,41,-4,UEFA,1997-04-09
 53,Israel,ISR,43,42,1,UEFA,1997-04-09
 54,Lithuania,LTU,43,43,5,UEFA,1997-04-09
@@ -6467,7 +6467,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 53,Costa Rica,CRC,43,41,-4,CONCACAF,1997-05-14
 54,Uruguay,URU,43,46,12,CONMEBOL,1997-05-14
 55,Zimbabwe,ZIM,43,44,6,CAF,1997-05-14
-56,Switzerland,SUI,43,43,5,UEFA,1997-05-14
+56,Switzerland,CHE,43,43,5,UEFA,1997-05-14
 57,Poland,POL,42,43,5,UEFA,1997-05-14
 58,Gabon,GAB,42,41,0,CAF,1997-05-14
 59,Algeria,ALG,42,42,3,CAF,1997-05-14
@@ -6593,7 +6593,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 64,Gabon,GAB,41,42,6,CAF,1997-06-18
 63,Angola,ANG,41,40,-3,CAF,1997-06-18
 62,Zimbabwe,ZIM,41,43,7,CAF,1997-06-18
-61,Switzerland,SUI,42,43,5,UEFA,1997-06-18
+61,Switzerland,CHE,42,43,5,UEFA,1997-06-18
 60,Algeria,ALG,42,42,1,CAF,1997-06-18
 59,Guinea,GUI,42,40,-8,CAF,1997-06-18
 58,China,CHN,43,42,-2,AFC,1997-06-18
@@ -6846,7 +6846,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 39,Jamaica,JAM,47,48,2,CONCACAF,1997-07-16
 40,Greece,GRE,47,47,-1,UEFA,1997-07-16
 41,Austria,AUT,47,47,-2,UEFA,1997-07-16
-63,Switzerland,SUI,41,42,2,UEFA,1997-07-16
+63,Switzerland,CHE,41,42,2,UEFA,1997-07-16
 105,Panama,PAN,26,26,-1,CONCACAF,1997-07-16
 64,Guinea,GUI,41,42,5,CAF,1997-07-16
 66,United Arab Emirates,UAE,40,40,-1,AFC,1997-07-16
@@ -7052,7 +7052,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 128,Saint Kitts and Nevis,SKN,19,16,-8,CONCACAF,1997-08-20
 44,Austria,AUT,47,47,3,UEFA,1997-08-20
 63,Zimbabwe,ZIM,41,42,1,CAF,1997-08-20
-64,Switzerland,SUI,41,41,1,UEFA,1997-08-20
+64,Switzerland,CHE,41,41,1,UEFA,1997-08-20
 50,Uruguay,URU,45,46,6,CONMEBOL,1997-08-20
 66,United Arab Emirates,UAE,41,40,0,AFC,1997-08-20
 130,Yemen,YEM,19,19,2,AFC,1997-08-20
@@ -7092,7 +7092,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 49,Kuwait,KUW,46,45,-2,AFC,1997-09-17
 59,Canada,CAN,44,45,11,CONCACAF,1997-09-17
 51,Algeria,ALG,45,45,4,CAF,1997-09-17
-65,Switzerland,SUI,41,41,1,UEFA,1997-09-17
+65,Switzerland,CHE,41,41,1,UEFA,1997-09-17
 35,South Korea,KOR,51,50,1,AFC,1997-09-17
 64,Guinea,GUI,42,40,-5,CAF,1997-09-17
 63,Nigeria,NGA,42,44,4,CAF,1997-09-17
@@ -7267,7 +7267,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 68,Hungary,HUN,40,39,-3,UEFA,1997-10-17
 66,Guinea,GUI,41,42,2,CAF,1997-10-17
 65,Thailand,THA,42,39,-5,AFC,1997-10-17
-64,Switzerland,SUI,42,41,-1,UEFA,1997-10-17
+64,Switzerland,CHE,42,41,-1,UEFA,1997-10-17
 63,Gabon,GAB,42,42,1,CAF,1997-10-17
 62,Canada,CAN,42,44,3,CONCACAF,1997-10-17
 61,Honduras,HON,42,44,4,CONCACAF,1997-10-17
@@ -7484,7 +7484,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 59,United Arab Emirates,UAE,44,43,-1,AFC,1997-11-19
 60,Israel,ISR,44,43,2,UEFA,1997-11-19
 61,Finland,FIN,43,43,2,UEFA,1997-11-19
-62,Switzerland,SUI,42,42,-2,UEFA,1997-11-19
+62,Switzerland,CHE,42,42,-2,UEFA,1997-11-19
 63,Canada,CAN,41,42,1,CONCACAF,1997-11-19
 64,Gabon,GAB,41,42,1,CAF,1997-11-19
 65,Honduras,HON,41,42,4,CONCACAF,1997-11-19
@@ -7650,7 +7650,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 60,Finland,FIN,42,43,-1,UEFA,1997-12-23
 64,El Salvador,SLV,40,40,-4,CONCACAF,1997-12-23
 63,Gabon,GAB,40,41,-1,CAF,1997-12-23
-62,Switzerland,SUI,41,42,0,UEFA,1997-12-23
+62,Switzerland,CHE,41,42,0,UEFA,1997-12-23
 61,Israel,ISR,42,44,1,UEFA,1997-12-23
 77,Hungary,HUN,37,37,-1,UEFA,1997-12-23
 59,Algeria,ALG,44,45,4,CAF,1997-12-23
@@ -7903,7 +7903,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 65,El Salvador,SLV,40,40,1,CONCACAF,1998-02-18
 66,Gabon,GAB,40,40,3,CAF,1998-02-18
 143,Eswatini,SWZ,15,7,-22,CAF,1998-02-18
-68,Switzerland,SUI,40,41,6,UEFA,1998-02-18
+68,Switzerland,CHE,40,41,6,UEFA,1998-02-18
 69,Mali,MLI,40,37,-11,CAF,1998-02-18
 70,Iraq,IRQ,39,39,2,AFC,1998-02-18
 71,Guatemala,GUA,39,36,-12,CONCACAF,1998-02-18
@@ -8056,7 +8056,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 66,Honduras,HON,40,41,2,CONCACAF,1998-03-18
 67,El Salvador,SLV,40,40,2,CONCACAF,1998-03-18
 68,Mali,MLI,40,40,-1,CAF,1998-03-18
-69,Switzerland,SUI,40,40,1,UEFA,1998-03-18
+69,Switzerland,CHE,40,40,1,UEFA,1998-03-18
 70,Guatemala,GUA,39,39,-1,CONCACAF,1998-03-18
 71,Iraq,IRQ,39,39,1,AFC,1998-03-18
 72,Gabon,GAB,39,40,6,CAF,1998-03-18
@@ -8263,7 +8263,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 61,Guinea,GUI,42,42,-1,CAF,1998-04-22
 55,Poland,POL,44,43,-6,UEFA,1998-04-22
 159,Macau,MAC,7,8,-1,AFC,1998-04-22
-70,Switzerland,SUI,39,40,1,UEFA,1998-04-22
+70,Switzerland,CHE,39,40,1,UEFA,1998-04-22
 157,Cambodia,CAM,8,8,-1,AFC,1998-04-22
 126,Panama,PAN,20,23,6,CONCACAF,1998-04-22
 125,Malta,MLT,20,21,1,UEFA,1998-04-22
@@ -8563,7 +8563,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 88,Cuba,CUB,33,34,3,CONCACAF,1998-05-20
 89,Indonesia,IDN,33,33,1,AFC,1998-05-20
 79,Gabon,GAB,36,36,-1,CAF,1998-05-20
-81,Switzerland,SUI,36,39,11,UEFA,1998-05-20
+81,Switzerland,CHE,36,39,11,UEFA,1998-05-20
 83,Cyprus,CYP,36,36,1,UEFA,1998-05-20
 82,Latvia,LVA,36,38,7,UEFA,1998-05-20
 85,Iraq,IRQ,34,34,1,AFC,1998-05-20
@@ -8641,7 +8641,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 27,South Africa,RSA,53,55,3,CAF,1998-07-15
 70,El Salvador,SLV,39,39,2,CONCACAF,1998-07-15
 72,Qatar,QAT,38,38,2,AFC,1998-07-15
-73,Switzerland,SUI,37,36,-8,UEFA,1998-07-15
+73,Switzerland,CHE,37,36,-8,UEFA,1998-07-15
 159,Fiji,FIJ,9,11,8,OFC,1998-07-15
 158,Botswana,BOT,9,10,4,CAF,1998-07-15
 157,Mauritius,MRI,9,9,0,CAF,1998-07-15
@@ -8786,7 +8786,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 74,Namibia,NAM,37,34,-7,CAF,1998-08-19
 75,Guatemala,GUA,37,37,1,CONCACAF,1998-08-19
 63,Finland,FIN,40,41,1,UEFA,1998-08-19
-76,Switzerland,SUI,37,37,3,UEFA,1998-08-19
+76,Switzerland,CHE,37,37,3,UEFA,1998-08-19
 48,Republic of Ireland,IRL,45,45,1,UEFA,1998-08-19
 46,Georgia,GEO,45,46,2,UEFA,1998-08-19
 19,Colombia,COL,57,58,2,CONMEBOL,1998-08-19
@@ -9014,7 +9014,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 43,Thailand,THA,45,45,-2,AFC,1998-09-16
 116,Sudan,SDN,22,23,-1,CAF,1998-09-16
 76,Indonesia,IDN,38,33,-10,AFC,1998-09-16
-77,Switzerland,SUI,37,37,1,UEFA,1998-09-16
+77,Switzerland,CHE,37,37,1,UEFA,1998-09-16
 78,Mozambique,MOZ,37,36,0,CAF,1998-09-16
 79,El Salvador,SLV,37,38,8,CONCACAF,1998-09-16
 80,Senegal,SEN,37,37,7,CAF,1998-09-16
@@ -9174,7 +9174,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 72,Burkina Faso,BFA,40,40,5,CAF,1998-10-21
 84,Slovenia,SVN,35,33,-7,UEFA,1998-10-21
 82,Guatemala,GUA,36,37,0,CONCACAF,1998-10-21
-81,Switzerland,SUI,36,37,4,UEFA,1998-10-21
+81,Switzerland,CHE,36,37,4,UEFA,1998-10-21
 80,Cyprus,CYP,36,38,6,UEFA,1998-10-21
 79,Gabon,GAB,36,34,-8,CAF,1998-10-21
 78,Senegal,SEN,37,37,-2,CAF,1998-10-21
@@ -9401,7 +9401,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 102,Cuba,CUB,30,32,10,CONCACAF,1998-11-18
 80,Senegal,SEN,37,37,2,CAF,1998-11-18
 81,Gabon,GAB,36,36,2,CAF,1998-11-18
-82,Switzerland,SUI,36,36,1,UEFA,1998-11-18
+82,Switzerland,CHE,36,36,1,UEFA,1998-11-18
 83,Guatemala,GUA,36,36,1,CONCACAF,1998-11-18
 84,Slovenia,SVN,35,35,0,UEFA,1998-11-18
 85,Indonesia,IDN,35,35,0,AFC,1998-11-18
@@ -9570,7 +9570,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 80,Mozambique,MOZ,38,38,2,CAF,1998-12-23
 81,Singapore,SGP,37,37,2,AFC,1998-12-23
 82,Gabon,GAB,36,36,1,CAF,1998-12-23
-83,Switzerland,SUI,35,36,1,UEFA,1998-12-23
+83,Switzerland,CHE,35,36,1,UEFA,1998-12-23
 84,Syria,SYR,35,34,-5,AFC,1998-12-23
 85,Lebanon,LBN,35,31,-12,AFC,1998-12-23
 86,Northern Ireland,NIR,35,34,-2,UEFA,1998-12-23
@@ -9881,7 +9881,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 153,San Marino,SMR,153,5,-26,UEFA,1999-01-27
 151,Laos,LAO,155,15,7,AFC,1999-01-27
 66,Latvia,LVA,471,38,-11,UEFA,1999-01-27
-65,Switzerland,SUI,475,35,-18,UEFA,1999-01-27
+65,Switzerland,CHE,475,35,-18,UEFA,1999-01-27
 64,Cyprus,CYP,478,38,-14,UEFA,1999-01-27
 63,Uruguay,URU,479,39,-13,CONMEBOL,1999-01-27
 62,Peru,PER,480,40,-10,CONMEBOL,1999-01-27
@@ -10094,7 +10094,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 56,United Arab Emirates,UAE,502,503,1,AFC,1999-02-24
 57,Angola,ANG,499,489,-2,CAF,1999-02-24
 59,Bolivia,BOL,497,499,3,CONMEBOL,1999-02-24
-60,Switzerland,SUI,493,475,-5,UEFA,1999-02-24
+60,Switzerland,CHE,493,475,-5,UEFA,1999-02-24
 61,Iceland,ISL,490,488,1,UEFA,1999-02-24
 62,Macedonia,MKD,490,492,4,UEFA,1999-02-24
 58,Cyprus,CYP,498,478,-6,UEFA,1999-02-24
@@ -10114,7 +10114,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 66,Latvia,LVA,470,473,0,UEFA,1999-03-24
 65,Uruguay,URU,473,477,0,CONMEBOL,1999-03-24
 64,Peru,PER,483,489,1,CONMEBOL,1999-03-24
-63,Switzerland,SUI,487,493,3,UEFA,1999-03-24
+63,Switzerland,CHE,487,493,3,UEFA,1999-03-24
 62,Macedonia,MKD,487,490,0,UEFA,1999-03-24
 60,Cyprus,CYP,491,498,2,UEFA,1999-03-24
 50,Bolivia,BOL,519,497,-9,CONMEBOL,1999-03-24
@@ -10343,7 +10343,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 54,China,CHN,509,510,2,AFC,1999-04-21
 53,Australia,AUS,509,514,2,AFC,1999-04-21
 52,Bolivia,BOL,512,519,2,CONMEBOL,1999-04-21
-51,Switzerland,SUI,513,487,-12,UEFA,1999-04-21
+51,Switzerland,CHE,513,487,-12,UEFA,1999-04-21
 50,Lithuania,LTU,516,520,1,UEFA,1999-04-21
 57,Finland,FIN,504,509,4,UEFA,1999-04-21
 28,Scotland,SCO,592,595,2,UEFA,1999-04-21
@@ -10607,7 +10607,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 53,China,CHN,507,509,-1,AFC,1999-05-19
 52,Lithuania,LTU,510,516,2,UEFA,1999-05-19
 81,Zimbabwe,ZIM,434,443,2,CAF,1999-05-19
-51,Switzerland,SUI,515,513,0,UEFA,1999-05-19
+51,Switzerland,CHE,515,513,0,UEFA,1999-05-19
 49,Kuwait,KUW,517,519,0,AFC,1999-05-19
 48,Iceland,ISL,525,519,0,UEFA,1999-05-19
 60,United Arab Emirates,UAE,496,499,1,AFC,1999-05-19
@@ -10822,7 +10822,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 48,Cameroon,CMR,527,540,5,CAF,1999-06-16
 49,Ecuador,ECU,522,503,-6,CONMEBOL,1999-06-16
 50,Lithuania,LTU,522,510,-2,UEFA,1999-06-16
-51,Switzerland,SUI,518,515,0,UEFA,1999-06-16
+51,Switzerland,CHE,518,515,0,UEFA,1999-06-16
 52,Kuwait,KUW,515,517,3,AFC,1999-06-16
 53,Bolivia,BOL,507,515,3,CONMEBOL,1999-06-16
 54,China,CHN,505,507,1,AFC,1999-06-16
@@ -11007,7 +11007,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 161,Maldives,MDV,139,139,-1,AFC,1999-07-21
 109,Venezuela,VEN,342,312,-6,CONMEBOL,1999-07-21
 55,Kuwait,KUW,512,515,3,AFC,1999-07-21
-54,Switzerland,SUI,515,518,3,UEFA,1999-07-21
+54,Switzerland,CHE,515,518,3,UEFA,1999-07-21
 53,Bolivia,BOL,517,507,0,CONMEBOL,1999-07-21
 110,Lebanon,LBN,339,341,1,AFC,1999-07-21
 52,Lithuania,LTU,523,522,2,UEFA,1999-07-21
@@ -11138,7 +11138,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 57,Ecuador,ECU,503,509,1,CONMEBOL,1999-08-18
 56,Angola,ANG,507,504,-1,CAF,1999-08-18
 55,Kuwait,KUW,509,512,0,AFC,1999-08-18
-54,Switzerland,SUI,513,515,0,UEFA,1999-08-18
+54,Switzerland,CHE,513,515,0,UEFA,1999-08-18
 53,Cameroon,CMR,519,523,2,CAF,1999-08-18
 52,Bolivia,BOL,521,517,-1,CONMEBOL,1999-08-18
 51,Iran,IRN,526,527,1,AFC,1999-08-18
@@ -11461,7 +11461,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 50,Iran,IRN,534,526,-1,AFC,1999-09-15
 51,Japan,JPN,533,539,5,AFC,1999-09-15
 52,Slovenia,SVN,522,494,-9,UEFA,1999-09-15
-53,Switzerland,SUI,516,513,-1,UEFA,1999-09-15
+53,Switzerland,CHE,516,513,-1,UEFA,1999-09-15
 54,Cameroon,CMR,515,519,1,CAF,1999-09-15
 55,Bolivia,BOL,514,521,3,CONMEBOL,1999-09-15
 56,Angola,ANG,507,507,0,CAF,1999-09-15
@@ -11659,7 +11659,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 77,Nigeria,NGA,442,450,1,CAF,1999-10-13
 48,Iran,IRN,537,534,-2,AFC,1999-10-13
 49,Ivory Coast,CIV,530,541,1,CAF,1999-10-13
-50,Switzerland,SUI,530,516,-3,UEFA,1999-10-13
+50,Switzerland,CHE,530,516,-3,UEFA,1999-10-13
 51,Japan,JPN,529,533,0,AFC,1999-10-13
 52,Finland,FIN,523,499,-6,UEFA,1999-10-13
 53,Slovenia,SVN,523,522,1,UEFA,1999-10-13
@@ -11895,7 +11895,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 27,Austria,AUT,609,616,2,UEFA,1999-11-17
 51,Ivory Coast,CIV,526,530,2,CAF,1999-11-17
 50,Lithuania,LTU,527,540,5,UEFA,1999-11-17
-49,Switzerland,SUI,529,530,-1,UEFA,1999-11-17
+49,Switzerland,CHE,529,530,-1,UEFA,1999-11-17
 48,Iceland,ISL,533,537,1,UEFA,1999-11-17
 47,Hungary,HUN,536,538,1,UEFA,1999-11-17
 46,Iran,IRN,539,537,-2,AFC,1999-11-17
@@ -11952,7 +11952,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 44,Trinidad and Tobago,TRI,536,554,4,CONCACAF,1999-12-22
 45,Hungary,HUN,533,536,-2,UEFA,1999-12-22
 46,Uruguay,URU,533,546,4,CONMEBOL,1999-12-22
-47,Switzerland,SUI,531,529,-2,UEFA,1999-12-22
+47,Switzerland,CHE,531,529,-2,UEFA,1999-12-22
 49,Iran,IRN,525,539,3,AFC,1999-12-22
 50,Lithuania,LTU,524,527,0,UEFA,1999-12-22
 51,South Korea,KOR,522,551,10,AFC,1999-12-22
@@ -12132,7 +12132,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 52,South Korea,KOR,522,522,1,AFC,2000-01-19
 53,Angola,ANG,516,517,1,CAF,2000-01-19
 54,United Arab Emirates,UAE,515,515,0,AFC,2000-01-19
-48,Switzerland,SUI,531,531,1,UEFA,2000-01-19
+48,Switzerland,CHE,531,531,1,UEFA,2000-01-19
 40,Slovenia,SVN,544,544,0,UEFA,2000-01-19
 39,Saudi Arabia,KSA,556,556,0,AFC,2000-01-19
 38,Egypt,EGY,558,556,0,CAF,2000-01-19
@@ -12330,7 +12330,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 43,Iceland,ISL,540,535,-1,UEFA,2000-02-16
 41,Slovenia,SVN,543,544,1,UEFA,2000-02-16
 40,Saudi Arabia,KSA,554,556,1,AFC,2000-02-16
-52,Switzerland,SUI,529,531,4,UEFA,2000-02-16
+52,Switzerland,CHE,529,531,4,UEFA,2000-02-16
 39,Bulgaria,BUL,569,563,2,UEFA,2000-02-16
 45,Jamaica,JAM,537,539,4,CONCACAF,2000-02-16
 53,Ghana,GHA,526,526,3,CAF,2000-02-16
@@ -12557,7 +12557,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 50,Hungary,HUN,530,532,0,UEFA,2000-03-15
 92,Indonesia,IDN,408,409,2,AFC,2000-03-15
 51,Nigeria,NGA,530,529,0,CAF,2000-03-15
-52,Switzerland,SUI,530,529,0,UEFA,2000-03-15
+52,Switzerland,CHE,530,529,0,UEFA,2000-03-15
 53,Iran,IRN,526,536,6,AFC,2000-03-15
 54,Finland,FIN,525,524,-1,UEFA,2000-03-15
 55,United Arab Emirates,UAE,524,513,-2,AFC,2000-03-15
@@ -12805,7 +12805,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 52,Nigeria,NGA,528,530,1,CAF,2000-04-12
 53,Hungary,HUN,526,530,3,UEFA,2000-04-12
 54,Lithuania,LTU,523,524,-2,UEFA,2000-04-12
-55,Switzerland,SUI,523,530,3,UEFA,2000-04-12
+55,Switzerland,CHE,523,530,3,UEFA,2000-04-12
 56,United Arab Emirates,UAE,522,524,1,AFC,2000-04-12
 57,Ghana,GHA,519,522,0,CAF,2000-04-12
 58,Uzbekistan,UZB,519,520,0,AFC,2000-04-12
@@ -13106,7 +13106,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 54,Hungary,HUN,524,526,1,UEFA,2000-05-10
 55,Jamaica,JAM,523,530,4,CONCACAF,2000-05-10
 56,Japan,JPN,523,530,6,AFC,2000-05-10
-57,Switzerland,SUI,520,523,2,UEFA,2000-05-10
+57,Switzerland,CHE,520,523,2,UEFA,2000-05-10
 58,United Arab Emirates,UAE,520,522,2,AFC,2000-05-10
 59,Uzbekistan,UZB,517,519,1,AFC,2000-05-10
 60,Thailand,THA,515,508,0,AFC,2000-05-10
@@ -13160,7 +13160,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 55,Jamaica,JAM,522,523,0,CONCACAF,2000-06-07
 56,United Arab Emirates,UAE,518,520,-2,AFC,2000-06-07
 57,Japan,JPN,516,523,1,AFC,2000-06-07
-58,Switzerland,SUI,516,520,1,UEFA,2000-06-07
+58,Switzerland,CHE,516,520,1,UEFA,2000-06-07
 59,Canada,CAN,515,502,-4,CONCACAF,2000-06-07
 60,Thailand,THA,514,515,0,AFC,2000-06-07
 61,Uzbekistan,UZB,510,517,2,AFC,2000-06-07
@@ -13364,7 +13364,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 66,Ecuador,ECU,495,469,-5,CONMEBOL,2000-07-05
 79,Senegal,SEN,454,454,0,CAF,2000-07-05
 27,Tunisia,TUN,605,603,0,CAF,2000-07-05
-58,Switzerland,SUI,510,516,0,UEFA,2000-07-05
+58,Switzerland,CHE,510,516,0,UEFA,2000-07-05
 26,Slovakia,SVK,606,606,1,UEFA,2000-07-05
 25,Morocco,MAR,607,605,-1,CAF,2000-07-05
 24,Russia,RUS,616,618,0,UEFA,2000-07-05
@@ -13711,7 +13711,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 193,Brunei Darussalam,BRU,64,71,3,AFC,2000-08-09
 192,Djibouti,DJI,65,54,-2,CAF,2000-08-09
 191,Papua New Guinea,PNG,70,71,3,OFC,2000-08-09
-62,Switzerland,SUI,507,510,4,UEFA,2000-08-09
+62,Switzerland,CHE,507,510,4,UEFA,2000-08-09
 189,Seychelles,SEY,80,68,-2,CAF,2000-08-09
 188,Pakistan,PAK,80,81,1,AFC,2000-08-09
 187,Equatorial Guinea,EQG,90,66,-5,CAF,2000-08-09
@@ -13830,7 +13830,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 64,Zimbabwe,ZIM,500,483,-8,CAF,2000-09-06
 63,Saudi Arabia,KSA,507,517,6,AFC,2000-09-06
 62,Guatemala,GUA,510,513,2,CONCACAF,2000-09-06
-61,Switzerland,SUI,511,507,-1,UEFA,2000-09-06
+61,Switzerland,CHE,511,507,-1,UEFA,2000-09-06
 60,Ecuador,ECU,511,500,-5,CONMEBOL,2000-09-06
 59,United Arab Emirates,UAE,512,514,0,AFC,2000-09-06
 58,Canada,CAN,512,518,2,CONCACAF,2000-09-06
@@ -13947,7 +13947,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 64,Canada,CAN,506,512,6,CONCACAF,2000-10-11
 63,Thailand,THA,513,515,6,AFC,2000-10-11
 62,Georgia,GEO,515,492,-6,UEFA,2000-10-11
-61,Switzerland,SUI,516,511,0,UEFA,2000-10-11
+61,Switzerland,CHE,516,511,0,UEFA,2000-10-11
 60,Guatemala,GUA,521,510,-2,CONCACAF,2000-10-11
 59,United Arab Emirates,UAE,523,512,0,AFC,2000-10-11
 58,Ecuador,ECU,524,511,-2,CONMEBOL,2000-10-11
@@ -14172,7 +14172,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 84,Haiti,HAI,456,457,3,CONCACAF,2000-11-15
 61,Guatemala,GUA,521,521,1,CONCACAF,2000-11-15
 49,Iceland,ISL,551,533,-3,UEFA,2000-11-15
-59,Switzerland,SUI,526,516,-2,UEFA,2000-11-15
+59,Switzerland,CHE,526,516,-2,UEFA,2000-11-15
 37,Israel,ISR,585,573,0,UEFA,2000-11-15
 36,Uruguay,URU,585,582,2,CONMEBOL,2000-11-15
 35,Saudi Arabia,KSA,586,546,-12,AFC,2000-11-15
@@ -14501,7 +14501,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 55,Angola,ANG,539,539,2,CAF,2000-12-20
 56,Guatemala,GUA,532,521,-5,CONCACAF,2000-12-20
 57,Ghana,GHA,531,531,0,CAF,2000-12-20
-58,Switzerland,SUI,531,526,-1,UEFA,2000-12-20
+58,Switzerland,CHE,531,526,-1,UEFA,2000-12-20
 59,Finland,FIN,530,533,4,UEFA,2000-12-20
 60,Costa Rica,CRC,528,531,4,CONCACAF,2000-12-20
 61,Thailand,THA,521,518,-1,AFC,2000-12-20
@@ -14654,7 +14654,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 201,Bhutan,BHU,15,15,0,AFC,2001-01-17
 203,American Samoa,ASA,8,8,0,OFC,2001-01-17
 58,Ghana,GHA,531,531,1,CAF,2001-01-17
-59,Switzerland,SUI,531,531,1,UEFA,2001-01-17
+59,Switzerland,CHE,531,531,1,UEFA,2001-01-17
 60,Finland,FIN,529,530,1,UEFA,2001-01-17
 61,Thailand,THA,521,521,0,AFC,2001-01-17
 62,Cyprus,CYP,520,520,0,UEFA,2001-01-17
@@ -14829,7 +14829,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 62,Cyprus,CYP,519,520,0,UEFA,2001-02-14
 61,Thailand,THA,521,521,0,AFC,2001-02-14
 60,Finland,FIN,528,529,0,UEFA,2001-02-14
-59,Switzerland,SUI,529,531,0,UEFA,2001-02-14
+59,Switzerland,CHE,529,531,0,UEFA,2001-02-14
 58,Ghana,GHA,529,531,0,CAF,2001-02-14
 57,Guatemala,GUA,532,532,0,CONCACAF,2001-02-14
 56,Costa Rica,CRC,536,539,0,CONCACAF,2001-02-14
@@ -14972,7 +14972,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 56,Costa Rica,CRC,539,536,0,CONCACAF,2001-03-14
 55,Iceland,ISL,541,544,2,UEFA,2001-03-14
 54,Angola,ANG,541,542,-1,CAF,2001-03-14
-60,Switzerland,SUI,525,529,1,UEFA,2001-03-14
+60,Switzerland,CHE,525,529,1,UEFA,2001-03-14
 13,Romania,ROU,680,681,0,UEFA,2001-03-14
 69,Estonia,EST,502,498,2,UEFA,2001-03-14
 71,Macedonia,MKD,492,487,-1,UEFA,2001-03-14
@@ -15216,7 +15216,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 59,Guatemala,GUA,528,529,1,CONCACAF,2001-04-11
 58,Finland,FIN,529,535,1,UEFA,2001-04-11
 57,Iceland,ISL,537,541,2,UEFA,2001-04-11
-56,Switzerland,SUI,540,525,-4,UEFA,2001-04-11
+56,Switzerland,CHE,540,525,-4,UEFA,2001-04-11
 55,Nigeria,NGA,545,545,3,CAF,2001-04-11
 54,Zambia,ZAM,548,552,3,CAF,2001-04-11
 53,Angola,ANG,549,541,-1,CAF,2001-04-11
@@ -15416,7 +15416,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 60,Uzbekistan,UZB,525,485,-14,AFC,2001-05-16
 59,Guatemala,GUA,526,528,0,CONCACAF,2001-05-16
 47,Israel,ISR,564,571,4,UEFA,2001-05-16
-58,Switzerland,SUI,527,540,2,UEFA,2001-05-16
+58,Switzerland,CHE,527,540,2,UEFA,2001-05-16
 56,Zambia,ZAM,543,548,2,CAF,2001-05-16
 55,Iceland,ISL,546,537,-2,UEFA,2001-05-16
 54,Costa Rica,CRC,548,552,2,CONCACAF,2001-05-16
@@ -15682,7 +15682,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 101,Latvia,LVA,430,443,5,UEFA,2001-06-20
 63,China,CHN,527,515,0,AFC,2001-06-20
 62,Ghana,GHA,537,521,1,CAF,2001-06-20
-61,Switzerland,SUI,540,527,3,UEFA,2001-06-20
+61,Switzerland,CHE,540,527,3,UEFA,2001-06-20
 47,Costa Rica,CRC,578,548,-7,CONCACAF,2001-06-20
 60,Thailand,THA,541,517,-2,AFC,2001-06-20
 58,Zambia,ZAM,547,543,2,CAF,2001-06-20
@@ -15926,7 +15926,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 84,Belarus,BLR,480,480,0,UEFA,2001-07-18
 60,Zambia,ZAM,545,547,2,CAF,2001-07-18
 61,Thailand,THA,541,541,1,AFC,2001-07-18
-62,Switzerland,SUI,539,540,1,UEFA,2001-07-18
+62,Switzerland,CHE,539,540,1,UEFA,2001-07-18
 63,China,CHN,527,527,0,AFC,2001-07-18
 64,Uzbekistan,UZB,527,525,0,AFC,2001-07-18
 65,Togo,TOG,520,511,-2,CAF,2001-07-18
@@ -16127,7 +16127,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 40,Slovakia,SVK,601,608,5,UEFA,2001-08-22
 62,Thailand,THA,543,541,1,AFC,2001-08-22
 61,Guatemala,GUA,546,548,3,CONCACAF,2001-08-22
-60,Switzerland,SUI,549,539,-2,UEFA,2001-08-22
+60,Switzerland,CHE,549,539,-2,UEFA,2001-08-22
 59,Ghana,GHA,550,557,4,CAF,2001-08-22
 58,Zambia,ZAM,551,545,-2,CAF,2001-08-22
 57,Iceland,ISL,552,565,5,UEFA,2001-08-22
@@ -16347,7 +16347,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 59,Georgia,GEO,548,510,-13,UEFA,2001-09-19
 58,Zambia,ZAM,551,551,0,CAF,2001-09-19
 63,Thailand,THA,543,543,1,AFC,2001-09-19
-56,Switzerland,SUI,563,549,-4,UEFA,2001-09-19
+56,Switzerland,CHE,563,549,-4,UEFA,2001-09-19
 55,Angola,ANG,563,558,2,CAF,2001-09-19
 54,Jamaica,JAM,567,576,2,CONCACAF,2001-09-19
 53,Iceland,ISL,576,552,-4,UEFA,2001-09-19
@@ -16527,7 +16527,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 66,Zimbabwe,ZIM,533,529,-1,CAF,2001-10-17
 65,Senegal,SEN,534,525,-4,CAF,2001-10-17
 64,Thailand,THA,543,543,1,AFC,2001-10-17
-63,Switzerland,SUI,543,563,7,UEFA,2001-10-17
+63,Switzerland,CHE,543,563,7,UEFA,2001-10-17
 62,Guatemala,GUA,543,548,0,CONCACAF,2001-10-17
 61,Zambia,ZAM,545,551,3,CAF,2001-10-17
 60,Ghana,GHA,546,552,3,CAF,2001-10-17
@@ -16565,7 +16565,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 68,Zimbabwe,ZIM,533,533,2,CAF,2001-11-21
 67,Senegal,SEN,535,534,2,CAF,2001-11-21
 66,Guatemala,GUA,536,543,4,CONCACAF,2001-11-21
-65,Switzerland,SUI,539,543,2,UEFA,2001-11-21
+65,Switzerland,CHE,539,543,2,UEFA,2001-11-21
 64,Hungary,HUN,540,532,-3,UEFA,2001-11-21
 63,Zambia,ZAM,541,545,2,CAF,2001-11-21
 62,Uzbekistan,UZB,542,532,-6,AFC,2001-11-21
@@ -16906,7 +16906,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 36,Morocco,MAR,623,620,0,CAF,2001-12-19
 38,Cameroon,CMR,609,609,0,CAF,2001-12-19
 1,France,FRA,812,811,0,UEFA,2001-12-19
-63,Switzerland,SUI,540,539,-2,UEFA,2001-12-19
+63,Switzerland,CHE,540,539,-2,UEFA,2001-12-19
 65,Senegal,SEN,539,535,-2,CAF,2001-12-19
 92,Canada,CAN,458,468,5,CONCACAF,2001-12-19
 93,Lebanon,LBN,455,455,0,AFC,2001-12-19
@@ -16969,7 +16969,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 68,Senegal,SEN,536,539,3,CAF,2002-01-16
 67,Hungary,HUN,537,537,1,UEFA,2002-01-16
 66,Zimbabwe,ZIM,540,533,-2,CAF,2002-01-16
-65,Switzerland,SUI,540,540,2,UEFA,2002-01-16
+65,Switzerland,CHE,540,540,2,UEFA,2002-01-16
 64,Uzbekistan,UZB,542,542,2,AFC,2002-01-16
 63,Zambia,ZAM,543,540,-1,CAF,2002-01-16
 62,Thailand,THA,544,544,1,AFC,2002-01-16
@@ -17169,7 +17169,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 70,Iraq,IRQ,525,515,-2,AFC,2002-02-13
 69,Togo,TOG,527,525,0,CAF,2002-02-13
 68,Hungary,HUN,535,537,1,UEFA,2002-02-13
-67,Switzerland,SUI,538,540,2,UEFA,2002-02-13
+67,Switzerland,CHE,538,540,2,UEFA,2002-02-13
 66,Guatemala,GUA,541,550,7,CONCACAF,2002-02-13
 65,Uzbekistan,UZB,541,542,1,AFC,2002-02-13
 64,Zambia,ZAM,542,543,1,CAF,2002-02-13
@@ -17419,7 +17419,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 33,Poland,POL,630,627,-3,UEFA,2002-03-20
 60,Georgia,GEO,549,550,0,UEFA,2002-03-20
 61,Thailand,THA,548,543,-2,AFC,2002-03-20
-62,Switzerland,SUI,547,538,-5,UEFA,2002-03-20
+62,Switzerland,CHE,547,538,-5,UEFA,2002-03-20
 63,United Arab Emirates,UAE,546,548,2,AFC,2002-03-20
 64,Uzbekistan,UZB,541,541,-1,AFC,2002-03-20
 65,Guatemala,GUA,539,541,-1,CONCACAF,2002-03-20
@@ -17574,7 +17574,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 74,Canada,CAN,511,514,0,CONCACAF,2002-04-17
 78,Algeria,ALG,503,507,1,CAF,2002-04-17
 73,Bosnia-Herzegovina,BIH,513,517,0,UEFA,2002-04-17
-65,Switzerland,SUI,532,547,3,UEFA,2002-04-17
+65,Switzerland,CHE,532,547,3,UEFA,2002-04-17
 71,Republic of the Congo DR,COD,520,518,-1,CAF,2002-04-17
 70,Bolivia,BOL,524,526,0,CONMEBOL,2002-04-17
 69,Togo,TOG,525,527,0,CAF,2002-04-17
@@ -17888,7 +17888,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 61,Austria,AUT,543,547,1,UEFA,2002-05-15
 62,Guatemala,GUA,538,540,-1,CONCACAF,2002-05-15
 63,United Arab Emirates,UAE,536,542,1,AFC,2002-05-15
-64,Switzerland,SUI,531,532,-1,UEFA,2002-05-15
+64,Switzerland,CHE,531,532,-1,UEFA,2002-05-15
 42,Senegal,SEN,599,596,-1,CAF,2002-05-15
 41,Finland,FIN,600,601,-1,UEFA,2002-05-15
 40,South Korea,KOR,603,602,-1,AFC,2002-05-15
@@ -18027,7 +18027,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 67,Hungary,HUN,511,523,-1,UEFA,2002-07-03
 66,Zambia,ZAM,513,530,1,CAF,2002-07-03
 65,Guatemala,GUA,517,538,3,CONCACAF,2002-07-03
-64,Switzerland,SUI,518,531,0,UEFA,2002-07-03
+64,Switzerland,CHE,518,531,0,UEFA,2002-07-03
 63,Zimbabwe,ZIM,524,527,-3,CAF,2002-07-03
 62,Thailand,THA,527,544,2,AFC,2002-07-03
 61,United Arab Emirates,UAE,528,536,-2,AFC,2002-07-03
@@ -18293,7 +18293,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 33,Iran,IRN,633,634,0,AFC,2002-08-14
 35,Norway,NOR,621,625,-2,UEFA,2002-08-14
 64,Angola,ANG,516,531,4,CAF,2002-08-14
-65,Switzerland,SUI,510,518,1,UEFA,2002-08-14
+65,Switzerland,CHE,510,518,1,UEFA,2002-08-14
 66,Zambia,ZAM,510,513,0,CAF,2002-08-14
 67,Zimbabwe,ZIM,510,524,4,CAF,2002-08-14
 68,Guatemala,GUA,508,517,3,CONCACAF,2002-08-14
@@ -18467,7 +18467,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 52,Israel,ISR,542,532,-3,UEFA,2002-09-18
 53,China,CHN,534,546,2,AFC,2002-09-18
 54,Iceland,ISL,532,532,0,UEFA,2002-09-18
-55,Switzerland,SUI,532,510,-10,UEFA,2002-09-18
+55,Switzerland,CHE,532,510,-10,UEFA,2002-09-18
 56,Austria,AUT,530,522,-6,UEFA,2002-09-18
 57,Chile,CHI,529,547,7,CONMEBOL,2002-09-18
 48,New Zealand,NZL,558,558,1,OFC,2002-09-18
@@ -18725,7 +18725,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 49,New Zealand,NZL,561,558,1,OFC,2002-10-23
 47,Trinidad and Tobago,TRI,565,580,5,CONCACAF,2002-10-23
 46,Ukraine,UKR,576,559,-1,UEFA,2002-10-23
-45,Switzerland,SUI,576,532,-10,UEFA,2002-10-23
+45,Switzerland,CHE,576,532,-10,UEFA,2002-10-23
 44,Australia,AUS,577,579,1,AFC,2002-10-23
 43,Finland,FIN,583,572,-1,UEFA,2002-10-23
 42,Bulgaria,BUL,586,546,-8,UEFA,2002-10-23
@@ -18859,7 +18859,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 48,Greece,GRE,561,564,0,UEFA,2002-11-20
 47,Australia,AUS,571,577,3,AFC,2002-11-20
 46,Ukraine,UKR,574,576,0,UEFA,2002-11-20
-45,Switzerland,SUI,576,576,0,UEFA,2002-11-20
+45,Switzerland,CHE,576,576,0,UEFA,2002-11-20
 44,Trinidad and Tobago,TRI,578,565,-3,CONCACAF,2002-11-20
 13,Denmark,DEN,705,703,0,UEFA,2002-11-20
 43,Honduras,HON,582,592,2,CONCACAF,2002-11-20
@@ -19145,7 +19145,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 186,Nicaragua,NCA,101,78,-6,CONCACAF,2002-12-18
 42,Bulgaria,BUL,582,586,1,UEFA,2002-12-18
 43,Finland,FIN,580,582,1,UEFA,2002-12-18
-44,Switzerland,SUI,576,576,-1,UEFA,2002-12-18
+44,Switzerland,CHE,576,576,-1,UEFA,2002-12-18
 45,Ukraine,UKR,575,574,-1,UEFA,2002-12-18
 46,Israel,ISR,568,551,-5,UEFA,2002-12-18
 47,Trinidad and Tobago,TRI,567,578,3,CONCACAF,2002-12-18
@@ -19290,7 +19290,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 48,Greece,GRE,563,563,0,UEFA,2003-01-15
 47,Trinidad and Tobago,TRI,566,567,0,CONCACAF,2003-01-15
 46,Israel,ISR,568,568,0,UEFA,2003-01-15
-44,Switzerland,SUI,576,576,0,UEFA,2003-01-15
+44,Switzerland,CHE,576,576,0,UEFA,2003-01-15
 20,South Korea,KOR,669,669,0,AFC,2003-01-15
 43,Finland,FIN,580,580,0,UEFA,2003-01-15
 42,Bulgaria,BUL,582,582,0,UEFA,2003-01-15
@@ -19452,7 +19452,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 44,Bulgaria,BUL,580,582,2,UEFA,2003-02-19
 43,Finland,FIN,581,580,0,UEFA,2003-02-19
 42,Tunisia,TUN,586,586,1,CAF,2003-02-19
-41,Switzerland,SUI,589,576,-3,UEFA,2003-02-19
+41,Switzerland,CHE,589,576,-3,UEFA,2003-02-19
 40,Honduras,HON,589,591,0,CONCACAF,2003-02-19
 39,Egypt,EGY,593,596,0,CAF,2003-02-19
 38,Saudi Arabia,KSA,610,612,0,AFC,2003-02-19
@@ -19611,7 +19611,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 22,Russia,RUS,654,664,1,UEFA,2003-03-26
 43,Israel,ISR,580,579,-2,UEFA,2003-03-26
 42,Finland,FIN,582,581,-1,UEFA,2003-03-26
-41,Switzerland,SUI,587,589,0,UEFA,2003-03-26
+41,Switzerland,CHE,587,589,0,UEFA,2003-03-26
 40,Egypt,EGY,593,593,1,CAF,2003-03-26
 39,Honduras,HON,598,589,-1,CONCACAF,2003-03-26
 38,Saudi Arabia,KSA,608,610,0,AFC,2003-03-26
@@ -19897,7 +19897,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 40,Honduras,HON,595,598,1,CONCACAF,2003-04-23
 29,Romania,ROU,635,650,5,UEFA,2003-04-23
 41,Tunisia,TUN,593,579,-3,CAF,2003-04-23
-43,Switzerland,SUI,588,587,2,UEFA,2003-04-23
+43,Switzerland,CHE,588,587,2,UEFA,2003-04-23
 44,Israel,ISR,583,580,1,UEFA,2003-04-23
 45,Ukraine,UKR,583,576,-2,UEFA,2003-04-23
 46,Greece,GRE,581,573,-2,UEFA,2003-04-23
@@ -20159,7 +20159,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 44,Egypt,EGY,587,591,2,CAF,2003-05-21
 66,Algeria,ALG,517,514,-4,CAF,2003-05-21
 67,Ghana,GHA,516,520,3,CAF,2003-05-21
-43,Switzerland,SUI,588,588,0,UEFA,2003-05-21
+43,Switzerland,CHE,588,588,0,UEFA,2003-05-21
 68,China,CHN,513,526,6,AFC,2003-05-21
 69,Zambia,ZAM,512,515,0,CAF,2003-05-21
 70,Iceland,ISL,509,516,2,UEFA,2003-05-21
@@ -20260,7 +20260,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 42,Tunisia,TUN,596,596,2,CAF,2003-06-25
 42,Honduras,HON,596,608,5,CONCACAF,2003-06-25
 41,Iran,IRN,600,614,7,AFC,2003-06-25
-40,Switzerland,SUI,605,588,-3,UEFA,2003-06-25
+40,Switzerland,CHE,605,588,-3,UEFA,2003-06-25
 39,Egypt,EGY,606,587,-5,CAF,2003-06-25
 38,Bulgaria,BUL,612,611,3,UEFA,2003-06-25
 37,Morocco,MAR,613,604,-1,CAF,2003-06-25
@@ -20499,7 +20499,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 37,Bulgaria,BUL,610,612,-1,UEFA,2003-07-30
 38,Ecuador,ECU,608,616,2,CONMEBOL,2003-07-30
 39,Egypt,EGY,605,606,0,CAF,2003-07-30
-40,Switzerland,SUI,604,605,0,UEFA,2003-07-30
+40,Switzerland,CHE,604,605,0,UEFA,2003-07-30
 41,Honduras,HON,603,596,-1,CONCACAF,2003-07-30
 24,Japan,JPN,639,643,0,AFC,2003-07-30
 23,Norway,NOR,646,648,0,UEFA,2003-07-30
@@ -20698,7 +20698,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 38,Russia,RUS,610,622,6,UEFA,2003-08-27
 39,Egypt,EGY,599,605,0,CAF,2003-08-27
 40,Honduras,HON,598,603,-1,CONCACAF,2003-08-27
-40,Switzerland,SUI,598,604,0,UEFA,2003-08-27
+40,Switzerland,CHE,598,604,0,UEFA,2003-08-27
 42,Israel,ISR,595,591,-1,UEFA,2003-08-27
 43,Finland,FIN,593,585,-2,UEFA,2003-08-27
 44,Tunisia,TUN,582,590,0,CAF,2003-08-27
@@ -20925,7 +20925,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 41,Honduras,HON,593,598,1,CONCACAF,2003-09-24
 42,Tunisia,TUN,588,582,-2,CAF,2003-09-24
 43,Israel,ISR,583,595,1,UEFA,2003-09-24
-44,Switzerland,SUI,581,598,4,UEFA,2003-09-24
+44,Switzerland,CHE,581,598,4,UEFA,2003-09-24
 45,Iran,IRN,579,572,-2,AFC,2003-09-24
 46,Jamaica,JAM,576,577,1,CONCACAF,2003-09-24
 47,Ukraine,UKR,569,573,1,UEFA,2003-09-24
@@ -21118,7 +21118,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 40,Egypt,EGY,614,606,0,CAF,2003-10-22
 41,Finland,FIN,610,612,3,UEFA,2003-10-22
 42,Iran,IRN,599,579,-3,AFC,2003-10-22
-43,Switzerland,SUI,592,581,-1,UEFA,2003-10-22
+43,Switzerland,CHE,592,581,-1,UEFA,2003-10-22
 44,Honduras,HON,586,593,3,CONCACAF,2003-10-22
 45,Tunisia,TUN,576,588,3,CAF,2003-10-22
 46,Jamaica,JAM,573,576,0,CONCACAF,2003-10-22
@@ -21324,7 +21324,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 39,Bulgaria,BUL,615,615,0,UEFA,2003-11-19
 41,Colombia,COL,613,622,5,CONMEBOL,2003-11-19
 42,Finland,FIN,612,610,1,UEFA,2003-11-19
-43,Switzerland,SUI,592,592,0,UEFA,2003-11-19
+43,Switzerland,CHE,592,592,0,UEFA,2003-11-19
 44,Iraq,IRQ,588,553,-8,AFC,2003-11-19
 45,Honduras,HON,579,586,1,CONCACAF,2003-11-19
 46,Tunisia,TUN,572,576,1,CAF,2003-11-19
@@ -21539,7 +21539,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 41,Serbia and Montenegro,SCG,605,618,5,UEFA,2003-12-15
 42,Norway,NOR,604,615,3,UEFA,2003-12-15
 43,Iraq,IRQ,595,588,-1,AFC,2003-12-15
-44,Switzerland,SUI,592,592,1,UEFA,2003-12-15
+44,Switzerland,CHE,592,592,1,UEFA,2003-12-15
 45,Tunisia,TUN,580,572,-1,CAF,2003-12-15
 46,Jamaica,JAM,569,564,-1,CONCACAF,2003-12-15
 25,Poland,POL,656,652,1,UEFA,2003-12-15
@@ -21715,7 +21715,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 47,Honduras,HON,564,564,-2,CONCACAF,2004-01-14
 46,Jamaica,JAM,569,569,0,CONCACAF,2004-01-14
 45,Tunisia,TUN,580,580,0,CAF,2004-01-14
-44,Switzerland,SUI,592,592,0,UEFA,2004-01-14
+44,Switzerland,CHE,592,592,0,UEFA,2004-01-14
 56,Kuwait,KUW,548,566,8,AFC,2004-01-14
 43,Iraq,IRQ,594,595,0,AFC,2004-01-14
 41,Serbia and Montenegro,SCG,605,605,0,UEFA,2004-01-14
@@ -21940,7 +21940,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 42,Finland,FIN,607,610,2,UEFA,2004-02-18
 43,Serbia and Montenegro,SCG,602,605,2,UEFA,2004-02-18
 44,Iraq,IRQ,592,594,1,AFC,2004-02-18
-45,Switzerland,SUI,590,592,1,UEFA,2004-02-18
+45,Switzerland,CHE,590,592,1,UEFA,2004-02-18
 46,Mali,MLI,586,552,-5,CAF,2004-02-18
 47,Jordan,JOR,573,546,-12,AFC,2004-02-18
 48,Jamaica,JAM,570,569,2,CONCACAF,2004-02-18
@@ -22115,7 +22115,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 49,Zimbabwe,ZIM,566,567,0,CAF,2004-03-17
 48,Jamaica,JAM,576,570,0,CONCACAF,2004-03-17
 47,Jordan,JOR,583,573,0,AFC,2004-03-17
-45,Switzerland,SUI,586,590,0,UEFA,2004-03-17
+45,Switzerland,CHE,586,590,0,UEFA,2004-03-17
 45,Mali,MLI,586,586,-1,CAF,2004-03-17
 44,Iraq,IRQ,590,592,0,AFC,2004-03-17
 43,Serbia and Montenegro,SCG,597,602,0,UEFA,2004-03-17
@@ -22348,7 +22348,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 44,Serbia and Montenegro,SCG,591,597,1,UEFA,2004-04-14
 45,Iraq,IRQ,587,590,1,AFC,2004-04-14
 46,Mali,MLI,585,586,1,CAF,2004-04-14
-47,Switzerland,SUI,582,586,2,UEFA,2004-04-14
+47,Switzerland,CHE,582,586,2,UEFA,2004-04-14
 48,Venezuela,VEN,569,552,-6,CONMEBOL,2004-04-14
 1,Brazil,BRA,840,842,0,CONMEBOL,2004-04-14
 49,Zimbabwe,ZIM,566,566,0,CAF,2004-04-14
@@ -22441,7 +22441,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 54,Kuwait,KUW,548,550,-2,AFC,2004-05-12
 50,Jamaica,JAM,560,560,0,CONCACAF,2004-05-12
 51,Honduras,HON,552,556,-1,CONCACAF,2004-05-12
-47,Switzerland,SUI,578,582,0,UEFA,2004-05-12
+47,Switzerland,CHE,578,582,0,UEFA,2004-05-12
 52,Latvia,LVA,551,556,0,UEFA,2004-05-12
 53,Algeria,ALG,550,555,-1,CAF,2004-05-12
 54,Slovakia,SVK,548,553,-1,UEFA,2004-05-12
@@ -22651,7 +22651,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 44,Serbia and Montenegro,SCG,581,583,-1,UEFA,2004-06-09
 45,Iraq,IRQ,580,584,1,AFC,2004-06-09
 46,Mali,MLI,579,583,1,CAF,2004-06-09
-47,Switzerland,SUI,576,578,0,UEFA,2004-06-09
+47,Switzerland,CHE,576,578,0,UEFA,2004-06-09
 48,Zimbabwe,ZIM,560,563,0,CAF,2004-06-09
 49,Australia,AUS,558,486,-40,AFC,2004-06-09
 50,Venezuela,VEN,554,562,1,CONMEBOL,2004-06-09
@@ -22950,7 +22950,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 27,Poland,POL,653,652,1,UEFA,2004-07-07
 28,Senegal,SEN,651,652,2,CAF,2004-07-07
 29,Paraguay,PAR,650,654,4,CONMEBOL,2004-07-07
-45,Switzerland,SUI,577,576,-2,UEFA,2004-07-07
+45,Switzerland,CHE,577,576,-2,UEFA,2004-07-07
 44,Finland,FIN,578,586,2,UEFA,2004-07-07
 43,Iraq,IRQ,582,580,-2,AFC,2004-07-07
 42,Slovenia,SVN,598,608,1,UEFA,2004-07-07
@@ -23162,7 +23162,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 44,Serbia and Montenegro,SCG,583,574,-4,UEFA,2004-08-04
 45,Bahrain,BHR,582,559,-6,AFC,2004-08-04
 46,Mali,MLI,577,576,0,CAF,2004-08-04
-47,Switzerland,SUI,573,577,2,UEFA,2004-08-04
+47,Switzerland,CHE,573,577,2,UEFA,2004-08-04
 47,Zimbabwe,ZIM,573,576,1,CAF,2004-08-04
 38,Norway,NOR,612,613,0,UEFA,2004-08-04
 49,Finland,FIN,570,578,5,UEFA,2004-08-04
@@ -23395,7 +23395,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 21,Iran,IRN,690,680,-3,AFC,2004-09-01
 22,Sweden,SWE,686,685,2,UEFA,2004-09-01
 11,Germany,GER,714,712,-2,UEFA,2004-09-01
-49,Switzerland,SUI,569,573,2,UEFA,2004-09-01
+49,Switzerland,CHE,569,573,2,UEFA,2004-09-01
 50,Oman,OMA,568,569,0,AFC,2004-09-01
 51,Uzbekistan,UZB,566,566,0,AFC,2004-09-01
 80,Iceland,ISL,514,509,1,UEFA,2004-09-01
@@ -23531,7 +23531,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 45,Ivory Coast,CIV,585,555,-13,CAF,2004-10-06
 44,Mali,MLI,590,588,1,CAF,2004-10-06
 43,Slovenia,SVN,595,579,-3,UEFA,2004-10-06
-42,Switzerland,SUI,596,569,-7,UEFA,2004-10-06
+42,Switzerland,CHE,596,569,-7,UEFA,2004-10-06
 41,Bulgaria,BUL,601,595,0,UEFA,2004-10-06
 40,South Africa,RSA,604,609,1,CAF,2004-10-06
 39,Iraq,IRQ,607,601,-1,AFC,2004-10-06
@@ -23730,7 +23730,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 24,Paraguay,PAR,682,686,1,CONMEBOL,2004-11-10
 24,South Korea,KOR,682,681,-1,AFC,2004-11-10
 48,Bahrain,BHR,585,584,1,AFC,2004-11-10
-45,Switzerland,SUI,590,596,3,UEFA,2004-11-10
+45,Switzerland,CHE,590,596,3,UEFA,2004-11-10
 45,Iraq,IRQ,590,607,6,AFC,2004-11-10
 44,Ecuador,ECU,597,583,-4,CONMEBOL,2004-11-10
 43,Finland,FIN,598,585,-2,UEFA,2004-11-10
@@ -23948,7 +23948,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 54,Kuwait,KUW,585,570,-6,AFC,2004-12-20
 54,China,CHN,585,582,5,AFC,2004-12-20
 53,Slovakia,SVK,587,576,-2,UEFA,2004-12-20
-51,Switzerland,SUI,589,590,6,UEFA,2004-12-20
+51,Switzerland,CHE,589,590,6,UEFA,2004-12-20
 51,Mali,MLI,589,587,4,CAF,2004-12-20
 49,Jamaica,JAM,594,578,-4,CONCACAF,2004-12-20
 49,Bahrain,BHR,594,585,1,AFC,2004-12-20
@@ -24110,7 +24110,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 90,Canada,CAN,512,509,0,CONCACAF,2005-01-19
 53,Slovakia,SVK,587,587,0,UEFA,2005-01-19
 25,Poland,POL,671,672,0,UEFA,2005-01-19
-51,Switzerland,SUI,589,589,0,UEFA,2005-01-19
+51,Switzerland,CHE,589,589,0,UEFA,2005-01-19
 10,Italy,ITA,738,738,0,UEFA,2005-01-19
 11,United States,USA,726,726,0,CONCACAF,2005-01-19
 12,Republic of Ireland,IRL,716,716,0,UEFA,2005-01-19
@@ -24407,7 +24407,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 46,Jamaica,JAM,597,598,-1,CONCACAF,2005-02-16
 46,Serbia and Montenegro,SCG,597,599,0,UEFA,2005-02-16
 48,Uzbekistan,UZB,596,598,1,AFC,2005-02-16
-49,Switzerland,SUI,595,589,-2,UEFA,2005-02-16
+49,Switzerland,CHE,595,589,-2,UEFA,2005-02-16
 49,Ukraine,UKR,595,580,-8,UEFA,2005-02-16
 51,Israel,ISR,593,595,2,UEFA,2005-02-16
 52,Bahrain,BHR,591,592,2,AFC,2005-02-16
@@ -24628,7 +24628,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 46,Serbia and Montenegro,SCG,595,597,0,UEFA,2005-03-23
 46,Ukraine,UKR,595,595,-3,UEFA,2005-03-23
 46,Uzbekistan,UZB,595,596,-2,AFC,2005-03-23
-49,Switzerland,SUI,594,595,0,UEFA,2005-03-23
+49,Switzerland,CHE,594,595,0,UEFA,2005-03-23
 50,Honduras,HON,593,575,-8,CONCACAF,2005-03-23
 51,Belgium,BEL,592,598,7,UEFA,2005-03-23
 52,Bahrain,BHR,588,591,0,AFC,2005-03-23
@@ -24794,7 +24794,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 34,Ecuador,ECU,639,628,-2,CONMEBOL,2005-04-20
 33,Senegal,SEN,648,649,1,CAF,2005-04-20
 31,Russia,RUS,653,644,-2,UEFA,2005-04-20
-45,Switzerland,SUI,608,594,-4,UEFA,2005-04-20
+45,Switzerland,CHE,608,594,-4,UEFA,2005-04-20
 123,Benin,BEN,389,390,1,CAF,2005-04-20
 124,Yemen,YEM,383,383,1,AFC,2005-04-20
 125,Liberia,LBR,381,379,1,CAF,2005-04-20
@@ -25002,7 +25002,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 42,Belgium,BEL,611,615,1,UEFA,2005-05-18
 43,Bulgaria,BUL,608,620,3,UEFA,2005-05-18
 44,Ivory Coast,CIV,607,610,0,CAF,2005-05-18
-45,Switzerland,SUI,603,608,0,UEFA,2005-05-18
+45,Switzerland,CHE,603,608,0,UEFA,2005-05-18
 46,Serbia and Montenegro,SCG,601,600,-1,UEFA,2005-05-18
 25,Nigeria,NGA,671,678,1,CAF,2005-05-18
 24,Poland,POL,675,677,-1,UEFA,2005-05-18
@@ -25150,7 +25150,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 39,South Africa,RSA,630,624,1,CAF,2005-06-15
 40,Finland,FIN,621,626,3,UEFA,2005-06-15
 41,Jamaica,JAM,618,614,0,CONCACAF,2005-06-15
-42,Switzerland,SUI,616,603,-3,UEFA,2005-06-15
+42,Switzerland,CHE,616,603,-3,UEFA,2005-06-15
 43,Slovakia,SVK,607,598,-5,UEFA,2005-06-15
 50,Honduras,HON,594,595,0,CONCACAF,2005-06-15
 51,Bahrain,BHR,593,596,2,AFC,2005-06-15
@@ -25386,7 +25386,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 19,Denmark,DEN,698,713,3,UEFA,2005-07-20
 29,Nigeria,NGA,659,665,0,CAF,2005-07-20
 94,Lithuania,LTU,490,492,0,UEFA,2005-07-20
-42,Switzerland,SUI,624,616,0,UEFA,2005-07-20
+42,Switzerland,CHE,624,616,0,UEFA,2005-07-20
 96,Thailand,THA,485,499,8,AFC,2005-07-20
 170,Pakistan,PAK,188,166,-5,AFC,2005-07-20
 169,Eritrea,ERI,190,195,0,CAF,2005-07-20
@@ -25609,7 +25609,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 39,Honduras,HON,631,631,0,CONCACAF,2005-08-17
 40,Senegal,SEN,628,631,1,CAF,2005-08-17
 41,Jamaica,JAM,626,627,0,CONCACAF,2005-08-17
-42,Switzerland,SUI,622,624,0,UEFA,2005-08-17
+42,Switzerland,CHE,622,624,0,UEFA,2005-08-17
 43,Finland,FIN,617,619,0,UEFA,2005-08-17
 44,Ivory Coast,CIV,616,618,0,CAF,2005-08-17
 45,Slovakia,SVK,611,613,0,UEFA,2005-08-17
@@ -25811,7 +25811,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 35,Senegal,SEN,652,628,-5,CAF,2005-09-12
 25,Uruguay,URU,680,675,0,CONMEBOL,2005-09-12
 36,Morocco,MAR,649,642,2,CAF,2005-09-12
-38,Switzerland,SUI,643,622,-4,UEFA,2005-09-12
+38,Switzerland,CHE,643,622,-4,UEFA,2005-09-12
 39,Ukraine,UKR,636,639,3,UEFA,2005-09-12
 40,Finland,FIN,629,617,-3,UEFA,2005-09-12
 41,Jamaica,JAM,623,626,0,CONCACAF,2005-09-12
@@ -25986,7 +25986,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 27,Tunisia,TUN,689,687,4,CAF,2005-10-17
 40,Jamaica,JAM,626,623,-1,CONCACAF,2005-10-17
 39,Ukraine,UKR,636,636,0,UEFA,2005-10-17
-38,Switzerland,SUI,644,643,0,UEFA,2005-10-17
+38,Switzerland,CHE,644,643,0,UEFA,2005-10-17
 37,Norway,NOR,653,647,0,UEFA,2005-10-17
 36,Ecuador,ECU,655,658,3,CONMEBOL,2005-10-17
 35,Morocco,MAR,659,649,-1,CAF,2005-10-17
@@ -26135,7 +26135,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 8,United States,USA,766,768,1,CONCACAF,2005-11-21
 34,Russia,RUS,662,671,4,UEFA,2005-11-21
 197,Anguilla,AIA,55,56,0,CONCACAF,2005-11-21
-36,Switzerland,SUI,654,644,-2,UEFA,2005-11-21
+36,Switzerland,CHE,654,644,-2,UEFA,2005-11-21
 127,Andorra,AND,356,354,-1,UEFA,2005-11-21
 128,Ethiopia,ETH,351,354,0,CAF,2005-11-21
 128,Saint Kitts and Nevis,SKN,351,371,4,CONCACAF,2005-11-21
@@ -26426,7 +26426,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 38,Norway,NOR,649,649,0,UEFA,2005-12-16
 37,Ecuador,ECU,651,650,0,CONMEBOL,2005-12-16
 36,Morocco,MAR,655,655,1,CAF,2005-12-16
-35,Switzerland,SUI,656,654,-1,UEFA,2005-12-16
+35,Switzerland,CHE,656,654,-1,UEFA,2005-12-16
 45,Slovakia,SVK,621,619,0,UEFA,2005-12-16
 56,Guatemala,GUA,585,584,1,CONCACAF,2005-12-16
 58,Zambia,ZAM,579,579,1,CAF,2005-12-16
@@ -26620,7 +26620,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 33,Saudi Arabia,KSA,663,663,0,AFC,2006-01-18
 34,Russia,RUS,661,662,0,UEFA,2006-01-18
 35,Morocco,MAR,660,655,-1,CAF,2006-01-18
-36,Switzerland,SUI,655,656,1,UEFA,2006-01-18
+36,Switzerland,CHE,655,656,1,UEFA,2006-01-18
 37,Norway,NOR,649,649,-1,UEFA,2006-01-18
 38,Ecuador,ECU,647,651,1,CONMEBOL,2006-01-18
 28,Tunisia,TUN,685,685,0,CAF,2006-01-18
@@ -26906,7 +26906,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 41,Ukraine,UKR,627,629,1,UEFA,2006-02-15
 40,Bulgaria,BUL,638,638,1,UEFA,2006-02-15
 48,Australia,AUS,609,610,0,AFC,2006-02-15
-37,Switzerland,SUI,653,655,1,UEFA,2006-02-15
+37,Switzerland,CHE,653,655,1,UEFA,2006-02-15
 31,South Korea,KOR,679,680,2,AFC,2006-02-15
 98,Cyprus,CYP,470,472,1,UEFA,2006-02-15
 100,Lithuania,LTU,465,463,-2,UEFA,2006-02-15
@@ -27091,7 +27091,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 34,Saudi Arabia,KSA,660,661,-1,AFC,2006-03-15
 35,Russia,RUS,657,664,1,UEFA,2006-03-15
 68,Latvia,LVA,555,558,1,UEFA,2006-03-15
-35,Switzerland,SUI,657,653,-2,UEFA,2006-03-15
+35,Switzerland,CHE,657,653,-2,UEFA,2006-03-15
 26,Romania,ROU,691,685,-4,UEFA,2006-03-15
 42,Ukraine,UKR,624,627,1,UEFA,2006-03-15
 43,Honduras,HON,623,626,1,CONCACAF,2006-03-15
@@ -27219,7 +27219,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 32,Ivory Coast,CIV,668,671,0,CAF,2006-04-19
 33,Paraguay,PAR,657,666,0,CONMEBOL,2006-04-19
 34,Saudi Arabia,KSA,655,660,0,AFC,2006-04-19
-35,Switzerland,SUI,651,657,0,UEFA,2006-04-19
+35,Switzerland,CHE,651,657,0,UEFA,2006-04-19
 36,Morocco,MAR,649,653,-1,CAF,2006-04-19
 37,Russia,RUS,648,657,2,UEFA,2006-04-19
 38,Bulgaria,BUL,642,643,-1,UEFA,2006-04-19
@@ -27412,7 +27412,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 37,Bulgaria,BUL,645,642,-1,UEFA,2006-05-17
 49,Finland,FIN,599,604,0,UEFA,2006-05-17
 37,Russia,RUS,645,648,0,UEFA,2006-05-17
-35,Switzerland,SUI,648,651,0,UEFA,2006-05-17
+35,Switzerland,CHE,648,651,0,UEFA,2006-05-17
 34,Saudi Arabia,KSA,651,655,0,AFC,2006-05-17
 33,Paraguay,PAR,653,657,0,CONMEBOL,2006-05-17
 32,Ivory Coast,CIV,669,668,0,CAF,2006-05-17
@@ -27663,7 +27663,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 10,Czech Republic,CZE,1223,772,8,UEFA,2006-07-12
 11,Nigeria,NGA,1149,736,0,CAF,2006-07-12
 12,Cameroon,CMR,1109,722,-3,CAF,2006-07-12
-13,Switzerland,SUI,1028,648,-22,UEFA,2006-07-12
+13,Switzerland,CHE,1028,648,-22,UEFA,2006-07-12
 14,Uruguay,URU,985,689,-8,CONMEBOL,2006-07-12
 15,Ukraine,UKR,961,609,-30,UEFA,2006-07-12
 16,United States,USA,933,756,11,CONCACAF,2006-07-12
@@ -27782,7 +27782,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 16,Mexico,MEX,928,924,-2,CONCACAF,2006-08-16
 15,Ukraine,UKR,954,961,0,UEFA,2006-08-16
 14,Uruguay,URU,985,985,0,CONMEBOL,2006-08-16
-13,Switzerland,SUI,1028,1028,0,UEFA,2006-08-16
+13,Switzerland,CHE,1028,1028,0,UEFA,2006-08-16
 22,Guinea,GUI,850,850,-2,CAF,2006-08-16
 12,Cameroon,CMR,1109,1109,0,CAF,2006-08-16
 10,Czech Republic,CZE,1223,1223,0,UEFA,2006-08-16
@@ -27977,7 +27977,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 17,Mexico,MEX,891,928,1,CONCACAF,2006-09-13
 16,Denmark,DEN,940,927,-1,UEFA,2006-09-13
 15,Uruguay,URU,960,985,1,CONMEBOL,2006-09-13
-14,Switzerland,SUI,1016,1028,1,UEFA,2006-09-13
+14,Switzerland,CHE,1016,1028,1,UEFA,2006-09-13
 23,Ghana,GHA,830,839,-2,CAF,2006-09-13
 13,Ukraine,UKR,1029,954,-2,UEFA,2006-09-13
 11,Nigeria,NGA,1166,1156,0,CAF,2006-09-13
@@ -28173,7 +28173,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 18,Ivory Coast,CIV,893,879,-1,CAF,2006-10-18
 17,Uruguay,URU,903,960,2,CONMEBOL,2006-10-18
 16,Sweden,SWE,975,888,-2,UEFA,2006-10-18
-15,Switzerland,SUI,978,1016,1,UEFA,2006-10-18
+15,Switzerland,CHE,978,1016,1,UEFA,2006-10-18
 14,Greece,GRE,979,833,-8,UEFA,2006-10-18
 13,Ukraine,UKR,1054,1029,0,UEFA,2006-10-18
 12,Cameroon,CMR,1110,1062,0,CAF,2006-10-18
@@ -28353,7 +28353,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 14,Sweden,SWE,958,975,-2,UEFA,2006-11-22
 15,Croatia,CRO,948,882,-4,UEFA,2006-11-22
 16,Greece,GRE,945,979,2,UEFA,2006-11-22
-17,Switzerland,SUI,937,978,2,UEFA,2006-11-22
+17,Switzerland,CHE,937,978,2,UEFA,2006-11-22
 18,Ivory Coast,CIV,919,893,0,CAF,2006-11-22
 19,Romania,ROU,912,870,-4,UEFA,2006-11-22
 20,Mexico,MEX,887,882,1,CONCACAF,2006-11-22
@@ -28626,7 +28626,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 14,Sweden,SWE,958,958,0,UEFA,2006-12-18
 31,United States,USA,792,792,0,CONCACAF,2006-12-18
 15,Croatia,CRO,948,948,0,UEFA,2006-12-18
-17,Switzerland,SUI,937,937,0,UEFA,2006-12-18
+17,Switzerland,CHE,937,937,0,UEFA,2006-12-18
 18,Ivory Coast,CIV,919,919,0,CAF,2006-12-18
 19,Romania,ROU,912,912,0,UEFA,2006-12-18
 20,Mexico,MEX,883,887,0,CONCACAF,2006-12-18
@@ -28884,7 +28884,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 20,Romania,ROU,912,912,1,UEFA,2007-01-17
 19,Egypt,EGY,918,835,-8,CAF,2007-01-17
 18,Ivory Coast,CIV,919,919,0,CAF,2007-01-17
-17,Switzerland,SUI,937,937,0,UEFA,2007-01-17
+17,Switzerland,CHE,937,937,0,UEFA,2007-01-17
 16,Greece,GRE,945,945,0,UEFA,2007-01-17
 14,Sweden,SWE,958,958,0,UEFA,2007-01-17
 13,Ukraine,UKR,1054,1054,0,UEFA,2007-01-17
@@ -29007,7 +29007,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 11,Ukraine,UKR,1018,1054,-2,UEFA,2007-02-14
 12,Croatia,CRO,987,948,-3,UEFA,2007-02-14
 13,Greece,GRE,926,945,-3,UEFA,2007-02-14
-14,Switzerland,SUI,913,937,-3,UEFA,2007-02-14
+14,Switzerland,CHE,913,937,-3,UEFA,2007-02-14
 15,Romania,ROU,912,912,-5,UEFA,2007-02-14
 16,Sweden,SWE,894,958,2,UEFA,2007-02-14
 17,Cameroon,CMR,893,1160,6,CAF,2007-02-14
@@ -29232,7 +29232,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 14,Romania,ROU,919,912,-1,UEFA,2007-03-14
 15,Sweden,SWE,914,894,-1,UEFA,2007-03-14
 16,Scotland,SCO,911,854,-4,UEFA,2007-03-14
-17,Switzerland,SUI,906,913,3,UEFA,2007-03-14
+17,Switzerland,CHE,906,913,3,UEFA,2007-03-14
 18,Cameroon,CMR,893,893,1,CAF,2007-03-14
 19,Ghana,GHA,881,848,-3,CAF,2007-03-14
 20,Ivory Coast,CIV,875,853,-1,CAF,2007-03-14
@@ -29298,7 +29298,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 23,Uruguay,URU,862,841,-3,CONMEBOL,2007-04-18
 22,Denmark,DEN,863,862,0,UEFA,2007-04-18
 21,Poland,POL,870,850,-3,UEFA,2007-04-18
-20,Switzerland,SUI,877,906,3,UEFA,2007-04-18
+20,Switzerland,CHE,877,906,3,UEFA,2007-04-18
 19,Scotland,SCO,885,911,3,UEFA,2007-04-18
 18,Mexico,MEX,888,873,-3,CONCACAF,2007-04-18
 17,Türkiye,TUR,892,815,-10,UEFA,2007-04-18
@@ -29589,7 +29589,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 92,Lithuania,LTU,343,356,3,UEFA,2007-05-16
 19,Türkiye,TUR,896,892,2,UEFA,2007-05-16
 20,Mexico,MEX,891,888,2,CONCACAF,2007-05-16
-21,Switzerland,SUI,884,877,1,UEFA,2007-05-16
+21,Switzerland,CHE,884,877,1,UEFA,2007-05-16
 22,Sweden,SWE,867,857,-2,UEFA,2007-05-16
 23,Denmark,DEN,862,863,1,UEFA,2007-05-16
 23,Uruguay,URU,862,862,0,CONMEBOL,2007-05-16
@@ -29769,7 +29769,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 144,Swaziland,SWZ,139,110,-7,CAF,2007-06-13
 43,Senegal,SEN,691,692,4,CAF,2007-06-13
 27,Denmark,DEN,852,862,4,UEFA,2007-06-13
-25,Switzerland,SUI,869,884,4,UEFA,2007-06-13
+25,Switzerland,CHE,869,884,4,UEFA,2007-06-13
 11,Croatia,CRO,1080,1011,-1,UEFA,2007-06-13
 12,Romania,ROU,1068,930,-3,UEFA,2007-06-13
 13,Ukraine,UKR,1044,1040,2,UEFA,2007-06-13
@@ -29959,7 +29959,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 50,Peru,PER,567,480,-14,CONMEBOL,2007-07-18
 52,Canada,CAN,562,539,-4,CONCACAF,2007-07-18
 53,Ecuador,ECU,547,689,9,CONMEBOL,2007-07-18
-45,Switzerland,SUI,667,869,20,UEFA,2007-07-18
+45,Switzerland,CHE,667,869,20,UEFA,2007-07-18
 58,South Korea,KOR,511,597,7,AFC,2007-07-18
 99,Uganda,UGA,329,358,8,CAF,2007-07-18
 77,Algeria,ALG,402,457,10,CAF,2007-07-18
@@ -30200,7 +30200,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 42,Guinea,GUI,703,683,-1,CAF,2007-08-22
 43,Ghana,GHA,693,721,6,CAF,2007-08-22
 44,Iran,IRN,692,666,-2,AFC,2007-08-22
-45,Switzerland,SUI,668,667,0,UEFA,2007-08-22
+45,Switzerland,CHE,668,667,0,UEFA,2007-08-22
 46,Senegal,SEN,659,670,2,CAF,2007-08-22
 47,Chile,CHI,652,642,0,CONMEBOL,2007-08-22
 48,Mali,MLI,634,604,0,CAF,2007-08-22
@@ -30420,7 +30420,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 39,Bosnia-Herzegovina,BIH,686,905,14,UEFA,2007-09-19
 40,Iran,IRN,685,692,-4,AFC,2007-09-19
 40,Senegal,SEN,685,659,-6,CAF,2007-09-19
-42,Switzerland,SUI,683,668,-3,UEFA,2007-09-19
+42,Switzerland,CHE,683,668,-3,UEFA,2007-09-19
 43,Egypt,EGY,679,726,3,CAF,2007-09-19
 44,Finland,FIN,678,732,6,UEFA,2007-09-19
 45,Ghana,GHA,671,693,2,CAF,2007-09-19
@@ -30588,7 +30588,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 38,Iran,IRN,703,685,-2,AFC,2007-10-24
 39,Egypt,EGY,698,679,-4,CAF,2007-10-24
 40,Mali,MLI,694,613,-9,CAF,2007-10-24
-41,Switzerland,SUI,676,683,-1,UEFA,2007-10-24
+41,Switzerland,CHE,676,683,-1,UEFA,2007-10-24
 42,Morocco,MAR,674,688,4,CAF,2007-10-24
 34,Bulgaria,BUL,717,727,-1,UEFA,2007-10-24
 23,Cameroon,CMR,822,856,-2,CAF,2007-10-24
@@ -30686,7 +30686,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 30,Serbia,SRB,820,786,3,UEFA,2007-11-22
 31,Denmark,DEN,797,769,2,UEFA,2007-11-22
 110,Kazakhstan,KAZ,297,249,-12,UEFA,2007-11-22
-44,Switzerland,SUI,657,676,3,UEFA,2007-11-22
+44,Switzerland,CHE,657,676,3,UEFA,2007-11-22
 43,Ghana,GHA,659,632,-4,CAF,2007-11-22
 32,Northern Ireland,NIR,780,716,-4,UEFA,2007-11-22
 42,South Korea,KOR,660,633,-4,AFC,2007-11-22
@@ -31002,7 +31002,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 47,Tunisia,TUN,639,639,0,CAF,2007-12-17
 46,Mali,MLI,652,652,0,CAF,2007-12-17
 45,Chile,CHI,655,655,0,CONMEBOL,2007-12-17
-44,Switzerland,SUI,657,657,0,UEFA,2007-12-17
+44,Switzerland,CHE,657,657,0,UEFA,2007-12-17
 18,Bulgaria,BUL,881,877,0,UEFA,2007-12-17
 19,United States,USA,876,876,0,CONCACAF,2007-12-17
 49,Belgium,BEL,600,600,0,UEFA,2007-12-17
@@ -31181,7 +31181,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 41,South Korea,KOR,663,663,-1,AFC,2008-01-16
 41,Iran,IRN,663,677,0,AFC,2008-01-16
 43,Ghana,GHA,660,659,0,CAF,2008-01-16
-44,Switzerland,SUI,657,657,0,UEFA,2008-01-16
+44,Switzerland,CHE,657,657,0,UEFA,2008-01-16
 45,Chile,CHI,655,655,0,CONMEBOL,2008-01-16
 46,Tunisia,TUN,624,639,-1,CAF,2008-01-16
 47,Mali,MLI,622,652,1,CAF,2008-01-16
@@ -31410,7 +31410,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 65,Zambia,ZAM,494,474,-2,CAF,2008-02-13
 43,Belgium,BEL,636,600,-6,UEFA,2008-02-13
 43,Senegal,SEN,636,675,3,CAF,2008-02-13
-41,Switzerland,SUI,647,657,-3,UEFA,2008-02-13
+41,Switzerland,CHE,647,657,-3,UEFA,2008-02-13
 41,South Korea,KOR,647,663,0,AFC,2008-02-13
 19,Bulgaria,BUL,919,881,1,UEFA,2008-02-13
 20,Poland,POL,903,862,-3,UEFA,2008-02-13
@@ -31684,7 +31684,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 43,Honduras,HON,625,601,-7,CONCACAF,2008-03-12
 42,Belgium,BEL,635,636,-1,UEFA,2008-03-12
 41,Iran,IRN,645,656,2,AFC,2008-03-12
-40,Switzerland,SUI,650,647,-1,UEFA,2008-03-12
+40,Switzerland,CHE,650,647,-1,UEFA,2008-03-12
 39,Chile,CHI,658,654,-1,CONMEBOL,2008-03-12
 38,Australia,AUS,666,663,0,AFC,2008-03-12
 48,Guinea,GUI,611,611,1,CAF,2008-03-12
@@ -31779,7 +31779,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 103,Jamaica,JAM,321,325,0,CONCACAF,2008-04-09
 48,Belgium,BEL,620,635,6,UEFA,2008-04-09
 46,Morocco,MAR,621,607,-3,CAF,2008-04-09
-46,Switzerland,SUI,621,650,6,UEFA,2008-04-09
+46,Switzerland,CHE,621,650,6,UEFA,2008-04-09
 45,Senegal,SEN,627,622,1,CAF,2008-04-09
 44,Mali,MLI,629,621,-1,CAF,2008-04-09
 43,Australia,AUS,634,666,5,AFC,2008-04-09
@@ -31939,7 +31939,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 196,Afghanistan,AFG,11,11,0,AFC,2008-05-07
 195,Comoros,COM,13,13,0,CAF,2008-05-07
 49,Lithuania,LTU,616,620,1,UEFA,2008-05-07
-48,Switzerland,SUI,617,621,2,UEFA,2008-05-07
+48,Switzerland,CHE,617,621,2,UEFA,2008-05-07
 46,Belgium,BEL,627,620,-2,UEFA,2008-05-07
 46,Senegal,SEN,627,627,1,CAF,2008-05-07
 20,Israel,ISR,905,898,0,UEFA,2008-05-07
@@ -32220,7 +32220,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 41,Guinea,GUI,679,656,1,CAF,2008-06-04
 42,Republic of Ireland,IRL,674,641,1,UEFA,2008-06-04
 43,Senegal,SEN,667,627,-3,CAF,2008-06-04
-44,Switzerland,SUI,644,617,-4,UEFA,2008-06-04
+44,Switzerland,CHE,644,617,-4,UEFA,2008-06-04
 45,South Korea,KOR,632,612,-5,AFC,2008-06-04
 55,Angola,ANG,556,511,-10,CAF,2008-06-04
 46,Mali,MLI,630,632,2,CAF,2008-06-04
@@ -32409,7 +32409,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 42,Senegal,SEN,658,667,-1,CAF,2008-07-02
 43,Chile,CHI,654,623,-4,CONMEBOL,2008-07-02
 44,Finland,FIN,653,697,8,UEFA,2008-07-02
-45,Switzerland,SUI,645,644,1,UEFA,2008-07-02
+45,Switzerland,CHE,645,644,1,UEFA,2008-07-02
 46,Belgium,BEL,637,600,-3,UEFA,2008-07-02
 47,Tunisia,TUN,629,594,-3,CAF,2008-07-02
 48,Honduras,HON,624,696,11,CONCACAF,2008-07-02
@@ -32570,7 +32570,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 41,Republic of Ireland,IRL,666,666,0,UEFA,2008-08-06
 42,Finland,FIN,653,653,-2,UEFA,2008-08-06
 43,Senegal,SEN,649,658,1,CAF,2008-08-06
-44,Switzerland,SUI,645,645,-1,UEFA,2008-08-06
+44,Switzerland,CHE,645,645,-1,UEFA,2008-08-06
 45,Iran,IRN,643,689,8,AFC,2008-08-06
 46,Belgium,BEL,637,637,0,UEFA,2008-08-06
 40,Guinea,GUI,670,670,1,CAF,2008-08-06
@@ -32861,7 +32861,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 40,Chile,CHI,654,680,1,CONMEBOL,2008-09-03
 41,Guinea,GUI,650,670,1,CAF,2008-09-03
 42,Finland,FIN,649,653,0,UEFA,2008-09-03
-43,Switzerland,SUI,644,645,-1,UEFA,2008-09-03
+43,Switzerland,CHE,644,645,-1,UEFA,2008-09-03
 37,Morocco,MAR,671,690,0,CAF,2008-09-03
 28,United States,USA,788,767,-3,CONCACAF,2008-09-03
 27,Nigeria,NGA,791,788,0,CAF,2008-09-03
@@ -32943,7 +32943,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 47,Tunisia,TUN,624,643,3,CAF,2008-10-08
 46,Macedonia,MKD,637,519,-10,UEFA,2008-10-08
 85,South Africa,RSA,411,447,15,CAF,2008-10-08
-45,Switzerland,SUI,641,644,2,UEFA,2008-10-08
+45,Switzerland,CHE,641,644,2,UEFA,2008-10-08
 43,Finland,FIN,642,649,1,UEFA,2008-10-08
 42,Ecuador,ECU,661,556,-10,CONMEBOL,2008-10-08
 41,Guinea,GUI,670,650,0,CAF,2008-10-08
@@ -33120,7 +33120,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 62,Wales,WAL,518,518,1,UEFA,2008-11-12
 60,New Zealand,NZL,532,584,6,OFC,2008-11-12
 41,Lithuania,LTU,677,706,4,UEFA,2008-11-12
-27,Switzerland,SUI,799,641,-18,UEFA,2008-11-12
+27,Switzerland,CHE,799,641,-18,UEFA,2008-11-12
 39,Guinea,GUI,691,670,-2,CAF,2008-11-12
 17,Paraguay,PAR,934,860,-5,CONMEBOL,2008-11-12
 16,Bulgaria,BUL,951,969,1,UEFA,2008-11-12
@@ -33324,7 +33324,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 21,Romania,ROU,858,892,2,UEFA,2008-12-17
 22,United States,USA,853,834,-2,CONCACAF,2008-12-17
 23,Uruguay,URU,828,838,0,CONMEBOL,2008-12-17
-24,Switzerland,SUI,824,799,-3,UEFA,2008-12-17
+24,Switzerland,CHE,824,799,-3,UEFA,2008-12-17
 25,Ghana,GHA,815,805,-1,CAF,2008-12-17
 26,Mexico,MEX,811,827,1,CONCACAF,2008-12-17
 62,Burkina Faso,BFA,512,521,1,CAF,2008-12-17
@@ -33532,7 +33532,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 21,Romania,ROU,858,858,0,UEFA,2009-01-14
 22,United States,USA,853,853,0,CONCACAF,2009-01-14
 23,Uruguay,URU,828,828,0,CONMEBOL,2009-01-14
-24,Switzerland,SUI,824,824,0,UEFA,2009-01-14
+24,Switzerland,CHE,824,824,0,UEFA,2009-01-14
 11,Czech Republic,CZE,1007,1007,0,UEFA,2009-01-14
 54,Belgium,BEL,548,548,0,UEFA,2009-01-14
 200,Central African Republic,CTA,6,6,1,CAF,2009-01-14
@@ -33718,7 +33718,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 24,Mexico,MEX,791,811,-2,CONCACAF,2009-02-11
 23,Nigeria,NGA,827,891,6,CAF,2009-02-11
 22,Uruguay,URU,849,828,-1,CONMEBOL,2009-02-11
-21,Switzerland,SUI,857,824,-3,UEFA,2009-02-11
+21,Switzerland,CHE,857,824,-3,UEFA,2009-02-11
 20,United States,USA,858,853,-2,CONCACAF,2009-02-11
 19,Greece,GRE,864,872,-1,UEFA,2009-02-11
 18,Israel,ISR,877,877,-1,UEFA,2009-02-11
@@ -33926,7 +33926,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 19,Greece,GRE,863,864,0,UEFA,2009-03-11
 20,Romania,ROU,849,880,3,UEFA,2009-03-11
 21,Uruguay,URU,836,849,-1,CONMEBOL,2009-03-11
-22,Switzerland,SUI,831,857,1,UEFA,2009-03-11
+22,Switzerland,CHE,831,857,1,UEFA,2009-03-11
 23,Mexico,MEX,784,791,-1,CONCACAF,2009-03-11
 24,Nigeria,NGA,783,827,1,CAF,2009-03-11
 25,Sweden,SWE,782,780,0,UEFA,2009-03-11
@@ -34114,7 +34114,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 15,United States,USA,919,896,-2,CONCACAF,2009-04-08
 16,Uruguay,URU,909,836,-5,CONMEBOL,2009-04-08
 17,Paraguay,PAR,896,908,2,CONMEBOL,2009-04-08
-18,Switzerland,SUI,883,831,-4,UEFA,2009-04-08
+18,Switzerland,CHE,883,831,-4,UEFA,2009-04-08
 20,Bulgaria,BUL,840,756,-7,UEFA,2009-04-08
 38,Bosnia-Herzegovina,BIH,737,529,-20,UEFA,2009-04-08
 53,Iran,IRN,582,619,11,AFC,2009-04-08
@@ -34363,7 +34363,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 21,Israel,ISR,836,836,0,UEFA,2009-05-06
 20,Bulgaria,BUL,840,840,0,UEFA,2009-05-06
 19,Cameroon,CMR,871,871,0,CAF,2009-05-06
-18,Switzerland,SUI,883,883,0,UEFA,2009-05-06
+18,Switzerland,CHE,883,883,0,UEFA,2009-05-06
 17,Paraguay,PAR,906,896,0,CONMEBOL,2009-05-06
 16,Uruguay,URU,909,909,0,CONMEBOL,2009-05-06
 30,Nigeria,NGA,781,781,0,CAF,2009-05-06
@@ -34661,7 +34661,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 74,Wales,WAL,468,468,1,UEFA,2009-06-03
 72,Trinidad and Tobago,TRI,471,463,-2,CONCACAF,2009-06-03
 17,Greece,GRE,922,927,4,UEFA,2009-06-03
-16,Switzerland,SUI,931,883,-2,UEFA,2009-06-03
+16,Switzerland,CHE,931,883,-2,UEFA,2009-06-03
 15,Czech Republic,CZE,943,968,3,UEFA,2009-06-03
 14,United States,USA,947,919,-1,CONCACAF,2009-06-03
 13,Paraguay,PAR,961,906,-4,CONMEBOL,2009-06-03
@@ -34746,7 +34746,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 16,Australia,AUS,886,779,-13,AFC,2009-07-01
 15,Denmark,DEN,909,836,-9,UEFA,2009-07-01
 14,Serbia,SRB,925,870,-6,UEFA,2009-07-01
-13,Switzerland,SUI,930,931,-3,UEFA,2009-07-01
+13,Switzerland,CHE,930,931,-3,UEFA,2009-07-01
 22,Paraguay,PAR,846,961,9,CONMEBOL,2009-07-01
 12,United States,USA,983,947,-2,CONCACAF,2009-07-01
 10,Croatia,CRO,1031,1200,2,UEFA,2009-07-01
@@ -34983,7 +34983,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 16,Australia,AUS,896,886,0,AFC,2009-08-05
 6,Russia,RUS,1161,1161,0,UEFA,2009-08-05
 15,Denmark,DEN,909,909,0,UEFA,2009-08-05
-13,Switzerland,SUI,930,930,0,UEFA,2009-08-05
+13,Switzerland,CHE,930,930,0,UEFA,2009-08-05
 12,United States,USA,991,983,0,CONCACAF,2009-08-05
 11,Greece,GRE,1001,1001,0,UEFA,2009-08-05
 10,Croatia,CRO,1031,1031,0,UEFA,2009-08-05
@@ -35128,7 +35128,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 11,United States,USA,974,991,-1,CONCACAF,2009-09-02
 10,France,FRA,1040,1059,1,UEFA,2009-09-02
 9,Croatia,CRO,1101,1031,-1,UEFA,2009-09-02
-15,Switzerland,SUI,898,930,2,UEFA,2009-09-02
+15,Switzerland,CHE,898,930,2,UEFA,2009-09-02
 8,Argentina,ARG,1113,1080,0,CONMEBOL,2009-09-02
 69,Jamaica,JAM,477,489,0,CONCACAF,2009-09-02
 4,Italy,ITA,1186,1181,-1,UEFA,2009-09-02
@@ -35384,7 +35384,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 5,Germany,GER,1161,1186,1,UEFA,2009-10-16
 4,Italy,ITA,1215,1186,0,UEFA,2009-10-16
 3,Netherlands,NED,1340,1376,0,UEFA,2009-10-16
-13,Switzerland,SUI,961,898,-2,UEFA,2009-10-16
+13,Switzerland,CHE,961,898,-2,UEFA,2009-10-16
 77,Uganda,UGA,428,448,5,CAF,2009-10-16
 34,Republic of Ireland,IRL,755,743,-4,UEFA,2009-10-16
 79,Oman,OMA,417,432,5,AFC,2009-10-16
@@ -35533,7 +35533,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 19,Uruguay,URU,901,838,-6,CONMEBOL,2009-11-20
 180,Seychelles,SEY,44,44,0,CAF,2009-11-20
 20,Serbia,SRB,900,892,0,UEFA,2009-11-20
-18,Switzerland,SUI,924,961,5,UEFA,2009-11-20
+18,Switzerland,CHE,924,961,5,UEFA,2009-11-20
 17,Chile,CHI,926,909,0,CONMEBOL,2009-11-20
 16,Ivory Coast,CIV,927,903,-3,CAF,2009-11-20
 15,Mexico,MEX,931,904,-3,CONCACAF,2009-11-20
@@ -35837,7 +35837,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 15,Chile,CHI,936,926,-2,CONMEBOL,2009-12-16
 16,Ivory Coast,CIV,934,927,0,CAF,2009-12-16
 17,Mexico,MEX,931,931,2,CONCACAF,2009-12-16
-18,Switzerland,SUI,924,924,0,UEFA,2009-12-16
+18,Switzerland,CHE,924,924,0,UEFA,2009-12-16
 19,Serbia,SRB,916,900,-1,UEFA,2009-12-16
 46,Scotland,SCO,665,665,0,UEFA,2009-12-16
 47,Mali,MLI,662,662,0,CAF,2009-12-16
@@ -36032,7 +36032,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 15,Nigeria,NGA,956,848,-7,CAF,2010-02-03
 16,Chile,CHI,955,936,1,CONMEBOL,2010-02-03
 17,Mexico,MEX,947,931,0,CONCACAF,2010-02-03
-18,Switzerland,SUI,924,924,0,UEFA,2010-02-03
+18,Switzerland,CHE,924,924,0,UEFA,2010-02-03
 19,Serbia,SRB,916,916,0,UEFA,2010-02-03
 20,Cameroon,CMR,914,1035,9,CAF,2010-02-03
 21,Uruguay,URU,909,909,1,CONMEBOL,2010-02-03
@@ -36103,7 +36103,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 13,Serbia,SRB,980,916,-6,UEFA,2010-03-03
 14,Chile,CHI,971,955,-2,CONMEBOL,2010-03-03
 15,Mexico,MEX,968,947,-2,CONCACAF,2010-03-03
-15,Switzerland,SUI,968,924,-3,UEFA,2010-03-03
+15,Switzerland,CHE,968,924,-3,UEFA,2010-03-03
 17,Egypt,EGY,967,1069,7,CAF,2010-03-03
 18,United States,USA,954,963,4,CONCACAF,2010-03-03
 19,Uruguay,URU,936,909,-2,CONMEBOL,2010-03-03
@@ -36478,7 +36478,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 16,United States,USA,948,954,-2,CONCACAF,2010-03-31
 18,Uruguay,URU,902,936,-1,CONMEBOL,2010-03-31
 19,Australia,AUS,898,867,-4,AFC,2010-03-31
-20,Switzerland,SUI,887,968,5,UEFA,2010-03-31
+20,Switzerland,CHE,887,968,5,UEFA,2010-03-31
 20,Cameroon,CMR,887,888,0,CAF,2010-03-31
 22,Nigeria,NGA,883,879,1,CAF,2010-03-31
 23,Paraguay,PAR,855,815,-6,CONMEBOL,2010-03-31
@@ -36652,7 +36652,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 23,Slovenia,SVN,860,810,-6,UEFA,2010-04-28
 24,Israel,ISR,857,811,-4,UEFA,2010-04-28
 25,Ukraine,UKR,855,837,-1,UEFA,2010-04-28
-26,Switzerland,SUI,854,887,6,UEFA,2010-04-28
+26,Switzerland,CHE,854,887,6,UEFA,2010-04-28
 27,Ivory Coast,CIV,846,846,2,CAF,2010-04-28
 28,Romania,ROU,843,798,-4,UEFA,2010-04-28
 30,Paraguay,PAR,822,855,7,CONMEBOL,2010-04-28
@@ -36816,7 +36816,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 45,Japan,JPN,682,674,0,AFC,2010-05-26
 46,Latvia,LVA,652,652,0,UEFA,2010-05-26
 100,Armenia,ARM,311,311,1,UEFA,2010-05-26
-24,Switzerland,SUI,866,854,-2,UEFA,2010-05-26
+24,Switzerland,CHE,866,854,-2,UEFA,2010-05-26
 23,Ukraine,UKR,875,855,-2,UEFA,2010-05-26
 22,Norway,NOR,882,879,0,UEFA,2010-05-26
 1,Brazil,BRA,1611,1611,0,CONMEBOL,2010-05-26
@@ -37018,7 +37018,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 21,France,FRA,890,1044,12,UEFA,2010-07-14
 20,Australia,AUS,911,886,0,AFC,2010-07-14
 19,Slovenia,SVN,917,860,-6,UEFA,2010-07-14
-18,Switzerland,SUI,940,866,-6,UEFA,2010-07-14
+18,Switzerland,CHE,940,866,-6,UEFA,2010-07-14
 17,Russia,RUS,956,1015,6,UEFA,2010-07-14
 16,Paraguay,PAR,961,820,-15,CONMEBOL,2010-07-14
 15,Croatia,CRO,968,1041,5,UEFA,2010-07-14
@@ -37178,7 +37178,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 178,Cambodia,CAM,33,33,-2,AFC,2010-08-11
 180,Mongolia,MNG,32,32,-2,AFC,2010-08-11
 180,Belize,BLZ,32,32,-2,CONCACAF,2010-08-11
-17,Switzerland,SUI,940,940,-1,UEFA,2010-08-11
+17,Switzerland,CHE,940,940,-1,UEFA,2010-08-11
 16,Russia,RUS,956,956,-1,UEFA,2010-08-11
 15,Paraguay,PAR,961,961,-1,CONMEBOL,2010-08-11
 14,Croatia,CRO,968,968,-1,UEFA,2010-08-11
@@ -37492,7 +37492,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 92,Oman,OMA,344,377,11,AFC,2010-09-15
 94,Syria,SYR,332,336,2,AFC,2010-09-15
 201,Timor-Leste,TLS,4,4,1,AFC,2010-09-15
-21,Switzerland,SUI,882,940,4,UEFA,2010-09-15
+21,Switzerland,CHE,882,940,4,UEFA,2010-09-15
 93,Angola,ANG,342,357,6,CAF,2010-09-15
 59,Bosnia-Herzegovina,BIH,544,546,2,UEFA,2010-09-15
 159,Liechtenstein,LIE,91,102,10,UEFA,2010-10-20
@@ -37654,7 +37654,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 20,Slovakia,SVK,865,919,4,UEFA,2010-10-20
 21,Australia,AUS,862,874,-3,AFC,2010-10-20
 22,Serbia,SRB,861,945,7,UEFA,2010-10-20
-23,Switzerland,SUI,842,882,2,UEFA,2010-10-20
+23,Switzerland,CHE,842,882,2,UEFA,2010-10-20
 24,Paraguay,PAR,840,904,7,CONMEBOL,2010-10-20
 43,Bulgaria,BUL,604,556,-11,UEFA,2010-10-20
 82,Cape Verde,CPV,408,422,5,CAF,2010-10-20
@@ -37847,7 +37847,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 49,Austria,AUT,572,574,0,UEFA,2010-11-17
 47,Colombia,COL,575,584,1,CONMEBOL,2010-11-17
 46,Lithuania,LTU,576,577,-2,UEFA,2010-11-17
-21,Switzerland,SUI,852,842,-2,UEFA,2010-11-17
+21,Switzerland,CHE,852,842,-2,UEFA,2010-11-17
 20,Australia,AUS,853,862,-1,AFC,2010-11-17
 76,Macedonia,MKD,439,455,6,UEFA,2010-11-17
 77,Malawi,MWI,423,403,-7,CAF,2010-11-17
@@ -37913,7 +37913,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 25,Montenegro,MNE,824,827,-1,UEFA,2010-12-15
 24,Paraguay,PAR,832,850,1,CONMEBOL,2010-12-15
 23,Serbia,SRB,837,828,-2,UEFA,2010-12-15
-22,Switzerland,SUI,840,852,1,UEFA,2010-12-15
+22,Switzerland,CHE,840,852,1,UEFA,2010-12-15
 21,Ivory Coast,CIV,846,857,2,CAF,2010-12-15
 20,Slovakia,SVK,854,866,2,UEFA,2010-12-15
 18,France,FRA,867,852,-3,UEFA,2010-12-15
@@ -38266,7 +38266,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 18,France,FRA,867,867,0,UEFA,2011-01-12
 20,Slovakia,SVK,854,854,0,UEFA,2011-01-12
 21,Ivory Coast,CIV,845,846,0,CAF,2011-01-12
-22,Switzerland,SUI,841,841,0,UEFA,2011-01-12
+22,Switzerland,CHE,841,841,0,UEFA,2011-01-12
 23,Serbia,SRB,837,837,0,UEFA,2011-01-12
 24,Paraguay,PAR,832,832,0,CONMEBOL,2011-01-12
 25,Montenegro,MNE,824,824,0,UEFA,2011-01-12
@@ -38375,7 +38375,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 25,Montenegro,MNE,824,824,0,UEFA,2011-02-02
 24,Paraguay,PAR,832,832,0,CONMEBOL,2011-02-02
 23,Serbia,SRB,837,837,0,UEFA,2011-02-02
-22,Switzerland,SUI,841,841,0,UEFA,2011-02-02
+22,Switzerland,CHE,841,841,0,UEFA,2011-02-02
 21,Australia,AUS,849,796,-5,AFC,2011-02-02
 29,Sweden,SWE,759,712,-4,UEFA,2011-02-02
 10,Greece,GRE,1016,1016,-1,UEFA,2011-02-02
@@ -38623,7 +38623,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 37,Belarus,BLR,634,655,1,UEFA,2011-03-09
 25,Montenegro,MNE,824,824,0,UEFA,2011-03-09
 24,Paraguay,PAR,835,832,0,CONMEBOL,2011-03-09
-23,Switzerland,SUI,839,840,1,UEFA,2011-03-09
+23,Switzerland,CHE,839,840,1,UEFA,2011-03-09
 22,Slovakia,SVK,861,854,2,UEFA,2011-03-09
 21,Serbia,SRB,872,837,-2,UEFA,2011-03-09
 20,Australia,AUS,873,849,-1,AFC,2011-03-09
@@ -38843,7 +38843,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 28,Denmark,DEN,808,788,0,UEFA,2011-04-13
 27,Slovakia,SVK,809,861,5,UEFA,2011-04-13
 26,Mexico,MEX,818,811,-1,CONCACAF,2011-04-13
-25,Switzerland,SUI,819,839,2,UEFA,2011-04-13
+25,Switzerland,CHE,819,839,2,UEFA,2011-04-13
 24,Montenegro,MNE,820,824,-1,UEFA,2011-04-13
 33,Israel,ISR,709,532,-25,UEFA,2011-04-13
 200,United States Virgin Islands,VIR,3,5,0,CONCACAF,2011-04-13
@@ -38976,7 +38976,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 6,England,ENG,1163,1163,0,UEFA,2011-05-18
 5,Argentina,ARG,1267,1276,0,CONMEBOL,2011-05-18
 4,Germany,GER,1413,1386,0,UEFA,2011-05-18
-25,Switzerland,SUI,819,819,0,UEFA,2011-05-18
+25,Switzerland,CHE,819,819,0,UEFA,2011-05-18
 50,Colombia,COL,564,568,1,CONMEBOL,2011-05-18
 26,Slovakia,SVK,809,809,-1,UEFA,2011-05-18
 28,Sweden,SWE,802,802,-1,UEFA,2011-05-18
@@ -39121,7 +39121,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 31,Republic of Ireland,IRL,752,681,-3,UEFA,2011-06-29
 30,Israel,ISR,771,709,-3,UEFA,2011-06-29
 44,Honduras,HON,613,603,1,CONCACAF,2011-06-29
-29,Switzerland,SUI,777,819,4,UEFA,2011-06-29
+29,Switzerland,CHE,777,819,4,UEFA,2011-06-29
 45,Hungary,HUN,603,559,-7,UEFA,2011-06-29
 47,South Africa,RSA,597,653,9,CAF,2011-06-29
 134,Rwanda,RWA,189,228,12,CAF,2011-06-29
@@ -39364,7 +39364,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 189,Samoa,SAM,26,26,2,OFC,2011-07-27
 29,Slovakia,SVK,779,779,1,UEFA,2011-07-27
 36,Ghana,GHA,696,735,3,CAF,2011-07-27
-30,Switzerland,SUI,777,777,1,UEFA,2011-07-27
+30,Switzerland,CHE,777,777,1,UEFA,2011-07-27
 59,Albania,ALB,524,524,0,UEFA,2011-07-27
 60,Gabon,GAB,517,517,0,CAF,2011-07-27
 61,Scotland,SCO,513,513,0,UEFA,2011-07-27
@@ -39609,7 +39609,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 64,Libya,LBY,504,494,1,CAF,2011-08-24
 101,Bahrain,BHR,325,329,1,AFC,2011-08-24
 29,Serbia,SRB,784,797,2,UEFA,2011-08-24
-30,Switzerland,SUI,757,778,0,UEFA,2011-08-24
+30,Switzerland,CHE,757,778,0,UEFA,2011-08-24
 8,Portugal,POR,1060,1076,1,UEFA,2011-08-24
 31,Republic of Ireland,IRL,754,752,-2,UEFA,2011-08-24
 32,Israel,ISR,746,771,0,UEFA,2011-08-24
@@ -39854,7 +39854,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 15,Japan,JPN,924,918,0,AFC,2011-09-21
 16,Ivory Coast,CIV,910,918,1,CAF,2011-09-21
 17,Denmark,DEN,893,841,-4,UEFA,2011-09-21
-18,Switzerland,SUI,886,757,-12,UEFA,2011-09-21
+18,Switzerland,CHE,886,757,-12,UEFA,2011-09-21
 19,Australia,AUS,882,837,-3,AFC,2011-09-21
 20,Mexico,MEX,866,864,0,CONCACAF,2011-09-21
 21,Serbia,SRB,855,784,-8,UEFA,2011-09-21
@@ -40107,7 +40107,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 21,Bosnia-Herzegovina,BIH,864,839,-1,UEFA,2011-10-19
 20,Australia,AUS,868,882,1,AFC,2011-10-19
 19,Ivory Coast,CIV,898,910,3,CAF,2011-10-19
-18,Switzerland,SUI,920,886,0,UEFA,2011-10-19
+18,Switzerland,CHE,920,886,0,UEFA,2011-10-19
 17,Japan,JPN,924,924,2,AFC,2011-10-19
 16,Chile,CHI,941,932,2,CONMEBOL,2011-10-19
 15,France,FRA,953,956,3,UEFA,2011-10-19
@@ -40182,7 +40182,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 44,Senegal,SEN,625,626,2,CAF,2011-11-23
 19,Japan,JPN,884,924,2,AFC,2011-11-23
 18,Sweden,SWE,891,955,4,UEFA,2011-11-23
-17,Switzerland,SUI,898,920,-1,UEFA,2011-11-23
+17,Switzerland,CHE,898,920,-1,UEFA,2011-11-23
 16,Ivory Coast,CIV,912,898,-3,CAF,2011-11-23
 15,France,FRA,915,953,0,UEFA,2011-11-23
 14,Greece,GRE,964,1044,6,UEFA,2011-11-23
@@ -40317,7 +40317,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 124,Benin,BEN,257,260,5,CAF,2011-11-23
 121,Namibia,NAM,264,248,-6,CAF,2011-11-23
 11,Denmark,DEN,1035,1035,0,UEFA,2011-12-21
-17,Switzerland,SUI,898,898,0,UEFA,2011-12-21
+17,Switzerland,CHE,898,898,0,UEFA,2011-12-21
 16,Ivory Coast,CIV,912,912,0,CAF,2011-12-21
 15,France,FRA,915,915,0,UEFA,2011-12-21
 14,Greece,GRE,964,964,0,UEFA,2011-12-21
@@ -40622,7 +40622,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 118,The Gambia,GAM,271,285,2,CAF,2012-01-18
 120,Sudan,SDN,265,297,7,CAF,2012-01-18
 48,Scotland,SCO,599,599,1,UEFA,2012-01-18
-16,Switzerland,SUI,898,898,-1,UEFA,2012-01-18
+16,Switzerland,CHE,898,898,-1,UEFA,2012-01-18
 45,Nigeria,NGA,612,627,2,CAF,2012-01-18
 176,Tonga,TGA,88,88,0,OFC,2012-01-18
 177,Afghanistan,AFG,85,85,0,AFC,2012-01-18
@@ -40899,7 +40899,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 11,Argentina,ARG,1081,1067,1,CONMEBOL,2012-02-15
 10,Denmark,DEN,1090,1032,-1,UEFA,2012-02-15
 9,Croatia,CRO,1101,1091,1,UEFA,2012-02-15
-16,Switzerland,SUI,950,898,0,UEFA,2012-02-15
+16,Switzerland,CHE,950,898,0,UEFA,2012-02-15
 8,Italy,ITA,1115,1082,-1,UEFA,2012-02-15
 5,England,ENG,1179,1173,0,UEFA,2012-02-15
 4,Uruguay,URU,1317,1309,0,CONMEBOL,2012-02-15
@@ -40986,7 +40986,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 21,Bosnia-Herzegovina,BIH,850,920,2,UEFA,2012-03-07
 20,Australia,AUS,868,832,-2,AFC,2012-03-07
 19,Republic of Ireland,IRL,872,893,-1,UEFA,2012-03-07
-18,Switzerland,SUI,891,950,2,UEFA,2012-03-07
+18,Switzerland,CHE,891,950,2,UEFA,2012-03-07
 17,Sweden,SWE,926,924,-1,UEFA,2012-03-07
 16,France,FRA,938,930,-1,UEFA,2012-03-07
 15,Ivory Coast,CIV,944,967,0,CAF,2012-03-07
@@ -41208,7 +41208,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 199,British Virgin Islands,VGB,13,23,2,CONCACAF,2012-04-11
 204,Timor-Leste,TLS,2,2,0,AFC,2012-04-11
 202,Mauritania,MTN,4,4,-1,CAF,2012-04-11
-18,Switzerland,SUI,891,891,0,UEFA,2012-04-11
+18,Switzerland,CHE,891,891,0,UEFA,2012-04-11
 20,Mexico,MEX,868,849,-2,CONCACAF,2012-04-11
 21,Australia,AUS,862,868,1,AFC,2012-04-11
 22,Ghana,GHA,816,820,-1,CAF,2012-04-11
@@ -41395,7 +41395,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 22,Ghana,GHA,816,816,0,CAF,2012-05-09
 21,Australia,AUS,862,862,0,AFC,2012-05-09
 20,Mexico,MEX,867,868,0,CONCACAF,2012-05-09
-18,Switzerland,SUI,891,891,0,UEFA,2012-05-09
+18,Switzerland,CHE,891,891,0,UEFA,2012-05-09
 18,Republic of Ireland,IRL,891,891,0,UEFA,2012-05-09
 17,Sweden,SWE,931,931,0,UEFA,2012-05-09
 16,France,FRA,938,938,0,UEFA,2012-05-09
@@ -41737,7 +41737,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 25,Ghana,GHA,818,816,3,CAF,2012-06-06
 23,Japan,JPN,822,753,-7,AFC,2012-06-06
 22,Paraguay,PAR,833,801,-3,CONMEBOL,2012-06-06
-21,Switzerland,SUI,868,891,3,UEFA,2012-06-06
+21,Switzerland,CHE,868,891,3,UEFA,2012-06-06
 20,Colombia,COL,880,812,-3,CONMEBOL,2012-06-06
 19,Mexico,MEX,889,867,-1,CONCACAF,2012-06-06
 18,Republic of Ireland,IRL,907,891,0,UEFA,2012-06-06
@@ -41884,7 +41884,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 18,Czech Republic,CZE,854,771,-9,UEFA,2012-07-04
 19,Mexico,MEX,832,889,0,CONCACAF,2012-07-04
 20,Japan,JPN,829,822,-3,AFC,2012-07-04
-21,Switzerland,SUI,828,868,0,UEFA,2012-07-04
+21,Switzerland,CHE,828,868,0,UEFA,2012-07-04
 22,Colombia,COL,814,880,2,CONMEBOL,2012-07-04
 23,Australia,AUS,807,820,-1,AFC,2012-07-04
 24,Norway,NOR,780,787,-2,UEFA,2012-07-04
@@ -42128,7 +42128,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 19,Czech Republic,CZE,854,854,1,UEFA,2012-08-08
 20,Ecuador,ECU,836,752,-7,CONMEBOL,2012-08-08
 22,Japan,JPN,829,829,2,AFC,2012-08-08
-23,Switzerland,SUI,828,828,2,UEFA,2012-08-08
+23,Switzerland,CHE,828,828,2,UEFA,2012-08-08
 154,Hong Kong,HKG,147,132,-6,AFC,2012-08-08
 13,Brazil,BRA,991,1012,2,CONMEBOL,2012-08-08
 129,The Gambia,GAM,251,251,1,CAF,2012-08-08
@@ -42296,7 +42296,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 16,Ivory Coast,CIV,912,939,0,CAF,2012-09-05
 17,Ecuador,ECU,890,836,-3,CONMEBOL,2012-09-05
 18,Sweden,SWE,875,909,1,UEFA,2012-09-05
-20,Switzerland,SUI,847,828,-3,UEFA,2012-09-05
+20,Switzerland,CHE,847,828,-3,UEFA,2012-09-05
 22,Colombia,COL,843,835,1,CONMEBOL,2012-09-05
 23,Japan,JPN,793,829,1,AFC,2012-09-05
 24,Slovenia,SVN,784,706,-9,UEFA,2012-09-05
@@ -42505,7 +42505,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 12,Russia,RUS,1014,990,-1,UEFA,2012-10-03
 49,Hungary,HUN,593,663,12,UEFA,2012-10-03
 13,France,FRA,1011,965,-2,UEFA,2012-10-03
-15,Switzerland,SUI,983,847,-5,UEFA,2012-10-03
+15,Switzerland,CHE,983,847,-5,UEFA,2012-10-03
 16,Ivory Coast,CIV,951,912,0,CAF,2012-10-03
 17,Chile,CHI,948,984,3,CONMEBOL,2012-10-03
 18,Denmark,DEN,944,1006,8,UEFA,2012-10-03
@@ -42664,7 +42664,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 19,Algeria,ALG,907,802,-5,CAF,2012-11-07
 18,France,FRA,938,1011,5,UEFA,2012-11-07
 17,Ecuador,ECU,951,902,-3,CONMEBOL,2012-11-07
-16,Switzerland,SUI,966,983,1,UEFA,2012-11-07
+16,Switzerland,CHE,966,983,1,UEFA,2012-11-07
 15,Ivory Coast,CIV,974,951,-1,CAF,2012-11-07
 14,Mexico,MEX,984,925,-5,CONCACAF,2012-11-07
 13,Brazil,BRA,994,1001,-1,CONMEBOL,2012-11-07
@@ -42897,7 +42897,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 36,Australia,AUS,668,719,3,AFC,2012-12-19
 37,Paraguay,PAR,666,690,2,CONMEBOL,2012-12-19
 27,Bosnia-Herzegovina,BIH,788,746,-4,UEFA,2012-12-19
-12,Switzerland,SUI,1004,966,-4,UEFA,2012-12-19
+12,Switzerland,CHE,1004,966,-4,UEFA,2012-12-19
 13,Ecuador,ECU,999,951,-4,CONMEBOL,2012-12-19
 14,Ivory Coast,CIV,995,974,-1,CAF,2012-12-19
 189,Pakistan,PAK,37,72,9,AFC,2012-12-19
@@ -43133,7 +43133,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 21,Japan,JPN,834,840,-1,AFC,2013-01-17
 22,Algeria,ALG,829,887,3,CAF,2013-01-17
 23,Denmark,DEN,819,821,0,UEFA,2013-01-17
-13,Switzerland,SUI,1004,1004,1,UEFA,2013-01-17
+13,Switzerland,CHE,1004,1004,1,UEFA,2013-01-17
 51,Central African Republic,CTA,581,581,-1,CAF,2013-01-17
 20,Belgium,BEL,868,868,-1,UEFA,2013-01-17
 53,Tunisia,TUN,570,606,8,CAF,2013-01-17
@@ -43231,7 +43231,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 11,Greece,GRE,1020,1033,0,UEFA,2013-02-14
 12,Ivory Coast,CIV,999,996,-2,CAF,2013-02-14
 12,Ecuador,ECU,999,1007,0,CONMEBOL,2013-02-14
-14,Switzerland,SUI,993,1004,1,UEFA,2013-02-14
+14,Switzerland,CHE,993,1004,1,UEFA,2013-02-14
 15,Mexico,MEX,968,994,0,CONCACAF,2013-02-14
 16,Uruguay,URU,950,975,0,CONMEBOL,2013-02-14
 17,France,FRA,929,949,0,UEFA,2013-02-14
@@ -43516,7 +43516,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 11,Ecuador,ECU,1037,999,-1,CONMEBOL,2013-03-14
 52,Central African Republic,CTA,581,581,1,CAF,2013-03-14
 12,Greece,GRE,1033,1020,1,UEFA,2013-03-14
-14,Switzerland,SUI,1019,993,0,UEFA,2013-03-14
+14,Switzerland,CHE,1019,993,0,UEFA,2013-03-14
 15,Mexico,MEX,995,968,0,CONCACAF,2013-03-14
 16,Uruguay,URU,950,950,0,CONMEBOL,2013-03-14
 17,France,FRA,921,929,0,UEFA,2013-03-14
@@ -43738,7 +43738,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 12,Ivory Coast,CIV,1008,1022,-1,CAF,2013-04-11
 26,Mali,MLI,826,815,2,CAF,2013-04-11
 13,Greece,GRE,986,1033,1,UEFA,2013-04-11
-15,Switzerland,SUI,967,1019,1,UEFA,2013-04-11
+15,Switzerland,CHE,967,1019,1,UEFA,2013-04-11
 16,Belgium,BEL,953,892,-3,UEFA,2013-04-11
 17,Uruguay,URU,932,950,1,CONMEBOL,2013-04-11
 18,France,FRA,914,921,1,UEFA,2013-04-11
@@ -43878,7 +43878,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 6,Colombia,COL,1154,1154,0,CONMEBOL,2013-05-09
 5,Portugal,POR,1163,1163,0,UEFA,2013-05-09
 4,Croatia,CRO,1191,1191,0,UEFA,2013-05-09
-14,Switzerland,SUI,967,967,-1,UEFA,2013-05-09
+14,Switzerland,CHE,967,967,-1,UEFA,2013-05-09
 53,Jamaica,JAM,571,564,0,CONCACAF,2013-05-09
 27,Montenegro,MNE,789,789,0,UEFA,2013-05-09
 29,United States,USA,779,779,1,CONCACAF,2013-05-09
@@ -44150,7 +44150,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 12,Belgium,BEL,1035,953,-3,UEFA,2013-06-06
 13,Ivory Coast,CIV,1022,1008,1,CAF,2013-06-06
 51,Burkina Faso,BFA,594,587,1,CAF,2013-06-06
-14,Switzerland,SUI,1010,967,0,UEFA,2013-06-06
+14,Switzerland,CHE,1010,967,0,UEFA,2013-06-06
 16,Greece,GRE,1006,986,3,UEFA,2013-06-06
 17,Mexico,MEX,928,945,1,CONCACAF,2013-06-06
 18,France,FRA,922,914,0,UEFA,2013-06-06
@@ -44358,7 +44358,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 12,Uruguay,URU,1016,913,-7,CONMEBOL,2013-07-04
 14,Bosnia-Herzegovina,BIH,995,1008,-1,UEFA,2013-07-04
 15,England,ENG,994,1095,6,UEFA,2013-07-04
-16,Switzerland,SUI,987,1010,2,UEFA,2013-07-04
+16,Switzerland,CHE,987,1010,2,UEFA,2013-07-04
 17,Russia,RUS,979,1059,6,UEFA,2013-07-04
 18,Ecuador,ECU,932,1066,8,CONMEBOL,2013-07-04
 19,Peru,PER,898,791,-11,CONMEBOL,2013-07-04
@@ -44561,7 +44561,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 12,Uruguay,URU,998,1016,0,CONMEBOL,2013-08-08
 50,Scotland,SCO,610,610,0,UEFA,2013-08-08
 13,Bosnia-Herzegovina,BIH,995,995,-1,UEFA,2013-08-08
-15,Switzerland,SUI,987,987,-1,UEFA,2013-08-08
+15,Switzerland,CHE,987,987,-1,UEFA,2013-08-08
 16,Russia,RUS,979,979,-1,UEFA,2013-08-08
 17,Ecuador,ECU,972,932,-1,CONMEBOL,2013-08-08
 18,Ivory Coast,CIV,962,1009,5,CAF,2013-08-08
@@ -44660,7 +44660,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 17,England,ENG,947,994,3,UEFA,2013-09-12
 16,Chile,CHI,967,871,-5,CONMEBOL,2013-09-12
 15,Russia,RUS,968,979,-1,UEFA,2013-09-12
-14,Switzerland,SUI,992,987,-1,UEFA,2013-09-12
+14,Switzerland,CHE,992,987,-1,UEFA,2013-09-12
 13,United States,USA,996,960,-6,CONCACAF,2013-09-12
 153,Vietnam,VIE,144,139,-3,AFC,2013-09-12
 12,Greece,GRE,1016,1038,1,UEFA,2013-09-12
@@ -44848,7 +44848,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 10,England,ENG,1080,947,-7,UEFA,2013-10-17
 8,Italy,ITA,1136,1199,4,UEFA,2013-10-17
 8,Netherlands,NED,1136,1058,-1,UEFA,2013-10-17
-7,Switzerland,SUI,1138,992,-7,UEFA,2013-10-17
+7,Switzerland,CHE,1138,992,-7,UEFA,2013-10-17
 6,Uruguay,URU,1164,1126,-1,CONMEBOL,2013-10-17
 5,Belgium,BEL,1175,1159,-1,UEFA,2013-10-17
 4,Colombia,COL,1178,1180,-1,CONMEBOL,2013-10-17
@@ -45143,7 +45143,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 5,Portugal,POR,1172,1036,-9,UEFA,2013-11-28
 6,Uruguay,URU,1132,1164,0,CONMEBOL,2013-11-28
 7,Italy,ITA,1120,1136,-1,UEFA,2013-11-28
-8,Switzerland,SUI,1113,1138,1,UEFA,2013-11-28
+8,Switzerland,CHE,1113,1138,1,UEFA,2013-11-28
 9,Netherlands,NED,1106,1136,1,UEFA,2013-11-28
 10,Brazil,BRA,1102,1078,-1,CONMEBOL,2013-11-28
 39,Cape Verde,CPV,698,662,-3,CAF,2013-11-28
@@ -45266,7 +45266,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 11,Belgium,BEL,1098,1098,0,UEFA,2013-12-19
 10,Brazil,BRA,1102,1102,0,CONMEBOL,2013-12-19
 9,Netherlands,NED,1106,1106,0,UEFA,2013-12-19
-8,Switzerland,SUI,1113,1113,0,UEFA,2013-12-19
+8,Switzerland,CHE,1113,1113,0,UEFA,2013-12-19
 5,Portugal,POR,1172,1172,0,UEFA,2013-12-19
 6,Uruguay,URU,1132,1132,0,CONMEBOL,2013-12-19
 30,Serbia,SRB,752,752,0,UEFA,2013-12-19
@@ -45462,7 +45462,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 24,Ghana,GHA,851,849,0,CAF,2014-01-16
 20,France,FRA,893,893,0,UEFA,2014-01-16
 14,United States,USA,1019,1019,0,CONCACAF,2014-01-16
-8,Switzerland,SUI,1113,1113,0,UEFA,2014-01-16
+8,Switzerland,CHE,1113,1113,0,UEFA,2014-01-16
 12,Greece,GRE,1055,1055,0,UEFA,2014-01-16
 11,Belgium,BEL,1098,1098,0,UEFA,2014-01-16
 10,Brazil,BRA,1102,1102,0,CONMEBOL,2014-01-16
@@ -45736,7 +45736,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 26,Algeria,ALG,819,792,-1,CAF,2014-02-13
 4,Portugal,POR,1219,1172,-1,UEFA,2014-02-13
 5,Colombia,COL,1211,1200,1,CONMEBOL,2014-02-13
-6,Switzerland,SUI,1159,1113,-2,UEFA,2014-02-13
+6,Switzerland,CHE,1159,1113,-2,UEFA,2014-02-13
 7,Uruguay,URU,1157,1132,1,CONMEBOL,2014-02-13
 8,Italy,ITA,1135,1120,1,UEFA,2014-02-13
 9,Brazil,BRA,1125,1102,-1,CONMEBOL,2014-02-13
@@ -45998,7 +45998,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 4,Portugal,POR,1199,1219,0,UEFA,2014-03-13
 5,Colombia,COL,1183,1211,0,CONMEBOL,2014-03-13
 6,Uruguay,URU,1126,1157,-1,CONMEBOL,2014-03-13
-7,Switzerland,SUI,1123,1159,1,UEFA,2014-03-13
+7,Switzerland,CHE,1123,1159,1,UEFA,2014-03-13
 8,Italy,ITA,1112,1135,0,UEFA,2014-03-13
 9,Brazil,BRA,1104,1125,0,CONMEBOL,2014-03-13
 10,Belgium,BEL,1084,1117,-1,UEFA,2014-03-13
@@ -46178,7 +46178,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 6,Argentina,ARG,1174,1234,3,CONMEBOL,2014-04-10
 6,Brazil,BRA,1174,1104,-3,CONMEBOL,2014-04-10
 66,South Africa,RSA,500,536,2,CAF,2014-04-10
-8,Switzerland,SUI,1161,1123,1,UEFA,2014-04-10
+8,Switzerland,CHE,1161,1123,1,UEFA,2014-04-10
 10,Greece,GRE,1082,1038,-3,UEFA,2014-04-10
 11,England,ENG,1043,1045,-1,UEFA,2014-04-10
 12,Belgium,BEL,1039,1084,2,UEFA,2014-04-10
@@ -46306,7 +46306,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 5,Colombia,COL,1186,1186,1,CONMEBOL,2014-05-08
 6,Uruguay,URU,1181,1181,1,CONMEBOL,2014-05-08
 7,Argentina,ARG,1178,1174,1,CONMEBOL,2014-05-08
-8,Switzerland,SUI,1161,1161,0,UEFA,2014-05-08
+8,Switzerland,CHE,1161,1161,0,UEFA,2014-05-08
 9,Italy,ITA,1115,1115,0,UEFA,2014-05-08
 10,Greece,GRE,1082,1082,0,UEFA,2014-05-08
 11,England,ENG,1043,1043,0,UEFA,2014-05-08
@@ -46645,7 +46645,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 90,Northern Ireland,NIR,381,400,6,UEFA,2014-06-05
 90,Saudi Arabia,KSA,381,455,15,AFC,2014-06-05
 92,Botswana,BOT,375,369,1,CAF,2014-06-05
-6,Switzerland,SUI,1149,1161,-2,UEFA,2014-06-05
+6,Switzerland,CHE,1149,1161,-2,UEFA,2014-06-05
 93,Angola,ANG,364,347,-1,CAF,2014-06-05
 95,Cuba,CUB,354,371,5,CONCACAF,2014-06-05
 96,Georgia,GEO,349,303,-7,UEFA,2014-06-05
@@ -46752,7 +46752,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 12,Chile,CHI,1098,1026,-2,CONMEBOL,2014-07-17
 22,Ukraine,UKR,898,915,6,UEFA,2014-07-17
 11,Portugal,POR,1148,1189,7,UEFA,2014-07-17
-9,Switzerland,SUI,1216,1149,3,UEFA,2014-07-17
+9,Switzerland,CHE,1216,1149,3,UEFA,2014-07-17
 8,Spain,ESP,1229,1485,7,UEFA,2014-07-17
 7,Brazil,BRA,1241,1242,4,CONMEBOL,2014-07-17
 6,Uruguay,URU,1330,1147,-1,CONMEBOL,2014-07-17
@@ -46960,7 +46960,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 13,Greece,GRE,1092,1091,0,UEFA,2014-08-14
 11,Portugal,POR,1152,1148,0,UEFA,2014-08-14
 10,France,FRA,1212,1202,0,UEFA,2014-08-14
-9,Switzerland,SUI,1218,1216,0,UEFA,2014-08-14
+9,Switzerland,CHE,1218,1216,0,UEFA,2014-08-14
 7,Brazil,BRA,1241,1241,0,CONMEBOL,2014-08-14
 6,Uruguay,URU,1316,1330,0,CONMEBOL,2014-08-14
 5,Belgium,BEL,1407,1401,0,UEFA,2014-08-14
@@ -47241,7 +47241,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 7,Uruguay,URU,1243,1316,1,CONMEBOL,2014-09-18
 8,Spain,ESP,1228,1241,1,UEFA,2014-09-18
 9,France,FRA,1202,1212,-1,UEFA,2014-09-18
-10,Switzerland,SUI,1175,1218,1,UEFA,2014-09-18
+10,Switzerland,CHE,1175,1218,1,UEFA,2014-09-18
 11,Portugal,POR,1150,1152,0,UEFA,2014-09-18
 12,Chile,CHI,1100,1100,0,CONMEBOL,2014-09-18
 13,Italy,ITA,1068,1069,-1,UEFA,2014-09-18
@@ -47448,7 +47448,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 9,Portugal,POR,1175,1150,-2,UEFA,2014-10-23
 10,Spain,ESP,1119,1228,2,UEFA,2014-10-23
 11,Italy,ITA,1064,1068,-2,UEFA,2014-10-23
-12,Switzerland,SUI,1063,1175,2,UEFA,2014-10-23
+12,Switzerland,CHE,1063,1175,2,UEFA,2014-10-23
 13,Chile,CHI,1060,1100,1,CONMEBOL,2014-10-23
 14,Croatia,CRO,1002,928,-5,UEFA,2014-10-23
 15,Algeria,ALG,989,926,-5,CAF,2014-10-23
@@ -47579,7 +47579,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 15,Romania,ROU,1014,876,-6,UEFA,2014-11-27
 25,Greece,GRE,856,946,7,UEFA,2014-11-27
 14,Chile,CHI,1022,1060,1,CONMEBOL,2014-11-27
-12,Switzerland,SUI,1091,1063,0,UEFA,2014-11-27
+12,Switzerland,CHE,1091,1063,0,UEFA,2014-11-27
 11,Italy,ITA,1103,1064,0,UEFA,2014-11-27
 10,Uruguay,URU,1135,1184,2,CONMEBOL,2014-11-27
 9,Spain,ESP,1142,1119,-1,UEFA,2014-11-27
@@ -47788,7 +47788,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 14,Chile,CHI,1022,1022,0,CONMEBOL,2014-12-18
 13,England,ENG,1032,1032,0,UEFA,2014-12-18
 23,Austria,AUT,863,863,0,UEFA,2014-12-18
-12,Switzerland,SUI,1091,1091,0,UEFA,2014-12-18
+12,Switzerland,CHE,1091,1091,0,UEFA,2014-12-18
 10,Uruguay,URU,1135,1135,0,CONMEBOL,2014-12-18
 9,Spain,ESP,1142,1142,0,UEFA,2014-12-18
 7,France,FRA,1160,1160,0,UEFA,2014-12-18
@@ -47998,7 +47998,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 15,Romania,ROU,1014,1014,0,UEFA,2015-01-08
 25,Ukraine,UKR,854,854,0,UEFA,2015-01-08
 14,Chile,CHI,1016,1022,0,CONMEBOL,2015-01-08
-12,Switzerland,SUI,1091,1091,0,UEFA,2015-01-08
+12,Switzerland,CHE,1091,1091,0,UEFA,2015-01-08
 11,Italy,ITA,1103,1103,0,UEFA,2015-01-08
 10,Uruguay,URU,1135,1135,0,CONMEBOL,2015-01-08
 9,Spain,ESP,1142,1142,0,UEFA,2015-01-08
@@ -48272,7 +48272,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 14,Chile,CHI,1037,1016,0,CONMEBOL,2015-02-12
 13,Costa Rica,CRC,1074,995,-3,CONCACAF,2015-02-12
 12,Italy,ITA,1112,1103,1,UEFA,2015-02-12
-11,Switzerland,SUI,1117,1091,-1,UEFA,2015-02-12
+11,Switzerland,CHE,1117,1091,-1,UEFA,2015-02-12
 195,Bahamas,BAH,26,26,0,CONCACAF,2015-02-12
 194,Mongolia,MNG,29,29,0,AFC,2015-02-12
 192,Samoa,SAM,30,30,0,OFC,2015-02-12
@@ -48472,7 +48472,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 1,Germany,GER,1770,1729,0,UEFA,2015-03-12
 10,Italy,ITA,1146,1112,-2,UEFA,2015-03-12
 11,Spain,ESP,1130,1144,1,UEFA,2015-03-12
-12,Switzerland,SUI,1126,1117,1,UEFA,2015-03-12
+12,Switzerland,CHE,1126,1117,1,UEFA,2015-03-12
 13,Costa Rica,CRC,1095,1074,0,CONCACAF,2015-03-12
 14,Romania,ROU,1081,1022,-2,UEFA,2015-03-12
 15,Chile,CHI,1057,1037,1,CONMEBOL,2015-03-12
@@ -48688,7 +48688,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 184,Turks and Caicos Islands,TCA,66,66,8,CONCACAF,2015-04-09
 184,Macau,MAC,66,45,-3,AFC,2015-04-09
 10,Spain,ESP,1132,1130,-1,UEFA,2015-04-09
-9,Switzerland,SUI,1135,1126,-3,UEFA,2015-04-09
+9,Switzerland,CHE,1135,1126,-3,UEFA,2015-04-09
 8,Uruguay,URU,1176,1164,-1,CONMEBOL,2015-04-09
 7,Portugal,POR,1221,1191,0,UEFA,2015-04-09
 6,Netherlands,NED,1301,1415,1,UEFA,2015-04-09
@@ -48771,7 +48771,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 13,Italy,ITA,1085,1085,0,UEFA,2015-05-07
 12,Romania,ROU,1086,1086,0,UEFA,2015-05-07
 11,France,FRA,1127,1127,0,UEFA,2015-05-07
-9,Switzerland,SUI,1135,1135,0,UEFA,2015-05-07
+9,Switzerland,CHE,1135,1135,0,UEFA,2015-05-07
 4,Colombia,COL,1412,1412,0,CONMEBOL,2015-05-07
 7,Portugal,POR,1221,1221,0,UEFA,2015-05-07
 6,Netherlands,NED,1301,1301,0,UEFA,2015-05-07
@@ -49046,7 +49046,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 14,Costa Rica,CRC,1056,1016,-1,CONCACAF,2015-06-04
 13,Italy,ITA,1101,1085,0,UEFA,2015-06-04
 12,Romania,ROU,1115,1086,0,UEFA,2015-06-04
-11,Switzerland,SUI,1146,1135,2,UEFA,2015-06-04
+11,Switzerland,CHE,1146,1135,2,UEFA,2015-06-04
 10,Spain,ESP,1147,1132,0,UEFA,2015-06-04
 9,France,FRA,1164,1127,-2,UEFA,2015-06-04
 8,Uruguay,URU,1183,1176,0,CONMEBOL,2015-06-04
@@ -49231,7 +49231,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 24,Denmark,DEN,876,808,-5,UEFA,2015-07-09
 46,Peru,PER,635,546,-15,CONMEBOL,2015-07-09
 19,Algeria,ALG,941,941,-2,CAF,2015-07-09
-18,Switzerland,SUI,997,1146,7,UEFA,2015-07-09
+18,Switzerland,CHE,997,1146,7,UEFA,2015-07-09
 17,Italy,ITA,1001,1101,4,UEFA,2015-07-09
 15,Austria,AUT,1016,946,-5,UEFA,2015-07-09
 15,Slovakia,SVK,1016,1012,-2,UEFA,2015-07-09
@@ -49443,7 +49443,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 20,Czech Republic,CZE,933,933,0,UEFA,2015-08-06
 19,Algeria,ALG,941,941,0,CAF,2015-08-06
 18,Uruguay,URU,988,1036,5,CONMEBOL,2015-08-06
-17,Switzerland,SUI,997,997,-1,UEFA,2015-08-06
+17,Switzerland,CHE,997,997,-1,UEFA,2015-08-06
 16,Italy,ITA,1001,1001,-1,UEFA,2015-08-06
 14,Austria,AUT,1016,1016,-1,UEFA,2015-08-06
 14,Slovakia,SVK,1016,1016,-1,UEFA,2015-08-06
@@ -49656,7 +49656,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 205,Cook Islands,COK,4,4,-1,OFC,2015-09-03
 205,Papua New Guinea,PNG,4,9,4,OFC,2015-09-03
 205,Djibouti,DJI,4,4,-1,CAF,2015-09-03
-17,Switzerland,SUI,1011,997,0,UEFA,2015-09-03
+17,Switzerland,CHE,1011,997,0,UEFA,2015-09-03
 16,Italy,ITA,1012,1001,0,UEFA,2015-09-03
 15,Slovakia,SVK,1013,1016,1,UEFA,2015-09-03
 14,Croatia,CRO,1037,1023,1,UEFA,2015-09-03
@@ -49950,7 +49950,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 9,Chile,CHI,1177,1149,1,CONMEBOL,2015-10-01
 10,England,ENG,1161,1143,0,UEFA,2015-10-01
 11,Austria,AUT,1100,1038,-2,UEFA,2015-10-01
-12,Switzerland,SUI,1044,1011,-5,UEFA,2015-10-01
+12,Switzerland,CHE,1044,1011,-5,UEFA,2015-10-01
 13,Romania,ROU,1042,1176,6,UEFA,2015-10-01
 14,Netherlands,NED,1004,1054,2,UEFA,2015-10-01
 15,Czech Republic,CZE,983,940,-5,UEFA,2015-10-01
@@ -50143,7 +50143,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 2,Germany,GER,1388,1401,0,UEFA,2015-11-05
 1,Belgium,BEL,1440,1387,-2,UEFA,2015-11-05
 10,Austria,AUT,1130,1100,-1,UEFA,2015-11-05
-11,Switzerland,SUI,1073,1044,-1,UEFA,2015-11-05
+11,Switzerland,CHE,1073,1044,-1,UEFA,2015-11-05
 12,Uruguay,URU,1051,919,-8,CONMEBOL,2015-11-05
 13,Italy,ITA,1040,962,-4,UEFA,2015-11-05
 14,Romania,ROU,1039,1042,1,UEFA,2015-11-05
@@ -50275,7 +50275,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 15,Italy,ITA,991,1040,2,UEFA,2015-12-03
 14,Netherlands,NED,994,976,-2,UEFA,2015-12-03
 13,Ecuador,ECU,1040,921,-8,CONMEBOL,2015-12-03
-12,Switzerland,SUI,1050,1073,1,UEFA,2015-12-03
+12,Switzerland,CHE,1050,1073,1,UEFA,2015-12-03
 11,Uruguay,URU,1074,1051,-1,CONMEBOL,2015-12-03
 10,Austria,AUT,1091,1130,0,UEFA,2015-12-03
 9,England,ENG,1106,1179,0,UEFA,2015-12-03
@@ -50617,7 +50617,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 197,Turks and Caicos Islands,TCA,33,33,0,CONCACAF,2016-01-07
 196,Nepal,NEP,41,49,4,AFC,2016-01-07
 195,Cayman Islands,CAY,43,43,-1,CONCACAF,2016-01-07
-12,Switzerland,SUI,1050,1050,0,UEFA,2016-01-07
+12,Switzerland,CHE,1050,1050,0,UEFA,2016-01-07
 199,British Virgin Islands,VGB,27,27,0,CONCACAF,2016-01-07
 194,Macau,MAC,44,44,-1,AFC,2016-01-07
 193,Vanuatu,VAN,47,47,0,OFC,2016-01-07
@@ -50758,7 +50758,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 15,Italy,ITA,991,991,0,UEFA,2016-02-04
 14,Netherlands,NED,994,994,0,UEFA,2016-02-04
 13,Ecuador,ECU,1040,1040,0,CONMEBOL,2016-02-04
-12,Switzerland,SUI,1050,1050,0,UEFA,2016-02-04
+12,Switzerland,CHE,1050,1050,0,UEFA,2016-02-04
 11,Uruguay,URU,1074,1074,0,CONMEBOL,2016-02-04
 10,Austria,AUT,1091,1091,0,UEFA,2016-02-04
 199,British Virgin Islands,VGB,27,27,0,CONCACAF,2016-02-04
@@ -50975,7 +50975,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 20,Türkiye,TUR,943,933,0,UEFA,2016-03-03
 21,Bosnia-Herzegovina,BIH,917,905,0,UEFA,2016-03-03
 22,Mexico,MEX,902,898,0,CONCACAF,2016-03-03
-12,Switzerland,SUI,1070,1050,0,UEFA,2016-03-03
+12,Switzerland,CHE,1070,1050,0,UEFA,2016-03-03
 49,Trinidad and Tobago,TRI,598,598,0,CONCACAF,2016-03-03
 50,Serbia,SRB,596,590,-1,UEFA,2016-03-03
 51,Norway,NOR,594,597,1,UEFA,2016-03-03
@@ -51180,7 +51180,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 22,Ukraine,UKR,880,845,-5,UEFA,2016-04-07
 23,Croatia,CRO,856,965,5,UEFA,2016-04-07
 24,Wales,WAL,839,984,7,UEFA,2016-04-07
-14,Switzerland,SUI,974,1070,2,UEFA,2016-04-07
+14,Switzerland,CHE,974,1070,2,UEFA,2016-04-07
 102,Guinea-Bissau,GNB,336,207,-45,CAF,2016-04-07
 51,Republic of the Congo DR,COD,596,565,-7,CAF,2016-04-07
 53,Trinidad and Tobago,TRI,592,598,4,CONCACAF,2016-04-07
@@ -51309,7 +51309,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 139,Saint Lucia,LCA,247,238,-1,CONCACAF,2016-05-05
 67,Nigeria,NGA,540,534,0,CAF,2016-05-05
 65,Mali,MLI,551,551,0,CAF,2016-05-05
-14,Switzerland,SUI,974,974,0,UEFA,2016-05-05
+14,Switzerland,CHE,974,974,0,UEFA,2016-05-05
 15,Italy,ITA,959,959,0,UEFA,2016-05-05
 16,Mexico,MEX,938,934,0,CONCACAF,2016-05-05
 17,Netherlands,NED,931,931,0,UEFA,2016-05-05
@@ -51585,7 +51585,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 18,Türkiye,TUR,919,983,5,UEFA,2016-06-02
 17,France,FRA,925,907,-4,UEFA,2016-06-02
 16,Mexico,MEX,942,938,0,CONCACAF,2016-06-02
-15,Switzerland,SUI,948,974,1,UEFA,2016-06-02
+15,Switzerland,CHE,948,974,1,UEFA,2016-06-02
 14,Netherlands,NED,959,931,-3,UEFA,2016-06-02
 13,Ecuador,ECU,978,1019,1,CONMEBOL,2016-06-02
 12,Italy,ITA,982,959,-3,UEFA,2016-06-02
@@ -51786,7 +51786,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 42,Paraguay,PAR,636,638,-2,CONMEBOL,2016-07-14
 41,Senegal,SEN,651,677,0,CAF,2016-07-14
 40,Sweden,SWE,656,735,5,UEFA,2016-07-14
-18,Switzerland,SUI,957,948,3,UEFA,2016-07-14
+18,Switzerland,CHE,957,948,3,UEFA,2016-07-14
 150,Afghanistan,AFG,206,184,-6,AFC,2016-07-14
 198,Brunei Darussalam,BRU,33,37,1,AFC,2016-07-14
 152,India,IND,200,151,-11,AFC,2016-07-14
@@ -51901,7 +51901,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 21,Costa Rica,CRC,883,840,-6,CONCACAF,2016-08-11
 19,Hungary,HUN,915,915,0,UEFA,2016-08-11
 19,Türkiye,TUR,915,915,0,UEFA,2016-08-11
-18,Switzerland,SUI,957,957,0,UEFA,2016-08-11
+18,Switzerland,CHE,957,957,0,UEFA,2016-08-11
 17,Ecuador,ECU,1002,1002,0,CONMEBOL,2016-08-11
 16,Poland,POL,1011,1011,0,UEFA,2016-08-11
 15,Croatia,CRO,1022,1022,0,UEFA,2016-08-11
@@ -52189,7 +52189,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 13,Italy,ITA,1124,1155,3,UEFA,2016-09-15
 14,Croatia,CRO,1059,1022,-1,UEFA,2016-09-15
 15,Mexico,MEX,1057,1042,1,CONCACAF,2016-09-15
-16,Switzerland,SUI,1020,957,-2,UEFA,2016-09-15
+16,Switzerland,CHE,1020,957,-2,UEFA,2016-09-15
 17,Poland,POL,984,1011,1,UEFA,2016-09-15
 18,Costa Rica,CRC,943,883,-3,CONCACAF,2016-09-15
 19,Ecuador,ECU,917,1002,2,CONMEBOL,2016-09-15
@@ -52391,7 +52391,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 10,Spain,ESP,1168,1141,-1,UEFA,2016-10-20
 12,England,ENG,1090,1130,0,UEFA,2016-10-20
 13,Italy,ITA,1082,1124,0,UEFA,2016-10-20
-14,Switzerland,SUI,1071,1020,-2,UEFA,2016-10-20
+14,Switzerland,CHE,1071,1020,-2,UEFA,2016-10-20
 15,Poland,POL,1029,984,-2,UEFA,2016-10-20
 16,Croatia,CRO,1027,1059,2,UEFA,2016-10-20
 17,Mexico,MEX,1001,1057,2,CONCACAF,2016-10-20
@@ -52594,7 +52594,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 9,Uruguay,URU,1187,1175,0,CONMEBOL,2016-11-24
 10,Spain,ESP,1166,1168,0,UEFA,2016-11-24
 24,Türkiye,TUR,851,843,-1,UEFA,2016-11-24
-11,Switzerland,SUI,1129,1071,-3,UEFA,2016-11-24
+11,Switzerland,CHE,1129,1071,-3,UEFA,2016-11-24
 13,England,ENG,1114,1090,1,UEFA,2016-11-24
 14,Croatia,CRO,1103,1027,-2,UEFA,2016-11-24
 15,Poland,POL,1089,1029,0,UEFA,2016-11-24
@@ -52851,7 +52851,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 10,Spain,ESP,1166,1166,0,UEFA,2016-12-22
 13,England,ENG,1114,1114,0,UEFA,2016-12-22
 12,Wales,WAL,1121,1121,0,UEFA,2016-12-22
-11,Switzerland,SUI,1129,1129,0,UEFA,2016-12-22
+11,Switzerland,CHE,1129,1129,0,UEFA,2016-12-22
 9,Uruguay,URU,1187,1187,0,CONMEBOL,2016-12-22
 8,Portugal,POR,1229,1229,0,UEFA,2016-12-22
 7,France,FRA,1305,1305,0,UEFA,2016-12-22
@@ -52922,7 +52922,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 15,Poland,POL,1087,1087,0,UEFA,2017-01-12
 13,England,ENG,1114,1114,0,UEFA,2017-01-12
 12,Wales,WAL,1121,1121,0,UEFA,2017-01-12
-11,Switzerland,SUI,1129,1129,0,UEFA,2017-01-12
+11,Switzerland,CHE,1129,1129,0,UEFA,2017-01-12
 10,Spain,ESP,1166,1166,0,UEFA,2017-01-12
 9,Uruguay,URU,1187,1187,0,CONMEBOL,2017-01-12
 8,Portugal,POR,1229,1229,0,UEFA,2017-01-12
@@ -53080,7 +53080,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 14,Poland,POL,1101,1087,-1,UEFA,2017-02-09
 13,England,ENG,1113,1114,0,UEFA,2017-02-09
 12,Wales,WAL,1120,1121,0,UEFA,2017-02-09
-11,Switzerland,SUI,1140,1129,0,UEFA,2017-02-09
+11,Switzerland,CHE,1140,1129,0,UEFA,2017-02-09
 10,Spain,ESP,1168,1166,0,UEFA,2017-02-09
 9,Uruguay,URU,1195,1187,0,CONMEBOL,2017-02-09
 8,Portugal,POR,1240,1229,0,UEFA,2017-02-09
@@ -53337,7 +53337,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 14,England,ENG,1114,1113,1,UEFA,2017-03-09
 12,Wales,WAL,1121,1120,0,UEFA,2017-03-09
 12,Poland,POL,1121,1101,-2,UEFA,2017-03-09
-11,Switzerland,SUI,1138,1140,0,UEFA,2017-03-09
+11,Switzerland,CHE,1138,1140,0,UEFA,2017-03-09
 10,Spain,ESP,1162,1168,0,UEFA,2017-03-09
 105,Mozambique,MOZ,334,330,0,CAF,2017-03-09
 8,Portugal,POR,1240,1240,0,UEFA,2017-03-09
@@ -53651,7 +53651,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 153,Afghanistan,AFG,161,170,-3,AFC,2017-04-06
 33,Cameroon,CMR,779,795,1,CAF,2017-04-06
 114,Oman,OMA,290,274,-8,AFC,2017-04-06
-9,Switzerland,SUI,1212,1138,-2,UEFA,2017-04-06
+9,Switzerland,CHE,1212,1138,-2,UEFA,2017-04-06
 31,Hungary,HUN,801,834,4,UEFA,2017-04-06
 30,Senegal,SEN,805,831,2,CAF,2017-04-06
 29,Bosnia-Herzegovina,BIH,815,826,0,UEFA,2017-04-06
@@ -53813,7 +53813,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 12,Italy,ITA,1165,1165,0,UEFA,2017-05-04
 11,Poland,POL,1183,1183,0,UEFA,2017-05-04
 10,Spain,ESP,1204,1204,0,UEFA,2017-05-04
-9,Switzerland,SUI,1212,1212,0,UEFA,2017-05-04
+9,Switzerland,CHE,1212,1212,0,UEFA,2017-05-04
 8,Portugal,POR,1259,1259,0,UEFA,2017-05-04
 7,Belgium,BEL,1281,1281,0,UEFA,2017-05-04
 76,Trinidad and Tobago,TRI,439,446,0,CONCACAF,2017-05-04
@@ -53971,7 +53971,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 6,France,FRA,1332,1294,0,UEFA,2017-06-01
 7,Belgium,BEL,1292,1281,0,UEFA,2017-06-01
 8,Portugal,POR,1267,1259,0,UEFA,2017-06-01
-9,Switzerland,SUI,1263,1212,0,UEFA,2017-06-01
+9,Switzerland,CHE,1263,1212,0,UEFA,2017-06-01
 10,Spain,ESP,1198,1204,0,UEFA,2017-06-01
 10,Poland,POL,1198,1183,-1,UEFA,2017-06-01
 12,Italy,ITA,1193,1165,0,UEFA,2017-06-01
@@ -54169,7 +54169,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 8,Colombia,COL,1208,1366,3,CONMEBOL,2017-07-06
 7,Chile,CHI,1250,1422,3,CONMEBOL,2017-07-06
 6,Poland,POL,1319,1198,-4,UEFA,2017-07-06
-5,Switzerland,SUI,1329,1263,-4,UEFA,2017-07-06
+5,Switzerland,CHE,1329,1263,-4,UEFA,2017-07-06
 4,Portugal,POR,1332,1267,-4,UEFA,2017-07-06
 3,Argentina,ARG,1413,1626,1,CONMEBOL,2017-07-06
 2,Brazil,BRA,1603,1715,1,CONMEBOL,2017-07-06
@@ -54294,7 +54294,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 205,British Virgin Islands,VGB,6,6,0,CONCACAF,2017-07-06
 204,San Marino,SMR,12,12,0,UEFA,2017-07-06
 202,Turks and Caicos Islands,TCA,13,20,1,CONCACAF,2017-07-06
-4,Switzerland,SUI,1329,1329,-1,UEFA,2017-08-10
+4,Switzerland,CHE,1329,1329,-1,UEFA,2017-08-10
 78,Qatar,QAT,433,435,-1,AFC,2017-08-10
 77,China,CHN,447,441,0,AFC,2017-08-10
 76,Sierra Leone,SLE,448,415,-7,CAF,2017-08-10
@@ -54632,7 +54632,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 4,Argentina,ARG,1325,1399,1,CONMEBOL,2017-09-14
 5,Belgium,BEL,1265,1194,-4,UEFA,2017-09-14
 6,Poland,POL,1250,1319,1,UEFA,2017-09-14
-7,Switzerland,SUI,1210,1329,3,UEFA,2017-09-14
+7,Switzerland,CHE,1210,1329,3,UEFA,2017-09-14
 8,France,FRA,1208,1157,-2,UEFA,2017-09-14
 9,Chile,CHI,1195,1250,2,CONMEBOL,2017-09-14
 10,Colombia,COL,1191,1208,2,CONMEBOL,2017-09-14
@@ -54850,7 +54850,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 52,Ghana,GHA,651,646,0,CAF,2017-10-16
 42,Cameroon,CMR,718,689,-3,CAF,2017-10-16
 53,Hungary,HUN,642,629,-6,UEFA,2017-10-16
-11,Switzerland,SUI,1134,1210,4,UEFA,2017-10-16
+11,Switzerland,CHE,1134,1210,4,UEFA,2017-10-16
 10,Peru,PER,1160,1103,-2,CONMEBOL,2017-10-16
 9,Chile,CHI,1173,1195,0,CONMEBOL,2017-10-16
 8,Spain,ESP,1218,1184,-3,UEFA,2017-10-16
@@ -54985,7 +54985,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 5,Belgium,BEL,1325,1333,0,UEFA,2017-11-23
 6,Spain,ESP,1231,1218,-2,UEFA,2017-11-23
 7,Poland,POL,1209,1323,1,UEFA,2017-11-23
-8,Switzerland,SUI,1190,1134,-3,UEFA,2017-11-23
+8,Switzerland,CHE,1190,1134,-3,UEFA,2017-11-23
 9,France,FRA,1183,1226,2,UEFA,2017-11-23
 10,Chile,CHI,1162,1173,1,CONMEBOL,2017-11-23
 11,Peru,PER,1128,1160,1,CONMEBOL,2017-11-23
@@ -55251,7 +55251,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 5,Belgium,BEL,1325,1325,0,UEFA,2017-12-21
 6,Spain,ESP,1231,1231,0,UEFA,2017-12-21
 7,Poland,POL,1209,1209,0,UEFA,2017-12-21
-8,Switzerland,SUI,1190,1190,0,UEFA,2017-12-21
+8,Switzerland,CHE,1190,1190,0,UEFA,2017-12-21
 9,France,FRA,1183,1183,0,UEFA,2017-12-21
 10,Chile,CHI,1162,1162,0,CONMEBOL,2017-12-21
 24,United States,USA,867,867,0,CONCACAF,2017-12-21
@@ -55353,7 +55353,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 199,Montserrat,MSR,20,20,0,CONCACAF,2018-01-18
 6,Spain,ESP,1231,1231,0,UEFA,2018-01-18
 179,Sao Tome e Principe,STP,94,94,1,CAF,2018-01-18
-8,Switzerland,SUI,1190,1190,0,UEFA,2018-01-18
+8,Switzerland,CHE,1190,1190,0,UEFA,2018-01-18
 116,Rwanda,RWA,282,295,3,CAF,2018-01-18
 118,Azerbaijan,AZE,281,281,1,UEFA,2018-01-18
 119,North Korea,PRK,269,255,-7,AFC,2018-01-18
@@ -55530,7 +55530,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 5,Belgium,BEL,1325,1325,0,UEFA,2018-02-15
 183,Laos,LAO,82,82,0,AFC,2018-02-15
 7,Poland,POL,1213,1209,0,UEFA,2018-02-15
-8,Switzerland,SUI,1190,1190,0,UEFA,2018-02-15
+8,Switzerland,CHE,1190,1190,0,UEFA,2018-02-15
 1,Germany,GER,1602,1602,0,UEFA,2018-02-15
 9,France,FRA,1183,1183,0,UEFA,2018-02-15
 6,Spain,ESP,1231,1231,0,UEFA,2018-02-15
@@ -55931,7 +55931,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 10,Chile,CHI,1161,1153,0,CONMEBOL,2018-03-15
 11,Peru,PER,1128,1128,0,CONMEBOL,2018-03-15
 9,France,FRA,1185,1183,0,UEFA,2018-03-15
-8,Switzerland,SUI,1197,1190,0,UEFA,2018-03-15
+8,Switzerland,CHE,1197,1190,0,UEFA,2018-03-15
 6,Spain,ESP,1228,1231,0,UEFA,2018-03-15
 6,Poland,POL,1228,1213,-1,UEFA,2018-03-15
 186,Macau,MAC,60,65,0,AFC,2018-04-12
@@ -56050,7 +56050,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 9,Chile,CHI,1146,1161,-1,CONMEBOL,2018-04-12
 8,Spain,ESP,1162,1228,2,UEFA,2018-04-12
 7,France,FRA,1166,1185,-2,UEFA,2018-04-12
-6,Switzerland,SUI,1179,1197,-2,UEFA,2018-04-12
+6,Switzerland,CHE,1179,1197,-2,UEFA,2018-04-12
 5,Argentina,ARG,1254,1359,1,CONMEBOL,2018-04-12
 13,England,ENG,1040,1047,-3,UEFA,2018-04-12
 172,Singapore,SGP,102,103,1,AFC,2018-04-12
@@ -56212,7 +56212,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 9,Chile,CHI,1146,1146,0,CONMEBOL,2018-05-17
 8,Spain,ESP,1162,1162,0,UEFA,2018-05-17
 7,France,FRA,1166,1166,0,UEFA,2018-05-17
-6,Switzerland,SUI,1179,1179,0,UEFA,2018-05-17
+6,Switzerland,CHE,1179,1179,0,UEFA,2018-05-17
 5,Argentina,ARG,1254,1254,0,CONMEBOL,2018-05-17
 4,Portugal,POR,1306,1306,0,UEFA,2018-05-17
 25,Costa Rica,CRC,858,858,0,CONCACAF,2018-05-17
@@ -56415,7 +56415,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 9,Chile,CHI,1135,1146,0,CONMEBOL,2018-06-07
 8,Poland,POL,1183,1128,-2,UEFA,2018-06-07
 7,France,FRA,1198,1166,0,UEFA,2018-06-07
-6,Switzerland,SUI,1199,1179,0,UEFA,2018-06-07
+6,Switzerland,CHE,1199,1179,0,UEFA,2018-06-07
 5,Argentina,ARG,1241,1254,0,CONMEBOL,2018-06-07
 4,Portugal,POR,1274,1306,0,UEFA,2018-06-07
 3,Belgium,BEL,1298,1346,0,UEFA,2018-06-07
@@ -56580,7 +56580,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 5,Belgium,BEL,2124,2098,-1,UEFA,2018-07-01
 6,Spain,ESP,2104,2082,-2,UEFA,2018-07-01
 7,England,ENG,2099,2074,-2,UEFA,2018-07-01
-8,Switzerland,SUI,2087,2065,-2,UEFA,2018-07-01
+8,Switzerland,CHE,2087,2065,-2,UEFA,2018-07-01
 9,Argentina,ARG,2080,2117,4,CONMEBOL,2018-07-01
 10,Mexico,MEX,2041,1996,-5,CONCACAF,2018-07-01
 10,Chile,CHI,2041,2039,-1,CONMEBOL,2018-07-01
@@ -56901,7 +56901,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 5,Uruguay,URU,1627,1552,-9,CONMEBOL,2018-08-16
 6,England,ENG,1615,1556,-6,UEFA,2018-08-16
 7,Portugal,POR,1599,1588,3,UEFA,2018-08-16
-8,Switzerland,SUI,1597,1580,2,UEFA,2018-08-16
+8,Switzerland,CHE,1597,1580,2,UEFA,2018-08-16
 9,Denmark,DEN,1580,1556,-3,UEFA,2018-08-16
 9,Spain,ESP,1580,1564,-1,UEFA,2018-08-16
 11,Argentina,ARG,1574,1584,6,CONMEBOL,2018-08-16
@@ -57048,7 +57048,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 11,Argentina,ARG,1575,1574,0,CONMEBOL,2018-09-20
 10,Denmark,DEN,1581,1580,1,UEFA,2018-09-20
 9,Spain,ESP,1597,1580,0,UEFA,2018-09-20
-8,Switzerland,SUI,1598,1597,0,UEFA,2018-09-20
+8,Switzerland,CHE,1598,1597,0,UEFA,2018-09-20
 7,Portugal,POR,1606,1599,0,UEFA,2018-09-20
 6,England,ENG,1612,1615,0,UEFA,2018-09-20
 15,Mexico,MEX,1550,1560,-1,CONCACAF,2018-09-20
@@ -57221,7 +57221,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 11,Colombia,COL,1575,1567,-3,CONMEBOL,2018-10-25
 10,Denmark,DEN,1584,1581,0,UEFA,2018-10-25
 9,Spain,ESP,1594,1597,0,UEFA,2018-10-25
-8,Switzerland,SUI,1598,1598,0,UEFA,2018-10-25
+8,Switzerland,CHE,1598,1598,0,UEFA,2018-10-25
 7,Portugal,POR,1616,1606,0,UEFA,2018-10-25
 6,Uruguay,URU,1617,1632,1,CONMEBOL,2018-10-25
 5,England,ENG,1619,1612,-1,UEFA,2018-10-25
@@ -57476,7 +57476,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 11,Argentina,ARG,1582,1573,-1,CONMEBOL,2018-11-29
 10,Denmark,DEN,1589,1584,0,UEFA,2018-11-29
 9,Spain,ESP,1591,1594,0,UEFA,2018-11-29
-8,Switzerland,SUI,1599,1598,0,UEFA,2018-11-29
+8,Switzerland,CHE,1599,1598,0,UEFA,2018-11-29
 7,Uruguay,URU,1609,1617,1,CONMEBOL,2018-11-29
 6,Portugal,POR,1614,1616,-1,UEFA,2018-11-29
 5,England,ENG,1631,1619,0,UEFA,2018-11-29
@@ -57631,7 +57631,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 11,Argentina,ARG,1582,1582,0,CONMEBOL,2018-12-20
 10,Denmark,DEN,1589,1589,0,UEFA,2018-12-20
 9,Spain,ESP,1591,1591,0,UEFA,2018-12-20
-8,Switzerland,SUI,1599,1599,0,UEFA,2018-12-20
+8,Switzerland,CHE,1599,1599,0,UEFA,2018-12-20
 7,Uruguay,URU,1609,1609,0,CONMEBOL,2018-12-20
 6,Portugal,POR,1614,1614,0,UEFA,2018-12-20
 5,England,ENG,1631,1631,0,UEFA,2018-12-20
@@ -57901,7 +57901,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 11,Argentina,ARG,1582,1582,0,CONMEBOL,2019-02-07
 10,Denmark,DEN,1589,1589,0,UEFA,2019-02-07
 9,Spain,ESP,1591,1591,0,UEFA,2019-02-07
-8,Switzerland,SUI,1599,1599,0,UEFA,2019-02-07
+8,Switzerland,CHE,1599,1599,0,UEFA,2019-02-07
 7,Uruguay,URU,1609,1609,0,CONMEBOL,2019-02-07
 6,Portugal,POR,1614,1614,0,UEFA,2019-02-07
 5,England,ENG,1631,1631,0,UEFA,2019-02-07
@@ -58093,7 +58093,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 11,Argentina,ARG,1580,1582,0,CONMEBOL,2019-04-04
 10,Denmark,DEN,1586,1589,0,UEFA,2019-04-04
 9,Spain,ESP,1601,1591,0,UEFA,2019-04-04
-8,Switzerland,SUI,1604,1599,0,UEFA,2019-04-04
+8,Switzerland,CHE,1604,1599,0,UEFA,2019-04-04
 7,Portugal,POR,1607,1614,1,UEFA,2019-04-04
 6,Uruguay,URU,1613,1609,-1,CONMEBOL,2019-04-04
 5,Croatia,CRO,1621,1634,1,UEFA,2019-04-04
@@ -58427,7 +58427,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 6,Croatia,CRO,1625,1621,1,UEFA,2019-06-14
 7,Spain,ESP,1617,1601,-2,UEFA,2019-06-14
 8,Uruguay,URU,1615,1613,2,CONMEBOL,2019-06-14
-9,Switzerland,SUI,1605,1604,1,UEFA,2019-06-14
+9,Switzerland,CHE,1605,1604,1,UEFA,2019-06-14
 10,Denmark,DEN,1589,1586,0,UEFA,2019-06-14
 4,England,ENG,1652,1647,0,UEFA,2019-06-14
 110,Azerbaijan,AZE,1188,1202,2,UEFA,2019-06-14
@@ -58545,7 +58545,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 8,Colombia,COL,1622,1580,-5,CONMEBOL,2019-07-25
 9,Spain,ESP,1617,1617,2,UEFA,2019-07-25
 10,Argentina,ARG,1610,1582,-1,CONMEBOL,2019-07-25
-11,Switzerland,SUI,1605,1605,2,UEFA,2019-07-25
+11,Switzerland,CHE,1605,1605,2,UEFA,2019-07-25
 12,Mexico,MEX,1604,1557,-6,CONCACAF,2019-07-25
 13,Denmark,DEN,1589,1589,3,UEFA,2019-07-25
 14,Chile,CHI,1583,1561,-2,CONMEBOL,2019-07-25
@@ -58825,7 +58825,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 8,Croatia,CRO,1625,1625,1,UEFA,2019-09-19
 9,Colombia,COL,1622,1622,1,CONMEBOL,2019-09-19
 10,Argentina,ARG,1614,1610,0,CONMEBOL,2019-09-19
-11,Switzerland,SUI,1604,1605,0,UEFA,2019-09-19
+11,Switzerland,CHE,1604,1605,0,UEFA,2019-09-19
 12,Mexico,MEX,1603,1604,0,CONCACAF,2019-09-19
 20,Senegal,SEN,1546,1550,0,CAF,2019-09-19
 13,Netherlands,NED,1586,1569,-3,UEFA,2019-09-19
@@ -58970,7 +58970,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 10,Colombia,COL,1615,1622,1,CONMEBOL,2019-10-24
 11,Mexico,MEX,1613,1603,-1,CONCACAF,2019-10-24
 12,Netherlands,NED,1602,1586,-1,UEFA,2019-10-24
-13,Switzerland,SUI,1601,1604,2,UEFA,2019-10-24
+13,Switzerland,CHE,1601,1604,2,UEFA,2019-10-24
 14,Denmark,DEN,1599,1584,0,UEFA,2019-10-24
 15,Italy,ITA,1593,1583,0,UEFA,2019-10-24
 9,Argentina,ARG,1617,1614,-1,CONMEBOL,2019-10-24
@@ -59270,7 +59270,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 15,Germany,GER,1602,1586,-1,UEFA,2019-11-28
 14,Netherlands,NED,1604,1602,2,UEFA,2019-11-28
 13,Italy,ITA,1607,1593,-2,UEFA,2019-11-28
-12,Switzerland,SUI,1608,1601,-1,UEFA,2019-11-28
+12,Switzerland,CHE,1608,1601,-1,UEFA,2019-11-28
 11,Mexico,MEX,1621,1613,0,CONCACAF,2019-11-28
 10,Colombia,COL,1622,1615,0,CONMEBOL,2019-11-28
 9,Argentina,ARG,1623,1617,0,CONMEBOL,2019-11-28
@@ -59355,7 +59355,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 15,Germany,GER,1602,1602,0,UEFA,2019-12-19
 25,Venezuela,VEN,1517,1517,0,CONMEBOL,2019-12-19
 14,Netherlands,NED,1604,1604,0,UEFA,2019-12-19
-12,Switzerland,SUI,1608,1608,0,UEFA,2019-12-19
+12,Switzerland,CHE,1608,1608,0,UEFA,2019-12-19
 11,Mexico,MEX,1621,1621,0,CONCACAF,2019-12-19
 10,Colombia,COL,1622,1622,0,CONMEBOL,2019-12-19
 9,Argentina,ARG,1623,1623,0,CONMEBOL,2019-12-19
@@ -59645,7 +59645,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 9,Argentina,ARG,1623,1623,0,CONMEBOL,2020-02-20
 10,Colombia,COL,1622,1622,0,CONMEBOL,2020-02-20
 11,Mexico,MEX,1621,1621,0,CONCACAF,2020-02-20
-12,Switzerland,SUI,1608,1608,0,UEFA,2020-02-20
+12,Switzerland,CHE,1608,1608,0,UEFA,2020-02-20
 13,Italy,ITA,1607,1607,0,UEFA,2020-02-20
 14,Netherlands,NED,1604,1604,0,UEFA,2020-02-20
 15,Germany,GER,1602,1602,0,UEFA,2020-02-20
@@ -59810,7 +59810,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 26,Austria,AUT,1507,1507,0,UEFA,2020-04-09
 27,Tunisia,TUN,1506,1506,0,CAF,2020-04-09
 46,Costa Rica,CRC,1439,1439,0,CONCACAF,2020-04-09
-12,Switzerland,SUI,1608,1608,0,UEFA,2020-04-09
+12,Switzerland,CHE,1608,1608,0,UEFA,2020-04-09
 46,Ghana,GHA,1439,1439,0,CAF,2020-04-09
 49,Bosnia-Herzegovina,BIH,1430,1430,0,UEFA,2020-04-09
 69,El Salvador,SLV,1346,1346,0,CONCACAF,2020-04-09
@@ -60064,7 +60064,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 9,Argentina,ARG,1623,1623,0,CONMEBOL,2020-06-11
 10,Colombia,COL,1622,1622,0,CONMEBOL,2020-06-11
 11,Mexico,MEX,1621,1621,0,CONCACAF,2020-06-11
-12,Switzerland,SUI,1608,1608,0,UEFA,2020-06-11
+12,Switzerland,CHE,1608,1608,0,UEFA,2020-06-11
 13,Italy,ITA,1607,1607,0,UEFA,2020-06-11
 14,Netherlands,NED,1604,1604,0,UEFA,2020-06-11
 15,Germany,GER,1602,1602,0,UEFA,2020-06-11
@@ -60274,7 +60274,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 10,Colombia,COL,1622,1622,0,CONMEBOL,2020-07-16
 11,Mexico,MEX,1621,1621,0,CONCACAF,2020-07-16
 25,Venezuela,VEN,1517,1517,0,CONMEBOL,2020-07-16
-12,Switzerland,SUI,1608,1608,0,UEFA,2020-07-16
+12,Switzerland,CHE,1608,1608,0,UEFA,2020-07-16
 14,Netherlands,NED,1604,1604,0,UEFA,2020-07-16
 15,Germany,GER,1602,1602,0,UEFA,2020-07-16
 16,Denmark,DEN,1598,1598,0,UEFA,2020-07-16
@@ -60485,7 +60485,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 12,Italy,ITA,1612,1607,-1,UEFA,2020-09-17
 13,Netherlands,NED,1603,1604,-1,UEFA,2020-09-17
 14,Germany,GER,1602,1602,-1,UEFA,2020-09-17
-15,Switzerland,SUI,1600,1608,3,UEFA,2020-09-17
+15,Switzerland,CHE,1600,1608,3,UEFA,2020-09-17
 16,Denmark,DEN,1593,1598,0,UEFA,2020-09-17
 17,Chile,CHI,1579,1579,0,CONMEBOL,2020-09-17
 18,Sweden,SWE,1567,1579,1,UEFA,2020-09-17
@@ -60697,7 +60697,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 115,North Korea,PRK,1170,1170,0,AFC,2020-10-22
 159,Dominican Republic,DOM,1019,1019,1,CONCACAF,2020-10-22
 18,Poland,POL,1568,1558,-1,UEFA,2020-10-22
-16,Switzerland,SUI,1589,1600,1,UEFA,2020-10-22
+16,Switzerland,CHE,1589,1600,1,UEFA,2020-10-22
 182,São Tomé and Príncipe,STP,923,923,1,CAF,2020-10-22
 183,Macau,MAC,922,922,1,AFC,2020-10-22
 184,Montserrat,MSR,921,921,1,CONCACAF,2020-10-22
@@ -60846,7 +60846,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 19,Poland,POL,1559,1568,1,UEFA,2020-11-26
 18,Wales,WAL,1562,1550,-2,UEFA,2020-11-26
 17,Chile,CHI,1567,1570,0,CONMEBOL,2020-11-26
-16,Switzerland,SUI,1586,1589,0,UEFA,2020-11-26
+16,Switzerland,CHE,1586,1589,0,UEFA,2020-11-26
 15,Colombia,COL,1601,1631,5,CONMEBOL,2020-11-26
 14,Netherlands,NED,1609,1596,-1,UEFA,2020-11-26
 13,Germany,GER,1610,1607,-1,UEFA,2020-11-26
@@ -61116,7 +61116,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 13,Germany,GER,1610,1610,0,UEFA,2020-12-10
 14,Netherlands,NED,1609,1609,0,UEFA,2020-12-10
 15,Colombia,COL,1601,1601,0,CONMEBOL,2020-12-10
-16,Switzerland,SUI,1593,1586,0,UEFA,2020-12-10
+16,Switzerland,CHE,1593,1586,0,UEFA,2020-12-10
 17,Chile,CHI,1567,1567,0,CONMEBOL,2020-12-10
 18,Wales,WAL,1562,1562,0,UEFA,2020-12-10
 19,Poland,POL,1559,1559,0,UEFA,2020-12-10
@@ -61327,7 +61327,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 13,Germany,GER,1610,1610,0,UEFA,2021-02-18
 14,Netherlands,NED,1609,1609,0,UEFA,2021-02-18
 15,Colombia,COL,1601,1601,0,CONMEBOL,2021-02-18
-16,Switzerland,SUI,1593,1593,0,UEFA,2021-02-18
+16,Switzerland,CHE,1593,1593,0,UEFA,2021-02-18
 17,Chile,CHI,1567,1567,0,CONMEBOL,2021-02-18
 18,Wales,WAL,1562,1562,0,UEFA,2021-02-18
 19,Poland,POL,1559,1559,0,UEFA,2021-02-18
@@ -61535,7 +61535,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 10,Denmark,DEN,1631.55,1614,-2,UEFA,2021-04-07
 11,Mexico,MEX,1629.56,1632,2,CONCACAF,2021-04-07
 12,Germany,GER,1609.12,1610,-1,UEFA,2021-04-07
-13,Switzerland,SUI,1606.21,1593,-3,UEFA,2021-04-07
+13,Switzerland,CHE,1606.21,1593,-3,UEFA,2021-04-07
 14,Croatia,CRO,1605.75,1617,3,UEFA,2021-04-07
 15,Colombia,COL,1600.66,1601,0,CONMEBOL,2021-04-07
 16,Netherlands,NED,1598.04,1609,2,UEFA,2021-04-07
@@ -61723,7 +61723,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 10,Denmark,DEN,1631.55,1631.55,0,UEFA,2021-05-27
 11,Mexico,MEX,1629.56,1629.56,0,CONCACAF,2021-05-27
 12,Germany,GER,1609.12,1609.12,0,UEFA,2021-05-27
-13,Switzerland,SUI,1606.21,1606.21,0,UEFA,2021-05-27
+13,Switzerland,CHE,1606.21,1606.21,0,UEFA,2021-05-27
 14,Croatia,CRO,1605.75,1605.75,0,UEFA,2021-05-27
 66,Albania,ALB,1362.09,1362.09,0,UEFA,2021-05-27
 15,Colombia,COL,1600.66,1600.66,0,CONMEBOL,2021-05-27
@@ -61873,7 +61873,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 17,Sweden,SWE,1606.79,1569.81,-1,UEFA,2021-08-12
 16,Germany,GER,1613.29,1609.12,4,UEFA,2021-08-12
 15,Colombia,COL,1617.67,1600.66,0,CONMEBOL,2021-08-12
-14,Switzerland,SUI,1621.37,1606.21,1,UEFA,2021-08-12
+14,Switzerland,CHE,1621.37,1606.21,1,UEFA,2021-08-12
 13,Uruguay,URU,1634.63,1639.08,4,CONMEBOL,2021-08-12
 23,Austria,AUT,1535.12,1523.42,0,UEFA,2021-08-12
 12,Netherlands,NED,1637.48,1598.04,-4,UEFA,2021-08-12
@@ -62082,7 +62082,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 18,Sweden,SWE,1606.03,1606.79,1,UEFA,2021-09-16
 17,Croatia,CRO,1608.25,1594.36,-1,UEFA,2021-09-16
 16,Colombia,COL,1618.4,1617.67,1,CONMEBOL,2021-09-16
-15,Switzerland,SUI,1622.73,1621.37,1,UEFA,2021-09-16
+15,Switzerland,CHE,1622.73,1621.37,1,UEFA,2021-09-16
 14,Germany,GER,1627.8,1613.29,-2,UEFA,2021-09-16
 13,United States,USA,1643.1,1647.75,3,CONCACAF,2021-09-16
 12,Uruguay,URU,1645.42,1634.63,-1,CONMEBOL,2021-09-16
@@ -62295,7 +62295,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 16,Colombia,COL,1618.76,1618.4,0,CONMEBOL,2021-10-21
 15,Uruguay,URU,1625.67,1645.42,3,CONMEBOL,2021-10-21
 25,Serbia,SRB,1527.34,1515.97,-3,UEFA,2021-10-21
-14,Switzerland,SUI,1633.8,1622.73,-1,UEFA,2021-10-21
+14,Switzerland,CHE,1633.8,1622.73,-1,UEFA,2021-10-21
 12,Germany,GER,1642.47,1627.8,-2,UEFA,2021-10-21
 11,Netherlands,NED,1652.01,1648.2,0,UEFA,2021-10-21
 10,Denmark,DEN,1668.98,1658.49,0,UEFA,2021-10-21
@@ -62586,7 +62586,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 10,Netherlands,NED,1653.73,1652.01,-1,UEFA,2021-11-19
 11,Germany,GER,1648.33,1642.47,-1,UEFA,2021-11-19
 12,United States,USA,1647.14,1639.42,-1,CONCACAF,2021-11-19
-13,Switzerland,SUI,1642.83,1633.8,-1,UEFA,2021-11-19
+13,Switzerland,CHE,1642.83,1633.8,-1,UEFA,2021-11-19
 14,Mexico,MEX,1638.76,1672.92,5,CONCACAF,2021-11-19
 15,Croatia,CRO,1620.74,1608.84,-3,UEFA,2021-11-19
 16,Colombia,COL,1607.15,1618.76,0,CONMEBOL,2021-11-19
@@ -62807,7 +62807,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 21,Iran,IRN,1557.58,1557.58,0,AFC,2021-12-23
 22,Peru,PER,1551.15,1551.15,0,CONMEBOL,2021-12-23
 23,Serbia,SRB,1547.38,1547.38,0,UEFA,2021-12-23
-13,Switzerland,SUI,1642.83,1642.83,0,UEFA,2021-12-23
+13,Switzerland,CHE,1642.83,1642.83,0,UEFA,2021-12-23
 51,Saudi Arabia,KSA,1434.71,1441.17,3,AFC,2021-12-23
 1,Belgium,BEL,1828.45,1828.45,0,UEFA,2021-12-23
 53,Mali,MLI,1427.98,1427.98,0,CAF,2021-12-23
@@ -62921,7 +62921,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 17,Sweden,SWE,1588.26,1588.26,-1,UEFA,2022-02-10
 16,Uruguay,URU,1614.05,1596.66,-1,CONMEBOL,2022-02-10
 15,Croatia,CRO,1620.74,1620.74,0,UEFA,2022-02-10
-14,Switzerland,SUI,1642.83,1642.83,1,UEFA,2022-02-10
+14,Switzerland,CHE,1642.83,1642.83,1,UEFA,2022-02-10
 13,United States,USA,1643.34,1648.51,2,CONCACAF,2022-02-10
 23,Japan,JPN,1549.82,1531.53,-3,AFC,2022-02-10
 12,Mexico,MEX,1647.9,1638.3,-2,CONCACAF,2022-02-10
@@ -63135,7 +63135,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 17,Colombia,COL,1600.52,1585.89,-2,CONMEBOL,2022-03-31
 16,Croatia,CRO,1621.11,1620.74,1,UEFA,2022-03-31
 15,United States,USA,1633.72,1643.34,2,CONCACAF,2022-03-31
-14,Switzerland,SUI,1635.32,1642.83,0,UEFA,2022-03-31
+14,Switzerland,CHE,1635.32,1642.83,0,UEFA,2022-03-31
 13,Uruguay,URU,1635.73,1614.05,-3,CONMEBOL,2022-03-31
 12,Germany,GER,1650.53,1648.33,1,UEFA,2022-03-31
 11,Denmark,DEN,1653.6,1654.54,2,UEFA,2022-03-31
@@ -63427,7 +63427,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 13,Uruguay,URU,1643.71,1635.73,0,CONMEBOL,2022-06-23
 14,United States,USA,1635.01,1633.72,-1,CONCACAF,2022-06-23
 15,Croatia,CRO,1632.15,1621.11,-1,UEFA,2022-06-23
-16,Switzerland,SUI,1621.43,1635.32,2,UEFA,2022-06-23
+16,Switzerland,CHE,1621.43,1635.32,2,UEFA,2022-06-23
 17,Colombia,COL,1604.07,1600.52,0,CONMEBOL,2022-06-23
 18,Senegal,SEN,1593.45,1584.16,-2,CAF,2022-06-23
 19,Wales,WAL,1582.13,1588.08,1,UEFA,2022-06-23
@@ -63555,7 +63555,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 19,Wales,WAL,1582.13,1582.13,0,UEFA,2022-08-25
 18,Senegal,SEN,1584.59,1593.45,0,CAF,2022-08-25
 17,Colombia,COL,1604.07,1604.07,0,CONMEBOL,2022-08-25
-16,Switzerland,SUI,1621.43,1621.43,0,UEFA,2022-08-25
+16,Switzerland,CHE,1621.43,1621.43,0,UEFA,2022-08-25
 15,Croatia,CRO,1632.15,1632.15,0,UEFA,2022-08-25
 25,Serbia,SRB,1549.53,1549.53,0,UEFA,2022-08-25
 14,United States,USA,1635.01,1635.01,0,CONCACAF,2022-08-25
@@ -63704,3 +63704,35 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 134,Philippines,PHI,1115.13,1113.75,0,AFC,2022-08-25
 158,Myanmar,MYA,1011.91,1011.91,0,AFC,2022-08-25
 169,Malta,MLT,974.68,974.68,1,UEFA,2022-08-25
+1,Brazil,BRA,1841.3,1837.56,0,CONMEBOL,2022-10-06
+2,Belgium,BEL,1816.71,1821.92,0,UEFA,2022-10-06
+3,Argentina,ARG,1773.88,1770.65,0,CONMEBOL,2022-10-06
+4,France,FRA,1759.78,1764.85,0,UEFA,2022-10-06
+5,England,ENG,1728.47,1737.46,0,UEFA,2022-10-06
+6,Spain,ESP,1715.22,1716.93,-1,UEFA,2022-10-06
+8,Netherlands,NED,1679.41,1679.41,0,UEFA,2022-10-06
+9,Portugal,POR,1678.65,1678.65,0,UEFA,2022-10-06
+10,Denmark,DEN,1666.57,1665.47,0,UEFA,2022-10-06
+11,Germany,GER,1650.21,1658.96,0,UEFA,2022-10-06
+13,Mexico,MEX,1649.57,1649.57,-1,CONCACAF,2022-10-06
+14,Uruguay,URU,1638.89,1640.95,-1,CONMEBOL,2022-10-06
+16,United States,USA,1627.48,1635.01,-2,CONCACAF,2022-10-06
+12,Croatia,CRO,1645.64,1632.15,3,UEFA,2022-10-06
+15,Switzerland,CHE,1635.92,1621.43,1,UEFA,2022-10-06
+18,Senegal,SEN,1584.38,1584.59,0,CAF,2022-10-06
+19,Wales,WAL,1569.82,1582.13,0,UEFA,2022-10-06
+20,Iran,IRN,1564.61,1558.64,2,AFC,2022-10-06
+22,Morocco,MAR,NA,1563.5,1,CAF,2022-10-06
+24,Japan,JPN,1559.54,1554.69,0,AFC,2022-10-06
+21,Serbia,SRB,1563.62,1549.53,4,UEFA,2022-10-06
+26,Poland,POL,1548.59,1546.18,0,UEFA,2022-10-06
+28,South Korea,KOR,1530.3,1526.02,0,AFC,2022-10-06
+30,Tunisia,TUN,1507.54,1507.86,0,CAF,2022-10-06
+31,Costa Rica,CRC,1503.59,1500.06,4,CONCACAF,2022-10-06
+43,Cameroon,CMR,1471.44,1484.95,-5,CAF,2022-10-06
+38,Australia,AUS,1488.72,1483.73,0,AFC,2022-10-06
+41,Canada,CAN,1475,1473.82,2,CONCACAF,2022-10-06
+44,Ecuador,ECU,1464.39,1463.74,0,CONMEBOL,2022-10-06
+50,Qatar,QAT,1439.89,1441.97,-2,AFC,2022-10-06
+51,Saudi Arabia,KSA,1437.78,1435.74,0,AFC,2022-10-06
+61,Ghana,GHA,1393,1393.47,-1,CAF,2022-10-06
