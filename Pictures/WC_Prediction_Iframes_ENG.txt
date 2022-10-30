@@ -1,0 +1,13 @@
+Prediction World Cup Overview
+
+<iframe title="What is the most likely outcome for each team in World Cup 2022?" aria-label="Table" id="datawrapper-chart-NEM7m" src="https://datawrapper.dwcdn.net/NEM7m/7/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="1043"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
+
+
+Prediction World Cup Winner
+
+<iframe title="Who is going to win the World Cup 2022?" aria-label="Table" id="datawrapper-chart-DA2pC" src="https://datawrapper.dwcdn.net/DA2pC/6/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="1007"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
+
+
+Prediction World Cup Group Stages
+
+<iframe title="Where will each team most likely end up in group stage?" aria-label="Table" id="datawrapper-chart-HIL13" src="https://datawrapper.dwcdn.net/HIL13/6/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="896"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>

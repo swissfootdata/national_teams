@@ -91,3 +91,8 @@ group_stage_prediction <- rbind(group_stage_prediction[1:10,],c("Group C",NA,NA,
 group_stage_prediction <- rbind(group_stage_prediction[1:15,],c("Group D",NA,NA,NA,NA,"Group H",NA,NA,NA,NA),group_stage_prediction[-(1:15),])
 
 write.csv(group_stage_prediction,"Output/prediction_group_stages.csv",row.names = FALSE)
+
+#Prediction all group stage matches
+group_stage_matches_prediction <- data_wc2022
+group_stage_matches_prediction$match <- paste0(group_stage_matches_prediction$team_home,"-",group_stage_matches_prediction$team_away)
+write.csv(group_stage_matches_prediction[,c(6,29,24,26,25)],"Output/prediction_group_stages_matches.csv",row.names = FALSE)

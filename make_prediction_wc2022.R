@@ -32,16 +32,16 @@ for (m in 1:nrow(data_wc2022)) {
 
 if (data_wc2022$team_home[m] == "Qatar") { 
   data_wc2022$winning_prob_home[m] <- prediction_group_home[m,3]
-  data_wc2022$losing_prob_home[m] <- prediction_group_home[m,1]
-  data_wc2022$draw_prob[m] <- prediction_group_home[m,2]  
+  data_wc2022$losing_prob_home[m] <- prediction_group_home[m,2]
+  data_wc2022$draw_prob[m] <- prediction_group_home[m,1]  
 } else if (data_wc2022$team_away[m] == "Qatar"){
-  data_wc2022$winning_prob_home[m] <- prediction_group_away[m,1]
+  data_wc2022$winning_prob_home[m] <- prediction_group_away[m,2]
   data_wc2022$losing_prob_home[m] <- prediction_group_away[m,3]
-  data_wc2022$draw_prob[m] <- prediction_group_away[m,2] 
+  data_wc2022$draw_prob[m] <- prediction_group_away[m,1] 
 }  else {
-data_wc2022$winning_prob_home[m] <- (prediction_group_home[m,3]+prediction_group_away[m,1])/2
-data_wc2022$losing_prob_home[m] <- (prediction_group_home[m,1]+prediction_group_away[m,3])/2
-data_wc2022$draw_prob[m] <- (prediction_group_home[m,2]+prediction_group_away[m,2])/2
+data_wc2022$winning_prob_home[m] <- (prediction_group_home[m,3]+prediction_group_away[m,2])/2
+data_wc2022$losing_prob_home[m] <- (prediction_group_home[m,2]+prediction_group_away[m,3])/2
+data_wc2022$draw_prob[m] <- (prediction_group_home[m,1]+prediction_group_away[m,1])/2
 }
 
 data_wc2022$prediction_home[m] <- sample(c(3,1,0),prob=c(as.numeric(data_wc2022$winning_prob_home[m]),as.numeric(data_wc2022$draw_prob[m]),as.numeric(data_wc2022$losing_prob_home[m])), size=1)
@@ -83,7 +83,7 @@ colnames(new_entry) <- c("Group","Team","Score","Rank")
 group_stage_simulation <- rbind(group_stage_simulation,new_entry) 
 }
 }
-
+print(n)
 n <- n+1
 }
 
@@ -243,16 +243,16 @@ for (m in 1:nrow(R16_matches)) {
   
   if (R16_matches$team_home[m] == "Qatar") { 
     R16_matches$winning_prob_home[m] <- prediction_group_home[m,3]
-    R16_matches$losing_prob_home[m] <- prediction_group_home[m,1]
-    R16_matches$draw_prob[m] <- prediction_group_home[m,2]  
+    R16_matches$losing_prob_home[m] <- prediction_group_home[m,2]
+    R16_matches$draw_prob[m] <- prediction_group_home[m,1]  
   } else if (R16_matches$team_away[m] == "Qatar"){
-    R16_matches$winning_prob_home[m] <- prediction_group_away[m,1]
+    R16_matches$winning_prob_home[m] <- prediction_group_away[m,2]
     R16_matches$losing_prob_home[m] <- prediction_group_away[m,3]
-    R16_matches$draw_prob[m] <- prediction_group_away[m,2] 
+    R16_matches$draw_prob[m] <- prediction_group_away[m,1] 
   }  else {
-    R16_matches$winning_prob_home[m] <- (prediction_group_home[m,3]+prediction_group_away[m,1])/2
-    R16_matches$losing_prob_home[m] <- (prediction_group_home[m,1]+prediction_group_away[m,3])/2
-    R16_matches$draw_prob[m] <- (prediction_group_home[m,2]+prediction_group_away[m,2])/2
+    R16_matches$winning_prob_home[m] <- (prediction_group_home[m,3]+prediction_group_away[m,2])/2
+    R16_matches$losing_prob_home[m] <- (prediction_group_home[m,2]+prediction_group_away[m,3])/2
+    R16_matches$draw_prob[m] <- (prediction_group_home[m,1]+prediction_group_away[m,1])/2
   }
   
   R16_matches$prediction[m] <- sample(c("win home","draw","win away"),prob=c(as.numeric(R16_matches$winning_prob_home[m]),as.numeric(R16_matches$draw_prob[m]),as.numeric(R16_matches$losing_prob_home[m])), size=1)
@@ -334,16 +334,16 @@ for (m in 1:nrow(QF_matches)) {
   
   if (QF_matches$team_home[m] == "Qatar") { 
     QF_matches$winning_prob_home[m] <- prediction_group_home[m,3]
-    QF_matches$losing_prob_home[m] <- prediction_group_home[m,1]
-    QF_matches$draw_prob[m] <- prediction_group_home[m,2]  
+    QF_matches$losing_prob_home[m] <- prediction_group_home[m,2]
+    QF_matches$draw_prob[m] <- prediction_group_home[m,1]  
   } else if (QF_matches$team_away[m] == "Qatar"){
-    QF_matches$winning_prob_home[m] <- prediction_group_away[m,1]
+    QF_matches$winning_prob_home[m] <- prediction_group_away[m,2]
     QF_matches$losing_prob_home[m] <- prediction_group_away[m,3]
-    QF_matches$draw_prob[m] <- prediction_group_away[m,2] 
+    QF_matches$draw_prob[m] <- prediction_group_away[m,1] 
   }  else {
-    QF_matches$winning_prob_home[m] <- (prediction_group_home[m,3]+prediction_group_away[m,1])/2
-    QF_matches$losing_prob_home[m] <- (prediction_group_home[m,1]+prediction_group_away[m,3])/2
-    QF_matches$draw_prob[m] <- (prediction_group_home[m,2]+prediction_group_away[m,2])/2
+    QF_matches$winning_prob_home[m] <- (prediction_group_home[m,3]+prediction_group_away[m,2])/2
+    QF_matches$losing_prob_home[m] <- (prediction_group_home[m,2]+prediction_group_away[m,3])/2
+    QF_matches$draw_prob[m] <- (prediction_group_home[m,1]+prediction_group_away[m,1])/2
   }
   
   QF_matches$prediction[m] <- sample(c("win home","draw","win away"),prob=c(as.numeric(QF_matches$winning_prob_home[m]),as.numeric(QF_matches$draw_prob[m]),as.numeric(QF_matches$losing_prob_home[m])), size=1)
@@ -411,16 +411,16 @@ for (m in 1:nrow(SF_Matches)) {
   
   if (SF_Matches$team_home[m] == "Qatar") { 
     SF_Matches$winning_prob_home[m] <- prediction_group_home[m,3]
-    SF_Matches$losing_prob_home[m] <- prediction_group_home[m,1]
-    SF_Matches$draw_prob[m] <- prediction_group_home[m,2]  
+    SF_Matches$losing_prob_home[m] <- prediction_group_home[m,2]
+    SF_Matches$draw_prob[m] <- prediction_group_home[m,1]  
   } else if (SF_Matches$team_away[m] == "Qatar"){
-    SF_Matches$winning_prob_home[m] <- prediction_group_away[m,1]
+    SF_Matches$winning_prob_home[m] <- prediction_group_away[m,2]
     SF_Matches$losing_prob_home[m] <- prediction_group_away[m,3]
-    SF_Matches$draw_prob[m] <- prediction_group_away[m,2] 
+    SF_Matches$draw_prob[m] <- prediction_group_away[m,1] 
   }  else {
-    SF_Matches$winning_prob_home[m] <- (prediction_group_home[m,3]+prediction_group_away[m,1])/2
-    SF_Matches$losing_prob_home[m] <- (prediction_group_home[m,1]+prediction_group_away[m,3])/2
-    SF_Matches$draw_prob[m] <- (prediction_group_home[m,2]+prediction_group_away[m,2])/2
+    SF_Matches$winning_prob_home[m] <- (prediction_group_home[m,3]+prediction_group_away[m,2])/2
+    SF_Matches$losing_prob_home[m] <- (prediction_group_home[m,2]+prediction_group_away[m,3])/2
+    SF_Matches$draw_prob[m] <- (prediction_group_home[m,1]+prediction_group_away[m,1])/2
   }
   
   SF_Matches$prediction[m] <- sample(c("win home","draw","win away"),prob=c(as.numeric(SF_Matches$winning_prob_home[m]),as.numeric(SF_Matches$draw_prob[m]),as.numeric(SF_Matches$losing_prob_home[m])), size=1)
@@ -492,16 +492,16 @@ for (m in 1:nrow(Final_Matches)) {
   
   if (Final_Matches$team_home[m] == "Qatar") { 
     Final_Matches$winning_prob_home[m] <- prediction_group_home[m,3]
-    Final_Matches$losing_prob_home[m] <- prediction_group_home[m,1]
-    Final_Matches$draw_prob[m] <- prediction_group_home[m,2]  
+    Final_Matches$losing_prob_home[m] <- prediction_group_home[m,2]
+    Final_Matches$draw_prob[m] <- prediction_group_home[m,1]  
   } else if (Final_Matches$team_away[m] == "Qatar"){
-    Final_Matches$winning_prob_home[m] <- prediction_group_away[m,1]
+    Final_Matches$winning_prob_home[m] <- prediction_group_away[m,2]
     Final_Matches$losing_prob_home[m] <- prediction_group_away[m,3]
-    Final_Matches$draw_prob[m] <- prediction_group_away[m,2] 
+    Final_Matches$draw_prob[m] <- prediction_group_away[m,1] 
   }  else {
-    Final_Matches$winning_prob_home[m] <- (prediction_group_home[m,3]+prediction_group_away[m,1])/2
-    Final_Matches$losing_prob_home[m] <- (prediction_group_home[m,1]+prediction_group_away[m,3])/2
-    Final_Matches$draw_prob[m] <- (prediction_group_home[m,2]+prediction_group_away[m,2])/2
+    Final_Matches$winning_prob_home[m] <- (prediction_group_home[m,3]+prediction_group_away[m,2])/2
+    Final_Matches$losing_prob_home[m] <- (prediction_group_home[m,2]+prediction_group_away[m,3])/2
+    Final_Matches$draw_prob[m] <- (prediction_group_home[m,1]+prediction_group_away[m,1])/2
   }
   
   Final_Matches$prediction[m] <- sample(c("win home","draw","win away"),prob=c(as.numeric(Final_Matches$winning_prob_home[m]),as.numeric(Final_Matches$draw_prob[m]),as.numeric(Final_Matches$losing_prob_home[m])), size=1)
