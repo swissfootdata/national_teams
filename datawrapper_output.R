@@ -95,4 +95,8 @@ write.csv(group_stage_prediction,"Output/prediction_group_stages.csv",row.names 
 #Prediction all group stage matches
 group_stage_matches_prediction <- data_wc2022
 group_stage_matches_prediction$match <- paste0(group_stage_matches_prediction$team_home,"-",group_stage_matches_prediction$team_away)
+
+group_stage_matches_prediction <- group_stage_matches_prediction %>%
+  arrange(date)
+
 write.csv(group_stage_matches_prediction[,c(6,29,24,26,25)],"Output/prediction_group_stages_matches.csv",row.names = FALSE)
