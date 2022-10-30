@@ -1,4 +1,5 @@
 library(dplyr)
+library(lubridate)
 
 #Datawrapper Output
 teams_flags <- data_wc2022 %>%
@@ -99,4 +100,11 @@ group_stage_matches_prediction$match <- paste0(group_stage_matches_prediction$te
 group_stage_matches_prediction <- group_stage_matches_prediction %>%
   arrange(date)
 
-write.csv(group_stage_matches_prediction[,c(6,29,24,26,25)],"Output/prediction_group_stages_matches.csv",row.names = FALSE)
+group_stage_matches_prediction$date_name <- paste0(day(group_stage_matches_prediction$date)," ",
+                                                   month(group_stage_matches_prediction$date, label=TRUE, abbr=FALSE)," ",
+                                                   year(group_stage_matches_prediction$date))
+
+group_stage_matches_prediction$date_name <- gsub("Dezember","December",group_stage_matches_prediction$date_name)
+
+
+write.csv(group_stage_matches_prediction[,c(30,29,24,26,25)],"Output/prediction_group_stages_matches.csv",row.names = FALSE)
