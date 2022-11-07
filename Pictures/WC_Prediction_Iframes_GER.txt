@@ -11,3 +11,8 @@ WM 2022 Prognose Sieger
 WM 2022 Prognose Gruppenphase
 
 <iframe title="Welcher Platz in der Gruppenphase ist für jedes Team an der WM 2022 am wahrscheinlichsten?" aria-label="Tabelle" id="datawrapper-chart-xOPaJ" src="https://datawrapper.dwcdn.net/xOPaJ/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="896"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
+
+Prognosen für alle geplanten WM-Spiele
+
+<iframe title="Prognosen für alle WM-Spiele" aria-label="Balken (gestapelt)" id="datawrapper-chart-8EbyO" src="https://datawrapper.dwcdn.net/8EbyO/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="2086"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+</script>
