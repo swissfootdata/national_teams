@@ -86,7 +86,7 @@ colnames(prediction_winner_old) <- c("team","probability_winner_old")
 
 prediction_winner <- merge(prediction_world_cup[,c(1,8)],prediction_winner_old)
 prediction_winner$probability_change <- prediction_winner$probability_winner-prediction_winner$probability_winner_old
-
+View(prediction_winner)
 write.csv(prediction_winner[,c(1,2,4)],"Output/prediction_winner.csv",row.names = FALSE)
 
 #Group Stages
@@ -117,5 +117,6 @@ group_stage_matches_prediction$date_name <- paste0(day(group_stage_matches_predi
 
 group_stage_matches_prediction$date_name <- gsub("Dezember","December",group_stage_matches_prediction$date_name)
 
+View(group_stage_matches_prediction)
 
-write.csv(group_stage_matches_prediction[,c(30,29,24,26,25)],"Output/prediction_group_stages_matches.csv",row.names = FALSE)
+write.csv(group_stage_matches_prediction[,c(31,32,24,26,25)],"Output/prediction_group_stages_matches.csv",row.names = FALSE)

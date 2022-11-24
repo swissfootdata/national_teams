@@ -43,6 +43,7 @@ data_wc2022$score_home <- c(0,0,NA,NA,NA,NA,
                             3,3,NA,NA,NA,NA,
                             1,3,NA,NA,NA,NA)
 
+View(data_wc2022)
 #Predict all Group matches
 prediction_group_home <- predict(regr, new_games_home, type="prob")
 prediction_group_away <- predict(regr, new_games_away, type="prob")
