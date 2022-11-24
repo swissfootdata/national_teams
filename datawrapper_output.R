@@ -117,6 +117,6 @@ group_stage_matches_prediction$date_name <- paste0(day(group_stage_matches_predi
 
 group_stage_matches_prediction$date_name <- gsub("Dezember","December",group_stage_matches_prediction$date_name)
 
-View(group_stage_matches_prediction)
-
+group_stage_matches_prediction <- group_stage_matches_prediction %>%
+  filter(match_finished==FALSE)
 write.csv(group_stage_matches_prediction[,c(31,32,24,26,25)],"Output/prediction_group_stages_matches.csv",row.names = FALSE)
