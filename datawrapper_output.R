@@ -31,7 +31,7 @@ prediction_finalist$team <- paste0(prediction_finalist$two_letter_code_home,pred
 colnames(prediction_finalist) <- c("team","two_letter_code_home","probability_finalist")
 
 #World Cup SF
-prediction_SF <- data.frame(table(SF_Matches$loser)/1000)
+prediction_SF <- data.frame(table(SF_Matches$winner)/1000)
 colnames(prediction_SF) <- c("team","probability")
 prediction_SF <- merge(teams_flags,prediction_SF,all.x = TRUE)
 prediction_SF[is.na(prediction_SF)] <- 0
@@ -79,8 +79,15 @@ prediction_world_cup <- prediction_world_cup %>%
           probability_Group)
 
 write.csv(prediction_world_cup,"Output/prediction_world_cup.csv",row.names = FALSE)
-write.csv(prediction_world_cup[,c(1,8)],"Output/prediction_winner.csv",row.names = FALSE)
 
+###Prediction Winner
+prediction_winner_old <- read.csv("https://raw.githubusercontent.com/swissfootdata/national_teams/master/Output/prediction_winner.csv")
+colnames(prediction_winner_old) <- c("team","probability_winner_old")
+
+prediction_winner <- merge(prediction_world_cup[,c(1,8)],prediction_winner_old)
+prediction_winner$probability_change <- prediction_winner$probability_winner-prediction_winner$probability_winner_old
+
+write.csv(prediction_winner[,c(1,2,4)],"Output/prediction_winner.csv",row.names = FALSE)
 
 #Group Stages
 group_stage_prediction <- merge(teams_flags,group_stage_summary,by.x="team",by.y="Team")

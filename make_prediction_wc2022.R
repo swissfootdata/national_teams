@@ -5,6 +5,7 @@ library(dplyr)
 source("get_data_wc2022.R")
 source("create_prediction_model.R")
 
+
 #Data Frame Group Stage Simulation
 group_stage_simulation <- data.frame("Group","Team",0,0)
 colnames(group_stage_simulation) <- c("Group","Team","Score","Rank")
@@ -14,15 +15,33 @@ regr <- randomForest(x = X, y = y, maxnodes = 250, ntree = 1100, type="prob")
 
 n <- 1
 while (n < 1001) {
+
 new_games_home <- data_wc2022[,c(16:19,22:23)]
 new_games_away <- data_wc2022[,c(16:19,22:23)]
 colnames(new_games_away) <- colnames(new_games_away)[c(2,1,4,3,6,5)]
 
-data_wc2022$winning_prob_home <- 0
-data_wc2022$losing_prob_home <- 0
-data_wc2022$draw_prob <- 0
-data_wc2022$prediction_home <- 0
-data_wc2022$prediction_away <- 0
+data_wc2022$winning_prob_home <- NA
+data_wc2022$losing_prob_home <- NA
+data_wc2022$draw_prob <- NA
+data_wc2022$prediction_home <- NA
+data_wc2022$prediction_away <- NA
+data_wc2022$match_finished <- c(TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,
+                                TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,
+                                TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,
+                                TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,
+                                TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,
+                                TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,
+                                TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,
+                                TRUE,TRUE,FALSE,FALSE,FALSE,FALSE
+                                )
+data_wc2022$score_home <- c(0,0,NA,NA,NA,NA,
+                            3,1,NA,NA,NA,NA,
+                            0,1,NA,NA,NA,NA,
+                            1,3,NA,NA,NA,NA,
+                            0,3,NA,NA,NA,NA,
+                            1,3,NA,NA,NA,NA,
+                            3,3,NA,NA,NA,NA,
+                            1,3,NA,NA,NA,NA)
 
 #Predict all Group matches
 prediction_group_home <- predict(regr, new_games_home, type="prob")
@@ -44,7 +63,12 @@ data_wc2022$losing_prob_home[m] <- (prediction_group_home[m,2]+prediction_group_
 data_wc2022$draw_prob[m] <- (prediction_group_home[m,1]+prediction_group_away[m,1])/2
 }
 
+if (data_wc2022$match_finished[m] == FALSE) {
 data_wc2022$prediction_home[m] <- sample(c(3,1,0),prob=c(as.numeric(data_wc2022$winning_prob_home[m]),as.numeric(data_wc2022$draw_prob[m]),as.numeric(data_wc2022$losing_prob_home[m])), size=1)
+} else {
+data_wc2022$prediction_home[m] <- data_wc2022$score_home[m]  
+}  
+
 
 if (data_wc2022$prediction_home[m] == 3) {
   data_wc2022$prediction_away[m] <- 0

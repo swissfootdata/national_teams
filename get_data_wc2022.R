@@ -128,10 +128,9 @@ url <- "https://www.eloratings.net/2022.tsv"
 all_content <- GET(url)
 elo_ratings <- content(all_content, col_names = FALSE)
 
-
 elo_ratings <- elo_ratings[,c(3,2,4)]
 colnames(elo_ratings) <- c("two_letter_code","rank","score")
-elo_ratings$date <- as.Date("2022-10-15")
+elo_ratings$date <- as.Date("2022-11-01")
 
 data_wc2022$confederation_home <- NA
 data_wc2022$confederation_away <- NA
@@ -167,7 +166,7 @@ for (w in 1:nrow(data_wc2022)) {
     data_wc2022$elo_ranking_score_home[w] <- selection_elo$score[nrow(selection_elo)]
     data_wc2022$elo_ranking_rank_home[w] <- selection_elo$rank[nrow(selection_elo)]
   }
-  
+
   #Away Team
   selection_fifa <- fifa_ranking %>%
     filter(country_full == data_wc2022$team_away[w],
@@ -241,4 +240,5 @@ for (w in 1:nrow(data_wc2022)) {
   
 }  
 
+saveRDS(data_wc2022,file="./Data/world_cup_matches.rds")
 
