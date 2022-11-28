@@ -1,33 +1,33 @@
 "team","probability_winner","probability_change"
-":ar:Argentina",0.12,-0.004
+":ar:Argentina",0.128,0.00800000000000001
 ":au:Australia",0,0
-":be:Belgium",0.152,0.00600000000000001
-":br:Brazil",0.115,0.028
+":be:Belgium",0.057,-0.095
+":br:Brazil",0.14,0.025
 ":ca:Canada",0,0
-":ch:Switzerland",0.03,-0.008
+":ch:Switzerland",0.031,0.001
 ":cm:Cameroon",0,0
 ":cr:Costa Rica",0,0
-":de:Germany",0.006,-0.044
-":dk:Denmark",0.034,0
-":ec:Ecuador",0.005,0.001
-":es:Spain",0.095,0.017
-":fr:France",0.08,-0.01
-":gb-eng:England",0.048,0.013
-":gb-wls:Wales",0.002,0.001
+":de:Germany",0.021,0.015
+":dk:Denmark",0.03,-0.004
+":ec:Ecuador",0.003,-0.002
+":es:Spain",0.091,-0.004
+":fr:France",0.128,0.048
+":gb-eng:England",0.049,0.001
+":gb-wls:Wales",0,-0.002
 ":gh:Ghana",0,0
-":hr:Croatia",0.017,0.002
-":ir:Iran",0,-0.007
-":jp:Japan",0.004,0.004
+":hr:Croatia",0.014,-0.003
+":ir:Iran",0.003,0.003
+":jp:Japan",0,-0.004
 ":kr:South Korea",0,0
-":ma:Morocco",0.004,0.003
-":mx:Mexico",0.008,0
-":nl:Netherlands",0.146,-0.00600000000000001
-":pl:Poland",0.006,0.003
-":pt:Portugal",0.084,0.016
+":ma:Morocco",0.008,0.004
+":mx:Mexico",0.003,-0.005
+":nl:Netherlands",0.15,0.004
+":pl:Poland",0.011,0.005
+":pt:Portugal",0.086,0.00199999999999999
 ":qa:Qatar",0,0
-":rs:Serbia",0.004,-0.004
+":rs:Serbia",0.004,0
 ":sa:Saudi Arabia",0,0
-":sn:Senegal",0.001,0.001
-":tn:Tunisia",0.002,0.002
-":us:United States",0.004,-0.001
-":uy:Uruguay",0.033,-0.013
+":sn:Senegal",0.002,0.001
+":tn:Tunisia",0,-0.002
+":us:United States",0.002,-0.002
+":uy:Uruguay",0.039,0.006

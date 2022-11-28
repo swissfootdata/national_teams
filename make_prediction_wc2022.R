@@ -5,7 +5,6 @@ library(dplyr)
 source("get_data_wc2022.R")
 source("create_prediction_model.R")
 
-
 #Data Frame Group Stage Simulation
 group_stage_simulation <- data.frame("Group","Team",0,0)
 colnames(group_stage_simulation) <- c("Group","Team","Score","Rank")
@@ -25,25 +24,24 @@ data_wc2022$losing_prob_home <- NA
 data_wc2022$draw_prob <- NA
 data_wc2022$prediction_home <- NA
 data_wc2022$prediction_away <- NA
-data_wc2022$match_finished <- c(TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,
-                                TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,
-                                TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,
-                                TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,
-                                TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,
-                                TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,
-                                TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,
-                                TRUE,TRUE,FALSE,FALSE,FALSE,FALSE
+data_wc2022$match_finished <- c(TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,
+                                TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,
+                                TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,
+                                TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,
+                                TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,
+                                TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,
+                                TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,
+                                TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
                                 )
-data_wc2022$score_home <- c(0,0,NA,NA,NA,NA,
-                            3,1,NA,NA,NA,NA,
-                            0,1,NA,NA,NA,NA,
-                            1,3,NA,NA,NA,NA,
-                            0,3,NA,NA,NA,NA,
-                            1,3,NA,NA,NA,NA,
-                            3,3,NA,NA,NA,NA,
-                            1,3,NA,NA,NA,NA)
+data_wc2022$score_home <- c(0,0,0,1,NA,NA,
+                            3,1,0,1,NA,NA,
+                            0,1,3,3,NA,NA,
+                            1,3,1,3,NA,NA,
+                            0,3,0,1,NA,NA,
+                            1,3,0,3,NA,NA,
+                            3,3,1,3,NA,NA,
+                            1,3,0,3,NA,NA)
 
-View(data_wc2022)
 #Predict all Group matches
 prediction_group_home <- predict(regr, new_games_home, type="prob")
 prediction_group_away <- predict(regr, new_games_away, type="prob")
@@ -135,16 +133,28 @@ for (g in 1:nrow(group_stage_summary)) {
   team_selection <- group_stage_probabilities %>%
     filter(Team == group_stage_summary$Team[g])
   
-  group_stage_summary$prob_rank1[g] <- team_selection$prob_rank[1]
-  group_stage_summary$prob_rank2[g] <- team_selection$prob_rank[2]
-  group_stage_summary$prob_rank3[g] <- team_selection$prob_rank[3]
-  group_stage_summary$prob_rank4[g] <- team_selection$prob_rank[4]
+  for (t in 1:nrow(team_selection)) {
+  
+   if (team_selection$Rank[t] == 1) { 
+  group_stage_summary$prob_rank1[g] <- team_selection$prob_rank[t]
+   }
+    if (team_selection$Rank[t] == 2) { 
+      group_stage_summary$prob_rank2[g] <- team_selection$prob_rank[t]
+    }
+    if (team_selection$Rank[t] == 3) { 
+      group_stage_summary$prob_rank3[g] <- team_selection$prob_rank[t]
+    }
+    if (team_selection$Rank[t] == 4) { 
+      group_stage_summary$prob_rank4[g] <- team_selection$prob_rank[t]
+    }
+
+  }
+  
 }  
 
 team_groups <- data_wc2022 %>%
   distinct(team_home,.keep_all=TRUE) %>%
   arrange(team_home)
-
 
 group_stage_summary$Group <- team_groups$stage
 
@@ -556,5 +566,3 @@ print(table(BigFinal$winner))
 
 #Datawrapper Output
 source("datawrapper_output.R")
-
-

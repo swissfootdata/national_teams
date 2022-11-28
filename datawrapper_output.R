@@ -81,12 +81,12 @@ prediction_world_cup <- prediction_world_cup %>%
 write.csv(prediction_world_cup,"Output/prediction_world_cup.csv",row.names = FALSE)
 
 ###Prediction Winner
-prediction_winner_old <- read.csv("https://raw.githubusercontent.com/swissfootdata/national_teams/master/Output/prediction_winner.csv")
+prediction_winner_old <- read.csv("https://raw.githubusercontent.com/swissfootdata/national_teams/master/Output/prediction_winner.csv")[,1:2]
 colnames(prediction_winner_old) <- c("team","probability_winner_old")
 
 prediction_winner <- merge(prediction_world_cup[,c(1,8)],prediction_winner_old)
 prediction_winner$probability_change <- prediction_winner$probability_winner-prediction_winner$probability_winner_old
-View(prediction_winner)
+
 write.csv(prediction_winner[,c(1,2,4)],"Output/prediction_winner.csv",row.names = FALSE)
 
 #Group Stages
