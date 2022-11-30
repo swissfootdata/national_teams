@@ -120,3 +120,19 @@ group_stage_matches_prediction$date_name <- gsub("Dezember","December",group_sta
 group_stage_matches_prediction <- group_stage_matches_prediction %>%
   filter(match_finished==FALSE)
 write.csv(group_stage_matches_prediction[,c(31,32,24,26,25)],"Output/prediction_group_stages_matches.csv",row.names = FALSE)
+
+#Predictions R16
+R16_predictions <- R16_matches %>%
+  group_by(match) %>%
+  summarise(winning_prob_home = sum(prediction == "win home")/1000,
+            winning_prob_away = sum(prediction == "win away")/1000,
+            match = paste0(team_home[1],"-",team_away[1])
+  )
+
+R16_predictions$date_name <- c("03 December 2022","03 December 2022",
+                               "04 December 2022","04 December 2022",
+                               "05 December 2022","05 December 2022",
+                               "06 December 2022","06 December 2022")
+
+write.csv(R16_predictions[,c(1,4,2,3)],"Output/prediction_R16.csv",row.names = FALSE)
+

@@ -24,23 +24,24 @@ data_wc2022$losing_prob_home <- NA
 data_wc2022$draw_prob <- NA
 data_wc2022$prediction_home <- NA
 data_wc2022$prediction_away <- NA
-data_wc2022$match_finished <- c(TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,
-                                TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,
-                                TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,
-                                TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,
-                                TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,
-                                TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,
-                                TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,
-                                TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+data_wc2022$match_finished <- c(TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,
+                                TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,
+                                TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,
+                                TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,
+                                TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,
+                                TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,
+                                TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,
+                                TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,
                                 )
-data_wc2022$score_home <- c(0,0,0,1,NA,NA,
-                            3,1,0,1,NA,NA,
+data_wc2022$score_home <- c(0,0,0,1,0,3,
+                            3,1,0,1,0,0,
                             0,1,3,3,NA,NA,
                             1,3,1,3,NA,NA,
                             0,3,0,1,NA,NA,
                             1,3,0,3,NA,NA,
                             3,3,1,3,NA,NA,
                             1,3,0,3,NA,NA)
+
 
 #Predict all Group matches
 prediction_group_home <- predict(regr, new_games_home, type="prob")
@@ -306,6 +307,7 @@ for (m in 1:nrow(R16_matches)) {
   
 }
 
+View(R16_matches)
 print(table(R16_matches$winner))
 ###Data Quarter Finals
 winner_M49 <- R16_matches %>%
