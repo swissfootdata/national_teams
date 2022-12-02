@@ -13,7 +13,7 @@ colnames(group_stage_simulation) <- c("Group","Team","Score","Rank")
 
 # Train the model 
 regr <- randomForest(x = X, y = y, maxnodes = 250, ntree = 1100, type="prob")
-View(data_wc2022)
+
 n <- 1
 while (n < 1001) {
 
@@ -358,8 +358,8 @@ QF_matches <- data.frame(c(winner_M49$winner,winner_M53$winner,winner_M51$winner
                           c(winner_M50$winner,winner_M54$winner,winner_M52$winner,winner_M56$winner))
 colnames(QF_matches) <- c("team_home","team_away")
 QF_matches$match <- c(rep("Match 57",nrow(winner_M49)),
-                       rep("Match 58",nrow(winner_M49)),
                        rep("Match 59",nrow(winner_M49)),
+                       rep("Match 58",nrow(winner_M49)),
                        rep("Match 60",nrow(winner_M49)))
 
 QF_matches <- merge(QF_matches,data_team_home)
@@ -417,6 +417,7 @@ for (m in 1:nrow(QF_matches)) {
   }  
   
 }
+
 
 print(table(QF_matches$winner))
 ###Data Semi Final

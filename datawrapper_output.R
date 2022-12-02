@@ -31,7 +31,7 @@ prediction_finalist$team <- paste0(prediction_finalist$two_letter_code_home,pred
 colnames(prediction_finalist) <- c("team","two_letter_code_home","probability_finalist")
 
 #World Cup SF
-prediction_SF <- data.frame(table(SF_Matches$winner)/1000)
+prediction_SF <- data.frame(table(SF_Matches$loser)/1000)
 colnames(prediction_SF) <- c("team","probability")
 prediction_SF <- merge(teams_flags,prediction_SF,all.x = TRUE)
 prediction_SF[is.na(prediction_SF)] <- 0
