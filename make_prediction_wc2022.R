@@ -3,6 +3,8 @@ library(randomForest)
 library(dplyr)
 
 source("get_data_wc2022.R")
+data_wc2022 <- data_wc2022[(nrow(data_wc2022)-47):nrow(data_wc2022),]
+
 source("create_prediction_model.R")
 
 #Data Frame Group Stage Simulation
@@ -11,7 +13,7 @@ colnames(group_stage_simulation) <- c("Group","Team","Score","Rank")
 
 # Train the model 
 regr <- randomForest(x = X, y = y, maxnodes = 250, ntree = 1100, type="prob")
-
+View(data_wc2022)
 n <- 1
 while (n < 1001) {
 
@@ -31,17 +33,16 @@ data_wc2022$match_finished <- c(TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,
                                 TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,
                                 TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,
                                 TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,
-                                TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,
+                                TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
                                 )
 data_wc2022$score_home <- c(0,0,0,1,0,3,
                             3,1,0,1,0,0,
-                            0,1,3,3,NA,NA,
-                            1,3,1,3,NA,NA,
-                            0,3,0,1,NA,NA,
-                            1,3,0,3,NA,NA,
-                            3,3,1,3,NA,NA,
-                            1,3,0,3,NA,NA)
-
+                            0,1,3,3,0,0,
+                            1,3,0,3,3,3,
+                            0,3,0,1,0,3,
+                            1,3,0,3,0,1,
+                            3,3,1,3,0,3,
+                            1,3,0,3,0,3)
 
 #Predict all Group matches
 prediction_group_home <- predict(regr, new_games_home, type="prob")
@@ -99,6 +100,25 @@ group_outcome <- merge(group_outcome_home,group_outcome_away,by.x ="team_home",b
 group_outcome$score_overall <- group_outcome$overall_score_home + group_outcome$overall_score_away
 group_outcome$rank <- 5-rank(group_outcome$score_overall,ties.method = "random")
 
+if (group == "Group C") {
+group_outcome$rank[2] <- 3
+group_outcome$rank[3] <- 2
+} else if (group == "Group D") {
+group_outcome$rank[1] <- 2
+group_outcome$rank[3] <- 1  
+} else if (group == "Group E") {
+  group_outcome$rank[2] <- 3
+  group_outcome$rank[4] <- 2  
+} else if (group == "Group H") {
+  group_outcome$rank[3] <- 2
+  group_outcome$rank[4] <- 3  
+} else if (group == "Group G") {
+  group_outcome$rank[1] <- 1
+  group_outcome$rank[4] <- 2  
+}  
+
+
+
 print(group_outcome)
 
 for (g in 1:nrow(group_outcome)) {
@@ -110,7 +130,7 @@ group_stage_simulation <- rbind(group_stage_simulation,new_entry)
 print(n)
 n <- n+1
 }
-
+n <- n-1
 group_stage_simulation <- group_stage_simulation[-1,]
 
 group_stage_summary <- group_stage_simulation %>%
@@ -307,7 +327,6 @@ for (m in 1:nrow(R16_matches)) {
   
 }
 
-View(R16_matches)
 print(table(R16_matches$winner))
 ###Data Quarter Finals
 winner_M49 <- R16_matches %>%
@@ -568,3 +587,6 @@ print(table(BigFinal$winner))
 
 #Datawrapper Output
 source("datawrapper_output.R")
+
+View(prediction_world_cup)
+View(prediction_winner)

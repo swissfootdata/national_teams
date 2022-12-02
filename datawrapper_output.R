@@ -129,10 +129,10 @@ R16_predictions <- R16_matches %>%
             match = paste0(team_home[1],"-",team_away[1])
   )
 
+
 R16_predictions$date_name <- c("03 December 2022","03 December 2022",
-                               "04 December 2022","04 December 2022",
                                "05 December 2022","05 December 2022",
+                               "04 December 2022","04 December 2022",
                                "06 December 2022","06 December 2022")
 
 write.csv(R16_predictions[,c(1,4,2,3)],"Output/prediction_R16.csv",row.names = FALSE)
-
