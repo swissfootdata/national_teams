@@ -13,7 +13,7 @@ teams_flags$two_letter_code_home <- gsub("wa","gb-wls",teams_flags$two_letter_co
 
 
 #World Cup Winner
-prediction_winner <- data.frame(table(BigFinal$winner)/1000)
+prediction_winner <- data.frame(table(BigFinal$winner)/10000)
 colnames(prediction_winner) <- c("team","probability")
 prediction_winner <- merge(teams_flags,prediction_winner,all.x = TRUE)
 prediction_winner[is.na(prediction_winner)] <- 0
@@ -22,7 +22,7 @@ prediction_winner$team <- paste0(prediction_winner$two_letter_code_home,predicti
 colnames(prediction_winner) <- c("team","two_letter_code_home","probability_winner")
 
 #World Cup 2nd
-prediction_finalist <- data.frame(table(BigFinal$loser)/1000)
+prediction_finalist <- data.frame(table(BigFinal$loser)/10000)
 colnames(prediction_finalist) <- c("team","probability")
 prediction_finalist <- merge(teams_flags,prediction_finalist,all.x = TRUE)
 prediction_finalist[is.na(prediction_finalist)] <- 0
@@ -31,7 +31,7 @@ prediction_finalist$team <- paste0(prediction_finalist$two_letter_code_home,pred
 colnames(prediction_finalist) <- c("team","two_letter_code_home","probability_finalist")
 
 #World Cup SF
-prediction_SF <- data.frame(table(SF_Matches$loser)/1000)
+prediction_SF <- data.frame(table(SF_Matches$loser)/10000)
 colnames(prediction_SF) <- c("team","probability")
 prediction_SF <- merge(teams_flags,prediction_SF,all.x = TRUE)
 prediction_SF[is.na(prediction_SF)] <- 0
@@ -40,7 +40,7 @@ prediction_SF$team <- paste0(prediction_SF$two_letter_code_home,prediction_SF$te
 colnames(prediction_SF) <- c("team","two_letter_code_home","probability_SF")
 
 #World Cup Quarters
-prediction_QF <- data.frame(table(QF_matches$loser)/1000)
+prediction_QF <- data.frame(table(QF_matches$loser)/10000)
 colnames(prediction_QF) <- c("team","probability")
 prediction_QF <- merge(teams_flags,prediction_QF,all.x = TRUE)
 prediction_QF[is.na(prediction_QF)] <- 0
@@ -49,7 +49,7 @@ prediction_QF$team <- paste0(prediction_QF$two_letter_code_home,prediction_QF$te
 colnames(prediction_QF) <- c("team","two_letter_code_home","probability_QF")
 
 #World Cup R16
-prediction_R16 <- data.frame(table(R16_matches$loser)/1000)
+prediction_R16 <- data.frame(table(R16_matches$loser)/10000)
 colnames(prediction_R16) <- c("team","probability")
 prediction_R16 <- merge(teams_flags,prediction_R16,all.x = TRUE)
 prediction_R16[is.na(prediction_R16)] <- 0
@@ -124,8 +124,8 @@ write.csv(group_stage_matches_prediction[,c(31,32,24,26,25)],"Output/prediction_
 #Predictions R16
 R16_predictions <- R16_matches %>%
   group_by(match) %>%
-  summarise(winning_prob_home = sum(prediction == "win home")/1000,
-            winning_prob_away = sum(prediction == "win away")/1000,
+  summarise(winning_prob_home = sum(prediction == "win home")/10000,
+            winning_prob_away = sum(prediction == "win away")/10000,
             match = paste0(team_home[1],"-",team_away[1])
   )
 
@@ -136,3 +136,17 @@ R16_predictions$date_name <- c("03 December 2022","03 December 2022",
                                "06 December 2022","06 December 2022")
 
 write.csv(R16_predictions[,c(1,4,2,3)],"Output/prediction_R16.csv",row.names = FALSE)
+
+#Predictions QF
+QF_predictions <- QF_matches %>%
+  group_by(match) %>%
+  summarise(winning_prob_home = sum(prediction == "win home")/10000,
+            winning_prob_away = sum(prediction == "win away")/10000,
+            match = paste0(team_home[1],"-",team_away[1])
+  )
+
+
+QF_predictions$date_name <- c("09 December 2022","09 December 2022",
+                              "10 December 2022","10 December 2022")
+
+write.csv(QF_predictions[,c(1,4,2,3)],"Output/prediction_QF.csv",row.names = FALSE)

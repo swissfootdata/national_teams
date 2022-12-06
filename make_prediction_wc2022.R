@@ -100,6 +100,9 @@ group_outcome <- merge(group_outcome_home,group_outcome_away,by.x ="team_home",b
 group_outcome$score_overall <- group_outcome$overall_score_home + group_outcome$overall_score_away
 group_outcome$rank <- 5-rank(group_outcome$score_overall,ties.method = "random")
 
+group_outcome <- group_outcome %>%
+  arrange(team_home)
+
 if (group == "Group C") {
 group_outcome$rank[2] <- 3
 group_outcome$rank[3] <- 2
@@ -116,8 +119,6 @@ group_outcome$rank[3] <- 1
   group_outcome$rank[1] <- 1
   group_outcome$rank[4] <- 2  
 }  
-
-
 
 print(group_outcome)
 
@@ -186,6 +187,18 @@ print(group_stage_summary)
 saveRDS(group_stage_summary,file="./Data/group_stage_prediction.rds")
 write.csv(group_stage_summary,file="./Data/group_stage_prediction.csv",row.names = FALSE)
 
+group_stage_simulation_old <- group_stage_simulation
+
+group_stage_simulation <- rbind(group_stage_simulation,
+                                    group_stage_simulation,
+                                    group_stage_simulation,
+                                    group_stage_simulation,
+                                    group_stage_simulation,
+                                    group_stage_simulation,
+                                    group_stage_simulation,
+                                    group_stage_simulation,
+                                    group_stage_simulation,
+                                    group_stage_simulation)
 ###Data Frame Round of 16
 winner_a <- group_stage_simulation %>%
   filter(Group == "Group A",
@@ -312,6 +325,25 @@ for (m in 1:nrow(R16_matches)) {
   }
   
   R16_matches$prediction[m] <- sample(c("win home","draw","win away"),prob=c(as.numeric(R16_matches$winning_prob_home[m]),as.numeric(R16_matches$draw_prob[m]),as.numeric(R16_matches$losing_prob_home[m])), size=1)
+  
+  #Add Results
+  if (R16_matches$match[m] == "Match 49") {
+  R16_matches$prediction[m] <- "win home"
+  } else if (R16_matches$match[m] == "Match 50") {
+  R16_matches$prediction[m] <- "win home"
+  } else if (R16_matches$match[m] == "Match 51") {
+    R16_matches$prediction[m] <- "win away"
+  } else if (R16_matches$match[m] == "Match 52") {
+    R16_matches$prediction[m] <- "win home"
+  } else if (R16_matches$match[m] == "Match 53") {
+    R16_matches$prediction[m] <- "win home"
+  } else if (R16_matches$match[m] == "Match 54") {
+    R16_matches$prediction[m] <- "win home"
+  } else if (R16_matches$match[m] == "Match 55") {
+    R16_matches$prediction[m] <- "win home"
+  } else if (R16_matches$match[m] == "Match 56") {
+    R16_matches$prediction[m] <- "win home"
+  }
   
   if (R16_matches$prediction[m] == "draw") {
   R16_matches$prediction[m] <- sample(c("win home","win away"),prob=c(0.5,0.5), size=1)
@@ -576,7 +608,6 @@ for (m in 1:nrow(Final_Matches)) {
   }  
   
 }
-
 
 BigFinal <- Final_Matches %>%
   filter(match=="Match 64")

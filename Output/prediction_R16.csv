@@ -1,9 +1,9 @@
 "match","date_name","winning_prob_home","winning_prob_away"
-"Netherlands-United States","03 December 2022",0.732,0.268
-"Argentina-Australia","03 December 2022",0.853,0.147
-"Japan-Croatia","05 December 2022",0.342,0.658
-"Brazil-South Korea","05 December 2022",0.839,0.161
-"England-Senegal","04 December 2022",0.763,0.237
-"France-Poland","04 December 2022",0.719,0.281
-"Morocco-Spain","06 December 2022",0.336,0.664
-"Portugal-Switzerland","06 December 2022",0.605,0.395
+"Netherlands-United States","03 December 2022",1,0
+"Argentina-Australia","03 December 2022",1,0
+"Japan-Croatia","05 December 2022",0,1
+"Brazil-South Korea","05 December 2022",1,0
+"England-Senegal","04 December 2022",1,0
+"France-Poland","04 December 2022",1,0
+"Morocco-Spain","06 December 2022",1,0
+"Portugal-Switzerland","06 December 2022",1,0
