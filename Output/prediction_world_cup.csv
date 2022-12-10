@@ -1,18 +1,18 @@
 "team","two_letter_code_home","probability_Group","probability_R16","probability_QF","probability_SF","probability_finalist","probability_winner"
-":br:Brazil",":br:",0,0,0.353,0.3192,0.1234,0.2044
-":pt:Portugal",":pt:",0,0,0.314,0.307,0.1982,0.1808
-":nl:Netherlands",":nl:",0,0,0.4842,0.2297,0.1166,0.1695
-":ar:Argentina",":ar:",0,0,0.5158,0.2231,0.0963,0.1648
-":fr:France",":fr:",0,0,0.42,0.272,0.174,0.134
-":gb-eng:England",":gb-eng:",0,0,0.58,0.21,0.1389,0.0711
-":hr:Croatia",":hr:",0,0,0.647,0.228,0.0741,0.0509
-":ma:Morocco",":ma:",0,0,0.686,0.211,0.0785,0.0245
+":ar:Argentina",":ar:",0,0,0,0.3475,0.2265,0.426
+":fr:France",":fr:",0,0,0,0.3531,0.333,0.3139
+":hr:Croatia",":hr:",0,0,0,0.6525,0.1799,0.1676
+":ma:Morocco",":ma:",0,0,0,0.6469,0.2606,0.0925
 ":au:Australia",":au:",0,1,0,0,0,0
+":br:Brazil",":br:",0,0,1,0,0,0
 ":ch:Switzerland",":ch:",0,1,0,0,0,0
 ":es:Spain",":es:",0,1,0,0,0,0
+":gb-eng:England",":gb-eng:",0,0,1,0,0,0
 ":jp:Japan",":jp:",0,1,0,0,0,0
 ":kr:South Korea",":kr:",0,1,0,0,0,0
+":nl:Netherlands",":nl:",0,0,1,0,0,0
 ":pl:Poland",":pl:",0,1,0,0,0,0
+":pt:Portugal",":pt:",0,0,1,0,0,0
 ":sn:Senegal",":sn:",0,1,0,0,0,0
 ":us:United States",":us:",0,1,0,0,0,0
 ":be:Belgium",":be:",1,0,0,0,0,0

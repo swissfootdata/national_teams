@@ -397,7 +397,7 @@ QF_matches$match <- c(rep("Match 57",nrow(winner_M49)),
 QF_matches <- merge(QF_matches,data_team_home)
 QF_matches <- merge(QF_matches,data_team_away)
 
-
+unique(QF_matches)
 ###Predict Quarter Finals
 
 # Train the model 
@@ -436,6 +436,17 @@ for (m in 1:nrow(QF_matches)) {
   
   QF_matches$prediction[m] <- sample(c("win home","draw","win away"),prob=c(as.numeric(QF_matches$winning_prob_home[m]),as.numeric(QF_matches$draw_prob[m]),as.numeric(QF_matches$losing_prob_home[m])), size=1)
   
+  #Add Results
+  if (QF_matches$match[m] == "Match 57") {
+    QF_matches$prediction[m] <- "win away"
+  } else if (QF_matches$match[m] == "Match 58") {
+    QF_matches$prediction[m] <- "win home"
+  } else if (QF_matches$match[m] == "Match 59") {
+    QF_matches$prediction[m] <- "win away"
+  } else if (QF_matches$match[m] == "Match 60") {
+    QF_matches$prediction[m] <- "win home"
+  }
+  
   if (QF_matches$prediction[m] == "draw") {
     QF_matches$prediction[m] <- sample(c("win home","win away"),prob=c(0.5,0.5), size=1)
   }  
@@ -449,7 +460,6 @@ for (m in 1:nrow(QF_matches)) {
   }  
   
 }
-
 
 print(table(QF_matches$winner))
 ###Data Semi Final
