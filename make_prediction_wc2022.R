@@ -524,6 +524,14 @@ for (m in 1:nrow(SF_Matches)) {
   
   SF_Matches$prediction[m] <- sample(c("win home","draw","win away"),prob=c(as.numeric(SF_Matches$winning_prob_home[m]),as.numeric(SF_Matches$draw_prob[m]),as.numeric(SF_Matches$losing_prob_home[m])), size=1)
   
+
+  #Add Results
+  if (SF_Matches$match[m] == "Match 61") {
+    SF_Matches$prediction[m] <- "win home"
+  } else if (SF_Matches$match[m] == "Match 62") {
+    SF_Matches$prediction[m] <- "win home"
+  } 
+  
   if (SF_Matches$prediction[m] == "draw") {
     SF_Matches$prediction[m] <- sample(c("win home","win away"),prob=c(0.5,0.5), size=1)
   }  
@@ -604,6 +612,9 @@ for (m in 1:nrow(Final_Matches)) {
   }
   
   Final_Matches$prediction[m] <- sample(c("win home","draw","win away"),prob=c(as.numeric(Final_Matches$winning_prob_home[m]),as.numeric(Final_Matches$draw_prob[m]),as.numeric(Final_Matches$losing_prob_home[m])), size=1)
+  
+  Final_Matches
+  
   
   if (Final_Matches$prediction[m] == "draw") {
     Final_Matches$prediction[m] <- sample(c("win home","win away"),prob=c(0.5,0.5), size=1)

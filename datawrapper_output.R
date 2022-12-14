@@ -164,3 +164,17 @@ SF_predictions$date_name <- c("13 December 2022","14 December 2022")
 
 write.csv(SF_predictions[,c(1,4,2,3)],"Output/prediction_SF.csv",row.names = FALSE)
 
+
+#Predictions Final
+Final_predictions <- Final_Matches %>%
+  group_by(match) %>%
+  summarise(winning_prob_home = sum(prediction == "win home")/10000,
+            winning_prob_away = sum(prediction == "win away")/10000,
+            match = paste0(team_home[1],"-",team_away[1])
+  )
+
+
+Final_predictions$date_name <- c("17 December 2022","18 December 2022")
+
+write.csv(Final_predictions[,c(1,4,2,3)],"Output/prediction_Finals.csv",row.names = FALSE)
+
