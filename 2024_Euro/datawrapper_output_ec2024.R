@@ -60,7 +60,7 @@ colnames(prediction_R16) <- c("team","two_letter_code_home","probability_R16")
 
 
 #World Cup Out Group Stage
-group_stage_summary$prob_out <- group_stage_summary$prob_rank3*(2/6) + group_stage_summary$prob_rank4
+group_stage_summary$prob_out <- 1 - prediction_R16$probability_R16-prediction_QF$probability_QF-prediction_SF$probability_SF-prediction_winner$
 prediction_Group <- group_stage_summary[,c(1,8)]
 colnames(prediction_Group) <- c("team","probability")
 prediction_Group <- merge(teams_flags,prediction_Group,all.x = TRUE)
@@ -86,6 +86,7 @@ write.csv(prediction_euro,"Output/prediction_euro2024.csv",row.names = FALSE)
 ###Prediction Winner
 prediction_winner_old <- read.csv("https://raw.githubusercontent.com/swissfootdata/national_teams/master/Output/prediction_winner_euro2024.csv")[,1:2]
 colnames(prediction_winner_old) <- c("team","probability_winner_old")
+
 
 prediction_winner <- merge(prediction_euro[,c(1,8)],prediction_winner_old)
 prediction_winner$probability_change <- prediction_winner$probability_winner-prediction_winner$probability_winner_old
