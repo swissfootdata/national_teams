@@ -30,7 +30,7 @@ print(paste0(length(new_matches)," matches found"))
 data_wc2022 <- data.frame(9999999,"team_home","team_away","tournament","stage","01.01.1900","99:99")
 colnames(data_wc2022) <- c("ID","team_home","team_away","tournament","stage",
                                       "date","time")
-url
+
 for (i in new_matches) {
 
 url <- paste0("https://www.transfermarkt.us/frankreich_kroatien/statistik/spielbericht/",i)

@@ -15,23 +15,30 @@ colnames(data_transfermarkt_new) <- c("ID","team_home","team_away","tournament",
                                       "corner_home","corner_away","freekicks_home","freekicks_away",
                                       "fouls_home","fouls_away","offside_home","offside_away")
 
-#links <- c("https://www.transfermarkt.ch/weltmeisterschaft-2018/gesamtspielplan/pokalwettbewerb/WM18/saison_id/2017",
-#           "https://www.transfermarkt.ch/weltmeisterschaft-2014/gesamtspielplan/pokalwettbewerb/WM14/saison_id/2013",
-#           "https://www.transfermarkt.ch/weltmeisterschaft-2010/gesamtspielplan/pokalwettbewerb/WM10/saison_id/2009",
-#           "https://www.transfermarkt.ch/weltmeisterschaft-2006/gesamtspielplan/pokalwettbewerb/WM06/saison_id/2005",
-#           "https://www.transfermarkt.ch/weltmeisterschaft-2002/gesamtspielplan/pokalwettbewerb/WM02/saison_id/2001"
-#           )
-
-
-for (a in 1:6) {
-
-links <- c(paste0("https://www.transfermarkt.ch/wm-qualifikation-europa/gesamtspielplan/pokalwettbewerb/WMQ",a,"/saison_id/2020"),
-           paste0("https://www.transfermarkt.ch/wm-qualifikation-europa/gesamtspielplan/pokalwettbewerb/WMQ",a,"/saison_id/2016"),
-           paste0("https://www.transfermarkt.ch/wm-qualifikation-europa/gesamtspielplan/pokalwettbewerb/WMQ",a,"/saison_id/2012"),
-           paste0("https://www.transfermarkt.ch/wm-qualifikation-europa/gesamtspielplan/pokalwettbewerb/WMQ",a,"/saison_id/2008"),
-           paste0("https://www.transfermarkt.ch/wm-qualifikation-europa/gesamtspielplan/pokalwettbewerb/WMQ",a,"/saison_id/2004"),
-           paste0("https://www.transfermarkt.ch/wm-qualifikation-europa/gesamtspielplan/pokalwettbewerb/WMQ",a,"/saison_id/2000")
+links <- c(#"https://www.transfermarkt.ch/europameisterschaft-2020/gesamtspielplan/pokalwettbewerb/EMQ/saison_id/2022",
+           #"https://www.transfermarkt.ch/europameisterschaft-2020/gesamtspielplan/pokalwettbewerb/EMQ/saison_id/2018",
+           #"https://www.transfermarkt.ch/europameisterschaft-2020/gesamtspielplan/pokalwettbewerb/EMQ/saison_id/2014",
+           #"https://www.transfermarkt.ch/europameisterschaft-2020/gesamtspielplan/pokalwettbewerb/EMQ/saison_id/2010",
+           "https://www.transfermarkt.ch/europameisterschaft-2020/gesamtspielplan/pokalwettbewerb/EMQ/saison_id/2007",
+           "https://www.transfermarkt.ch/europameisterschaft-2020/gesamtspielplan/pokalwettbewerb/EMQ/saison_id/2002",
+           "https://www.transfermarkt.ch/europameisterschaft-2020/gesamtspielplan/pokalwettbewerb/EM20/saison_id/2020",
+           "https://www.transfermarkt.ch/europameisterschaft-2016/gesamtspielplan/pokalwettbewerb/EM16/saison_id/2016",
+           "https://www.transfermarkt.ch/europameisterschaft-2012/gesamtspielplan/pokalwettbewerb/EM12/saison_id/2012",
+           "https://www.transfermarkt.ch/europameisterschaft-2008/gesamtspielplan/pokalwettbewerb/EM08/saison_id/2008",
+           "https://www.transfermarkt.ch/europameisterschaft-2004/gesamtspielplan/pokalwettbewerb/EM04/saison_id/2004",
+           "https://www.transfermarkt.ch/europameisterschaft-2004/gesamtspielplan/pokalwettbewerb/EM04/saison_id/2000"
            )
+
+
+#for (a in 1:6) {
+
+#links <- c(paste0("https://www.transfermarkt.ch/wm-qualifikation-europa/gesamtspielplan/pokalwettbewerb/EMQ",a,"/saison_id/2020"),
+#           paste0("https://www.transfermarkt.ch/wm-qualifikation-europa/gesamtspielplan/pokalwettbewerb/EMQ",a,"/saison_id/2016"),
+#           paste0("https://www.transfermarkt.ch/wm-qualifikation-europa/gesamtspielplan/pokalwettbewerb/EMQ",a,"/saison_id/2012"),
+#           paste0("https://www.transfermarkt.ch/wm-qualifikation-europa/gesamtspielplan/pokalwettbewerb/EMQ",a,"/saison_id/2008"),
+#           paste0("https://www.transfermarkt.ch/wm-qualifikation-europa/gesamtspielplan/pokalwettbewerb/EMQ",a,"/saison_id/2004"),
+#           paste0("https://www.transfermarkt.ch/wm-qualifikation-europa/gesamtspielplan/pokalwettbewerb/EMQ",a,"/saison_id/2000")
+#           )
 
 for (link in links) {
   
@@ -119,9 +126,10 @@ print("scraping completed")
 print(new_data)
 }
 }
-}
-#saveRDS(data_transfermarkt_new,file="./Data/world_cup_data_raw.rds")
-data_transfermarkt_new <- readRDS("./Data/world_cup_data_raw.rds")
+#}
+saveRDS(data_transfermarkt_new,file="./Data/euro_data_raw.rds")
+data_transfermarkt_new <- readRDS("./Data/euro_data_raw.rds")
+
 
 ###Clean Data
 clean_data <- data_transfermarkt_new %>%
@@ -130,16 +138,16 @@ clean_data <- data_transfermarkt_new %>%
 
 clean_data$date <- paste0("bla",clean_data$date)
 clean_data$date <- gsub("bla0[/]","10/",clean_data$date)
+clean_data$date <- gsub("bla1[/]","11/",clean_data$date)
 clean_data$date <- gsub("bla","",clean_data$date)
 
 
-clean_data <- clean_data[-1,]
+#clean_data <- clean_data[-1,]
 clean_data$date <- as.Date(clean_data$date,format="%m/%d/%y")
 clean_data$goals_home <- NA
 clean_data$goals_away <- NA
 clean_data$points_home <- NA
 clean_data$points_away <- NA
-
 
 #Transformations
 clean_data$goals_home <- parse_number(gsub(":.*","",clean_data$result))
@@ -158,6 +166,5 @@ for (i in 1:nrow(clean_data)) {
   }
 }
 
-saveRDS(clean_data,file="./Data/world_cup_data_clean.rds")
-
+saveRDS(clean_data,file="./Data/euro_data_clean.rds")
 
