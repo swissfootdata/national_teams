@@ -10,7 +10,8 @@ teams_flags <- data_ec2024 %>%
 teams_flags$two_letter_code_home <- paste0(":",tolower(teams_flags$two_letter_code_home),":")
 teams_flags$two_letter_code_home <- gsub("en","gb-eng",teams_flags$two_letter_code_home)
 teams_flags$two_letter_code_home <- gsub("wa","gb-wls",teams_flags$two_letter_code_home)
-
+teams_flags$two_letter_code_home <- gsub("wa","gb-wls",teams_flags$two_letter_code_home)
+teams_flags$two_letter_code_home <- gsub("sq","gb-sct",teams_flags$two_letter_code_home)
 
 #World Cup Winner
 prediction_winner <- data.frame(table(BigFinal$winner)/10000)
