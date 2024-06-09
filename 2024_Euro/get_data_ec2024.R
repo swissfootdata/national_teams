@@ -97,7 +97,7 @@ data_ec2024$two_letter_code_away <- countrycode(data_ec2024$team_away,origin='co
                                                                     'Yugoslavia'='YU'))
 
 #Load Ranking Data
-fifa_ranking <- read_csv("data/fifa_ranking-2023-07-20.csv")
+fifa_ranking <- read_csv("data/fifa_ranking-2023-07-20_new.csv")
 
 
 #Get ELO Data

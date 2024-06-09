@@ -16,7 +16,7 @@ colnames(group_stage_simulation) <- c("Group","Team","Score","Rank")
 regr <- randomForest(x = X, y = y, maxnodes = 250, ntree = 1100, type="prob")
 
 n <- 1
-while (n < 1001) {
+while (n < 10001) {
 
   
 new_games_home <- data_ec2024[,c(16:19,22:23)]
@@ -188,18 +188,17 @@ saveRDS(group_stage_summary,file="./Data/group_stage_prediction.rds")
 write.csv(group_stage_summary,file="./Data/group_stage_prediction.csv",row.names = FALSE)
 
 
-group_stage_simulation_old <- group_stage_simulation
-
-group_stage_simulation <- rbind(group_stage_simulation,
-                                    group_stage_simulation,
-                                    group_stage_simulation,
-                                    group_stage_simulation,
-                                    group_stage_simulation,
-                                    group_stage_simulation,
-                                    group_stage_simulation,
-                                    group_stage_simulation,
-                                    group_stage_simulation,
-                                    group_stage_simulation)
+#group_stage_simulation_old <- group_stage_simulation
+#group_stage_simulation <- rbind(group_stage_simulation,
+#                                    group_stage_simulation,
+#                                    group_stage_simulation,
+#                                    group_stage_simulation,
+#                                    group_stage_simulation,
+#                                    group_stage_simulation,
+#                                    group_stage_simulation,
+#                                    group_stage_simulation,
+#                                    group_stage_simulation,
+#                                    group_stage_simulation)
 ###Data Frame Round of 16
 winner_a <- group_stage_simulation %>%
   filter(Group == "Group A",
