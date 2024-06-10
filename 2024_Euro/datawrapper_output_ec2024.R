@@ -81,8 +81,19 @@ prediction_euro <- prediction_euro %>%
   arrange(desc(probability_winner),
           probability_Group)
 
-write.csv(prediction_euro,"Output/prediction_euro2024.csv",row.names = FALSE)
+prediction_euro <- prediction_euro %>%
+  mutate(probability_R16_new = 1-probability_Group,
+         probability_QF_new = 1-probability_Group-probability_R16,
+         probability_SF_new = 1-probability_Group-probability_R16-probability_QF,
+         probability_finalist_new = 1-probability_Group-probability_R16-probability_QF-probability_SF) %>%
+  .[,-c(4:7)] %>%
+  .[c(1:3,5:8,4)] %>%
+  rename(probability_R16 = probability_R16_new,
+         probability_QF = probability_QF_new,
+         probability_SF = probability_SF_new,
+         probability_finalist = probability_finalist_new)
 
+write.csv(prediction_euro,"Output/prediction_euro2024.csv",row.names = FALSE)
 
 ###Prediction Winner
 prediction_winner_old <- read.csv("https://raw.githubusercontent.com/swissfootdata/national_teams/master/Output/prediction_winner_euro2024.csv")[,1:2]
