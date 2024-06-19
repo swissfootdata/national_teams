@@ -26,6 +26,9 @@ ids$check <- grepl("spielbericht",ids$ids_id)
 
 ids <- na.omit(ids[ids$check == TRUE,])
 
+#Select Group Matches (optional)
+ids <- ids[1:36,]
+
 new_matches <- as.integer(gsub(".*spielbericht/", "",ids$ids_id))
 
 print(paste0(length(new_matches)," matches found"))
@@ -40,7 +43,7 @@ for (i in new_matches) {
 url <- paste0("https://www.transfermarkt.us/frankreich_kroatien/statistik/spielbericht/",i)
 webpage <- read_html(url)
 ID <- i
-
+url
 team_home <- html_text(html_nodes(webpage,".sb-vereinslink"))[1]
 team_away <- html_text(html_nodes(webpage,".sb-vereinslink"))[2] #3
 

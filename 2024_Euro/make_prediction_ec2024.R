@@ -16,6 +16,7 @@ colnames(group_stage_simulation) <- c("Group","Team","Score","Rank")
 regr <- randomForest(x = X, y = y, maxnodes = 250, ntree = 1100, type="prob")
 
 n <- 1
+
 while (n < 10001) {
 
   
@@ -28,19 +29,19 @@ data_ec2024$losing_prob_home <- NA
 data_ec2024$draw_prob <- NA
 data_ec2024$prediction_home <- NA
 data_ec2024$prediction_away <- NA
-data_ec2024$match_finished <- c(FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,
-                                FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,
-                                FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,
-                                FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,
-                                FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,
-                                FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+data_ec2024$match_finished <- c(TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,
+                                TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,
+                                TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,
+                                TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,
+                                TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,
+                                TRUE,TRUE,FALSE,FALSE,FALSE,FALSE
                                 )
-data_ec2024$score_home <- c(NA,NA,NA,NA,NA,NA,
-                            NA,NA,NA,NA,NA,NA,
-                            NA,NA,NA,NA,NA,NA,
-                            NA,NA,NA,NA,NA,NA,
-                            NA,NA,NA,NA,NA,NA,
-                            NA,NA,NA,NA,NA,NA)
+data_ec2024$score_home <- c(3,0,NA,NA,NA,NA,
+                            3,3,NA,NA,NA,NA,
+                            1,0,NA,NA,NA,NA,
+                            0,0,NA,NA,NA,NA,
+                            3,0,NA,NA,NA,NA,
+                            3,3,NA,NA,NA,NA)
 
 #Predict all Group matches
 prediction_group_home <- predict(regr, new_games_home, type="prob")
@@ -120,7 +121,7 @@ group_outcome <- group_outcome %>%
 #  group_outcome$rank[4] <- 2  
 #}  
 
-print(group_outcome)
+#print(group_outcome)
 
 for (g in 1:nrow(group_outcome)) {
 new_entry <- data.frame(group,group_outcome$team_home[g],group_outcome$score_overall[g],group_outcome$rank[g])
