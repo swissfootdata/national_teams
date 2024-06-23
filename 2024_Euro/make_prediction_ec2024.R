@@ -7,7 +7,6 @@ source("./2024_Euro/get_data_ec2024.R", encoding = "latin1")
 
 source("./2024_Euro/create_prediction_model_ec2024.R", encoding = "latin1")
 
-
 #Data Frame Group Stage Simulation
 group_stage_simulation <- data.frame("Group","Team",0,0)
 colnames(group_stage_simulation) <- c("Group","Team","Score","Rank")
@@ -29,19 +28,19 @@ data_ec2024$losing_prob_home <- NA
 data_ec2024$draw_prob <- NA
 data_ec2024$prediction_home <- NA
 data_ec2024$prediction_away <- NA
-data_ec2024$match_finished <- c(TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,
-                                TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,
-                                TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,
-                                TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,
-                                TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,
-                                TRUE,TRUE,FALSE,FALSE,FALSE,FALSE
+data_ec2024$match_finished <- c(TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,
+                                TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,
+                                TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,
+                                TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,
+                                TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,
+                                TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
                                 )
-data_ec2024$score_home <- c(3,0,NA,NA,NA,NA,
-                            3,3,NA,NA,NA,NA,
-                            1,0,NA,NA,NA,NA,
-                            0,0,NA,NA,NA,NA,
-                            3,0,NA,NA,NA,NA,
-                            3,3,NA,NA,NA,NA)
+data_ec2024$score_home <- c(3,0,3,1,NA,NA,
+                            3,3,1,3,NA,NA,
+                            1,0,1,1,NA,NA,
+                            0,0,0,1,NA,NA,
+                            3,0,0,3,NA,NA,
+                            3,3,1,0,NA,NA)
 
 #Predict all Group matches
 prediction_group_home <- predict(regr, new_games_home, type="prob")
