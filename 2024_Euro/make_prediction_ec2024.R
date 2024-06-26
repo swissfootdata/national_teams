@@ -39,7 +39,7 @@ data_ec2024$score_home <- c(3,0,3,1,1,0,
                             1,0,1,1,1,1,
                             0,0,0,1,1,0,
                             3,0,0,3,1,1,
-                            3,3,1,0,3,0)
+                            3,3,1,0,0,3)
 
 #Predict all Group matches
 prediction_group_home <- predict(regr, new_games_home, type="prob")
@@ -310,7 +310,7 @@ if (sum(third_place_qualified$Group[i:(i+3)] == c("Group A","Group B","Group C",
     third_place_qualified$opponent_R16[i:(i+3)]<- c("1F","1E","1C","1B") 
   }
   if (sum(third_place_qualified$Group[i:(i+3)] == c("Group C","Group D","Group E","Group F")) == 4) {
-    third_place_qualified$opponent_R16[i:(i+3)]<- c("1E","1F","1C","1B") 
+    third_place_qualified$opponent_R16[i:(i+3)]<- c("1F","1E","1C","1B") 
   }
 }
 
@@ -341,6 +341,7 @@ R16_matches$match <- c(rep("Match 37",nrow(winner_a)),
                        rep("Match 42",nrow(winner_a)),
                        rep("Match 43",nrow(winner_a)),
                        rep("Match 44",nrow(winner_a)))
+
 
 data_team_home <- data_ec2024 %>%
   distinct(team_home,.keep_all=TRUE) %>%
