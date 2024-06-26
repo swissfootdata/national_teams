@@ -16,9 +16,8 @@ regr <- randomForest(x = X, y = y, maxnodes = 250, ntree = 1100, type="prob")
 
 n <- 1
 
-while (n < 10001) {
+while (n < 1001) { #10001
 
-  
 new_games_home <- data_ec2024[,c(16:19,22:23)]
 new_games_away <- data_ec2024[,c(16:19,22:23)]
 colnames(new_games_away) <- colnames(new_games_away)[c(2,1,4,3,6,5)]
@@ -28,19 +27,19 @@ data_ec2024$losing_prob_home <- NA
 data_ec2024$draw_prob <- NA
 data_ec2024$prediction_home <- NA
 data_ec2024$prediction_away <- NA
-data_ec2024$match_finished <- c(TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,
-                                TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,
-                                TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,
-                                TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,
-                                TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,
-                                TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+data_ec2024$match_finished <- c(TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,
+                                TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,
+                                TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,
+                                TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,
+                                TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,
+                                TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
                                 )
-data_ec2024$score_home <- c(3,0,3,1,NA,NA,
-                            3,3,1,3,NA,NA,
-                            1,0,1,1,NA,NA,
-                            0,0,0,1,NA,NA,
-                            3,0,0,3,NA,NA,
-                            3,3,1,0,NA,NA)
+data_ec2024$score_home <- c(3,0,3,1,1,0,
+                            3,3,1,3,0,1,
+                            1,0,1,1,1,1,
+                            0,0,0,1,1,0,
+                            3,0,0,3,1,1,
+                            3,3,1,0,0,0)
 
 #Predict all Group matches
 prediction_group_home <- predict(regr, new_games_home, type="prob")
@@ -103,22 +102,24 @@ group_outcome <- group_outcome %>%
   arrange(team_home)
 
 #Adaptions
-#if (group == "Group C") {
-#group_outcome$rank[2] <- 3
-#group_outcome$rank[3] <- 2
-#} else if (group == "Group D") {
-#group_outcome$rank[1] <- 2
-#group_outcome$rank[3] <- 1  
-#} else if (group == "Group E") {
-#  group_outcome$rank[2] <- 3
-#  group_outcome$rank[4] <- 2  
+if (group == "Group C") {
+group_outcome$rank[1] <- 2
+group_outcome$rank[4] <- 3
+} else if (group == "Group E") {
+group_outcome$rank[1] <- 2
+group_outcome$rank[2] <- 1  
+group_outcome$rank[3] <- 3
+group_outcome$rank[4] <- 4  
+} else if (group == "Group F") {
+  group_outcome$rank[1] <- 3
+  group_outcome$rank[2] <- 4 
 #} else if (group == "Group H") {
-#  group_outcome$rank[3] <- 2
-#  group_outcome$rank[4] <- 3  
+  #  group_outcome$rank[2] <- 3
+  #  group_outcome$rank[4] <- 2  
 #} else if (group == "Group G") {
 #  group_outcome$rank[1] <- 1
 #  group_outcome$rank[4] <- 2  
-#}  
+}  
 
 #print(group_outcome)
 
@@ -189,16 +190,16 @@ write.csv(group_stage_summary,file="./Data/group_stage_prediction.csv",row.names
 
 
 #group_stage_simulation_old <- group_stage_simulation
-#group_stage_simulation <- rbind(group_stage_simulation,
-#                                    group_stage_simulation,
-#                                    group_stage_simulation,
-#                                    group_stage_simulation,
-#                                    group_stage_simulation,
-#                                    group_stage_simulation,
-#                                    group_stage_simulation,
-#                                    group_stage_simulation,
-#                                    group_stage_simulation,
-#                                    group_stage_simulation)
+group_stage_simulation <- rbind(group_stage_simulation,
+                                    group_stage_simulation,
+                                    group_stage_simulation,
+                                    group_stage_simulation,
+                                    group_stage_simulation,
+                                    group_stage_simulation,
+                                    group_stage_simulation,
+                                    group_stage_simulation,
+                                    group_stage_simulation,
+                                    group_stage_simulation)
 ###Data Frame Round of 16
 winner_a <- group_stage_simulation %>%
   filter(Group == "Group A",
@@ -252,13 +253,17 @@ runner_up_f <- group_stage_simulation %>%
 
 third_placed_teams <- group_stage_simulation %>%
   filter(Rank == 3)
-third_placed_teams$rank <- NA
-for (i in seq(1,nrow(third_placed_teams),6)) {
-third_placed_teams$rank[i:(i+5)] <- 7-rank(third_placed_teams$Score[i:(i+5)],ties.method = "random")
-}  
+#third_placed_teams$rank <- NA
+#for (i in seq(1,nrow(third_placed_teams),6)) {
+#third_placed_teams$rank[i:(i+5)] <- 7-rank(third_placed_teams$Score[i:(i+5)],ties.method = "random")
+#}  
+
+#third_place_qualified <- third_placed_teams %>%
+#  filter(rank < 5)
 
 third_place_qualified <- third_placed_teams %>%
-  filter(rank < 5)
+  filter(grepl("Netherlands|Slovenia|Slovakia|Hungary",Team) == TRUE)
+
 third_place_qualified$opponent_R16 <- NA
 
 for(i in seq(1,nrow(third_place_qualified),4)) {
@@ -308,6 +313,7 @@ if (sum(third_place_qualified$Group[i:(i+3)] == c("Group A","Group B","Group C",
     third_place_qualified$opponent_R16[i:(i+3)]<- c("1E","1F","1C","1B") 
   }
 }
+
 
 third_1C <- third_place_qualified %>%
   filter(opponent_R16 == "1C")
