@@ -58,7 +58,6 @@ prediction_R16[is.na(prediction_R16)] <- 0
 prediction_R16$team <- paste0(prediction_R16$two_letter_code_home,prediction_R16$team)
 colnames(prediction_R16) <- c("team","two_letter_code_home","probability_R16")
 
-
 #World Cup Out Group Stage
 group_stage_summary$prob_out <- NA
 prediction_Group <- group_stage_summary[,c(1,8)]
@@ -144,6 +143,7 @@ R16_predictions <- R16_matches %>%
             winning_prob_away = sum(prediction == "win away")/10000,
             match = paste0(team_home[1],"-",team_away[1])
   )
+
 
 
 R16_predictions$date_name <- c("29 June 2024","29 June 2024",

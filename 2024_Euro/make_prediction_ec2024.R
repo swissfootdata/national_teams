@@ -39,7 +39,7 @@ data_ec2024$score_home <- c(3,0,3,1,1,0,
                             1,0,1,1,1,1,
                             0,0,0,1,1,0,
                             3,0,0,3,1,1,
-                            3,3,1,0,0,0)
+                            3,3,1,0,1,3)
 
 #Predict all Group matches
 prediction_group_home <- predict(regr, new_games_home, type="prob")
@@ -111,8 +111,8 @@ group_outcome$rank[2] <- 1
 group_outcome$rank[3] <- 3
 group_outcome$rank[4] <- 4  
 } else if (group == "Group F") {
-  group_outcome$rank[1] <- 3
-  group_outcome$rank[2] <- 4 
+  group_outcome$rank[2] <- 3
+  group_outcome$rank[4] <- 2 
 #} else if (group == "Group H") {
   #  group_outcome$rank[2] <- 3
   #  group_outcome$rank[4] <- 2  
@@ -262,7 +262,7 @@ third_placed_teams <- group_stage_simulation %>%
 #  filter(rank < 5)
 
 third_place_qualified <- third_placed_teams %>%
-  filter(grepl("Netherlands|Slovenia|Slovakia|Hungary",Team) == TRUE)
+  filter(grepl("Netherlands|Slovenia|Slovakia|Georgia",Team) == TRUE)
 
 third_place_qualified$opponent_R16 <- NA
 
