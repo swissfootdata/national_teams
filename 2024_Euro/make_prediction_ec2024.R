@@ -39,7 +39,7 @@ data_ec2024$score_home <- c(3,0,3,1,1,0,
                             1,0,1,1,1,1,
                             0,0,0,1,1,0,
                             3,0,0,3,1,1,
-                            3,3,1,0,1,3)
+                            3,3,1,0,3,0)
 
 #Predict all Group matches
 prediction_group_home <- predict(regr, new_games_home, type="prob")
@@ -111,7 +111,7 @@ group_outcome$rank[2] <- 1
 group_outcome$rank[3] <- 3
 group_outcome$rank[4] <- 4  
 } else if (group == "Group F") {
-  group_outcome$rank[2] <- 3
+  group_outcome$rank[3] <- 1
   group_outcome$rank[4] <- 2 
 #} else if (group == "Group H") {
   #  group_outcome$rank[2] <- 3
