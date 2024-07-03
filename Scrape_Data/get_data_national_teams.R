@@ -19,14 +19,15 @@ links <- c(#"https://www.transfermarkt.ch/europameisterschaft-2020/gesamtspielpl
            #"https://www.transfermarkt.ch/europameisterschaft-2020/gesamtspielplan/pokalwettbewerb/EMQ/saison_id/2018",
            #"https://www.transfermarkt.ch/europameisterschaft-2020/gesamtspielplan/pokalwettbewerb/EMQ/saison_id/2014",
            #"https://www.transfermarkt.ch/europameisterschaft-2020/gesamtspielplan/pokalwettbewerb/EMQ/saison_id/2010",
-           "https://www.transfermarkt.ch/europameisterschaft-2020/gesamtspielplan/pokalwettbewerb/EMQ/saison_id/2007",
-           "https://www.transfermarkt.ch/europameisterschaft-2020/gesamtspielplan/pokalwettbewerb/EMQ/saison_id/2002",
-           "https://www.transfermarkt.ch/europameisterschaft-2020/gesamtspielplan/pokalwettbewerb/EM20/saison_id/2020",
-           "https://www.transfermarkt.ch/europameisterschaft-2016/gesamtspielplan/pokalwettbewerb/EM16/saison_id/2016",
-           "https://www.transfermarkt.ch/europameisterschaft-2012/gesamtspielplan/pokalwettbewerb/EM12/saison_id/2012",
-           "https://www.transfermarkt.ch/europameisterschaft-2008/gesamtspielplan/pokalwettbewerb/EM08/saison_id/2008",
-           "https://www.transfermarkt.ch/europameisterschaft-2004/gesamtspielplan/pokalwettbewerb/EM04/saison_id/2004",
-           "https://www.transfermarkt.ch/europameisterschaft-2004/gesamtspielplan/pokalwettbewerb/EM04/saison_id/2000"
+           #"https://www.transfermarkt.ch/europameisterschaft-2020/gesamtspielplan/pokalwettbewerb/EMQ/saison_id/2007",
+           #"https://www.transfermarkt.ch/europameisterschaft-2020/gesamtspielplan/pokalwettbewerb/EMQ/saison_id/2002",
+           #"https://www.transfermarkt.ch/europameisterschaft-2020/gesamtspielplan/pokalwettbewerb/EM20/saison_id/2020",
+           #"https://www.transfermarkt.ch/europameisterschaft-2016/gesamtspielplan/pokalwettbewerb/EM16/saison_id/2016",
+           #"https://www.transfermarkt.ch/europameisterschaft-2012/gesamtspielplan/pokalwettbewerb/EM12/saison_id/2012",
+           #"https://www.transfermarkt.ch/europameisterschaft-2008/gesamtspielplan/pokalwettbewerb/EM08/saison_id/2008",
+           #"https://www.transfermarkt.ch/europameisterschaft-2004/gesamtspielplan/pokalwettbewerb/EM04/saison_id/2004",
+           #"https://www.transfermarkt.ch/europameisterschaft-2004/gesamtspielplan/pokalwettbewerb/EM04/saison_id/2000",
+           "https://www.transfermarkt.ch/europameisterschaft-2024/gesamtspielplan/pokalwettbewerb/EM24/saison_id/2024"
            )
 
 
@@ -127,10 +128,11 @@ print(new_data)
 }
 }
 #}
-saveRDS(data_transfermarkt_new,file="./Data/euro_data_raw.rds")
-data_transfermarkt_new <- readRDS("./Data/euro_data_raw.rds")
 
+data_transfermarkt_old <- readRDS("./Data/euro_data_raw.rds")
+data_transfermarkt_new <- rbind(data_transfermarkt_new,data_transfermarkt_old)
 
+saveRDS(data_transfermarkt_new,file="./Data/euro_data_raw_new.rds")
 ###Clean Data
 clean_data <- data_transfermarkt_new %>%
   filter(nchar(date) < 10,
@@ -166,5 +168,5 @@ for (i in 1:nrow(clean_data)) {
   }
 }
 
-saveRDS(clean_data,file="./Data/euro_data_clean.rds")
+saveRDS(clean_data,file="./Data/euro_data_clean_new.rds")
 

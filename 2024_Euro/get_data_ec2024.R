@@ -9,7 +9,7 @@ library(httr)
 library(gsubfn)
 
 
-euro_data <- readRDS("./Data/euro_data_complete.rds")
+euro_data <- readRDS("./Data/euro_data_complete_new.rds")
 euro_data$team_home <- gsub("Turkey","Türkiye",euro_data$team_home)
 euro_data$team_away <- gsub("Turkey","Türkiye",euro_data$team_away)
 
@@ -60,6 +60,7 @@ data_ec2024 <- rbind(data_ec2024,new_data)
 }
 data_ec2024 <- data_ec2024[-1,]
 data_ec2024$date <- as.Date(strapplyc(data_ec2024$date, "\\d+/\\d+/\\d+", simplify = TRUE),format="%m/%d/%y")
+data_ec2024$date <- Sys.Date() #REMOVE
 
 #Add 2 and 3 Letter code
 data_ec2024$three_letter_code_home <- countrycode(data_ec2024$team_home,origin='country.name',destination = 'iso3c',

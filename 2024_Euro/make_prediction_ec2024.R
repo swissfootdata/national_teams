@@ -392,23 +392,23 @@ for (m in 1:nrow(R16_matches)) {
   R16_matches$prediction[m] <- sample(c("win home","draw","win away"),prob=c(as.numeric(R16_matches$winning_prob_home[m]),as.numeric(R16_matches$draw_prob[m]),as.numeric(R16_matches$losing_prob_home[m])), size=1)
   
   #Add Results
- # if (R16_matches$match[m] == "Match 37") {
-#  R16_matches$prediction[m] <- "win home"
-#  } else if (R16_matches$match[m] == "Match 38") {
-#  R16_matches$prediction[m] <- "win home"
-#  } else if (R16_matches$match[m] == "Match 39") {
-#    R16_matches$prediction[m] <- "win away"
-#  } else if (R16_matches$match[m] == "Match 40") {
-#    R16_matches$prediction[m] <- "win home"
-#  } else if (R16_matches$match[m] == "Match 41") {
-#    R16_matches$prediction[m] <- "win home"
-#  } else if (R16_matches$match[m] == "Match 42") {
-#    R16_matches$prediction[m] <- "win home"
-#  } else if (R16_matches$match[m] == "Match 43") {
-#    R16_matches$prediction[m] <- "win home"
-#  } else if (R16_matches$match[m] == "Match 44") {
-#    R16_matches$prediction[m] <- "win home"
-#  }
+  if (R16_matches$match[m] == "Match 37") {
+  R16_matches$prediction[m] <- "win home"
+  } else if (R16_matches$match[m] == "Match 38") {
+  R16_matches$prediction[m] <- "win home"
+  } else if (R16_matches$match[m] == "Match 39") {
+    R16_matches$prediction[m] <- "win home"
+  } else if (R16_matches$match[m] == "Match 40") {
+    R16_matches$prediction[m] <- "win home"
+  } else if (R16_matches$match[m] == "Match 41") {
+    R16_matches$prediction[m] <- "win home"
+  } else if (R16_matches$match[m] == "Match 42") {
+    R16_matches$prediction[m] <- "win home"
+  } else if (R16_matches$match[m] == "Match 43") {
+    R16_matches$prediction[m] <- "win away"
+  } else if (R16_matches$match[m] == "Match 44") {
+    R16_matches$prediction[m] <- "win away"
+  }
   
   if (R16_matches$prediction[m] == "draw") {
   R16_matches$prediction[m] <- sample(c("win home","win away"),prob=c(0.5,0.5), size=1)

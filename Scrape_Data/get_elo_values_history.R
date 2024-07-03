@@ -10,7 +10,7 @@ elo_ratings <- elo_ratings[,c(3,2,4)]
 colnames(elo_ratings) <- c("two_letter_code","rank","score")
 elo_ratings$date <- as.Date("1999-12-31")
 
-years <- 2000:2023
+years <- 2000:2024
 
 for (year in years) {
 

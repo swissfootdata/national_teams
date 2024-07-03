@@ -10,7 +10,7 @@ setwd("C:/Users/simon/OneDrive/Fussballdaten/national_teams")
 
 
 #Load Data World Cup
-world_cup_data <- readRDS(file="./Data/euro_data_clean.rds")
+world_cup_data <- readRDS(file="./Data/euro_data_clean_new.rds")
 
 #Add 2 and 3 Letter code
 world_cup_data$three_letter_code_home <- countrycode(world_cup_data$team_home,origin='country.name',destination = 'iso3c',
@@ -51,10 +51,10 @@ world_cup_data$two_letter_code_away <- countrycode(world_cup_data$team_away,orig
                                                                     'Yugoslavia'='YU'))
              
 #Load Ranking Data
-fifa_ranking <- read_csv("data/fifa_ranking-2023-07-20.csv")
+fifa_ranking <- read_csv("data/fifa_ranking-2023-07-20_new.csv")
 
 #Get Elo Data
-source("get_elo_values_history.R")
+source("Scrape_Data/get_elo_values_history.R")
 
 
 world_cup_data$confederation_home <- NA
@@ -184,5 +184,5 @@ world_cup_data <- world_cup_data %>%
          is.na(performance_away_last_five_matches) == FALSE) %>%
   unique()
 
-saveRDS(world_cup_data,file="./Data/euro_data_complete.rds")
+saveRDS(world_cup_data,file="./Data/euro_data_complete_new.rds")
 
