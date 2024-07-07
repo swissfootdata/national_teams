@@ -541,8 +541,8 @@ winner_M48 <- QF_matches %>%
   filter(match == "Match 48") %>%
   select(winner)
 
-SF_Matches <- data.frame(c(winner_M48$winner,winner_M46$winner),
-                         c(winner_M47$winner,winner_M45$winner))
+SF_Matches <- data.frame(c(winner_M48$winner,winner_M47$winner),
+                         c(winner_M46$winner,winner_M45$winner))
 colnames(SF_Matches) <- c("team_home","team_away")
 SF_Matches$match <- c(rep("Match 49",nrow(winner_M45)),
                       rep("Match 50",nrow(winner_M45)))
