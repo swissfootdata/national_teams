@@ -60,6 +60,7 @@ new_matches <- as.integer(gsub(".*spielbericht/", "",ids$ids_id))
 
 print(paste0(length(new_matches)," matches found"))
 
+
 for (i in new_matches) {
 url <- paste0("https://www.transfermarkt.us/frankreich_kroatien/statistik/spielbericht/",i)
 webpage <- read_html(url)
