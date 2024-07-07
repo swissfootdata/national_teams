@@ -1,8 +1,8 @@
 "team","two_letter_code_home","probability_Group","probability_R16","probability_QF","probability_SF","probability_finalist","probability_winner"
-":es:Spain",":es:",0,1,1,1,0.6985,0.4928
-":gb-eng:England",":gb-eng:",0,1,1,1,0.5219,0.203
-":fr:France",":fr:",-2.77555756156289e-17,1,1,1,0.4781,0.1792
-":nl:Netherlands",":nl:",0,1,1,1,0.3015,0.125
+":es:Spain",":es:",-5.55111512312578e-17,1,1,1,0.7243,0.4954
+":gb-eng:England",":gb-eng:",-2.77555756156289e-17,1,1,1,0.5223,0.2063
+":fr:France",":fr:",2.77555756156289e-17,1,1,1,0.4777,0.1787
+":nl:Netherlands",":nl:",-4.16333634234434e-17,1,1,1,0.2757,0.1196
 ":at:Austria",":at:",0,1,0,0,0,0
 ":be:Belgium",":be:",0,1,0,0,0,0
 ":ch:Switzerland",":ch:",0,1,1,0,0,0
